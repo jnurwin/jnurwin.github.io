@@ -16,10 +16,10 @@
       <h2>Select a </h2>
       <div style='padding: 5px;'> 
          <button type='button' class="btn btn-primary" onClick="getData('CIT')">CIT</button> 
-         <button type='button' class="btn btn-primary" onClick="getData('BUS')">BUS/button> 
+         <button type='button' class="btn btn-primary" onClick="getData('BUS')">BUS</button> 
       </div>
   
-  <h3>We filter our dataset by meal</h3>
+  <h3>We filter our dataset by Major</h3>
 
   <div id="studentstable"></div>
 
@@ -37,17 +37,17 @@
 
   <!-- application ajax code -->
   <script>
-    async function getData(selected_meal) {
+    async function getData(selected_students) {
         var response = await fetch('cit5students.json');   // GET request
 
         if(response.ok) {
             var data = await response.json();
 
-            meal_items = data.filter( (item) => item.meal == selected_meal );    // filter data array 
+            cit5students_items = data.filter( (item) => item.cit5students == selected_cit5students);    // filter data array 
                 
            var templateText = document.getElementById('students').innerHTML;
            var compiledTemplateText = Handlebars.compile(templateText);   // get and compile template code
-           compiledHtml = compiledTemplateText({ rows: meal_items })      // apply data to template
+           compiledHtml = compiledTemplateText({ rows: cit5students_items })      // apply data to template
            document.getElementById('studentstable').innerHTML = compiledHtml; 
        }
        else {
