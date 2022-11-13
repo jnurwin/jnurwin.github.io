@@ -43,7 +43,7 @@
         if(response.ok) {
             var data = await response.json();
 
-            cit5students_items = data.filter( (item) => major.cit5students == selected_cit5students);    // filter data array 
+            cit5students_major = data.filter( (item) => major.cit5students == selected_cit5students);    // filter data array 
                 
            var templateText = document.getElementById('students').innerHTML;
            var compiledTemplateText = Handlebars.compile(templateText);   // get and compile template code
