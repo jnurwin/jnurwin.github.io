@@ -37,13 +37,13 @@
 
   <!-- application ajax code -->
   <script>
-    async function getData(selected_cit5students) {
+    async function getData(selected_major) {
         var response = await fetch('cit5students.json');   // GET request
 
         if(response.ok) {
             var data = await response.json();
 
-            cit5students = data.filter( (major) => major.cit5students == selected_cit5students);    // filter data array 
+            major_item = data.filter( (item) => item.major == selected_major);    // filter data array 
                 
            var templateText = document.getElementById('students').innerHTML;
            var compiledTemplateText = Handlebars.compile(templateText);   // get and compile template code
