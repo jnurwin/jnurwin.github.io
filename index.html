@@ -41,7 +41,7 @@
         var response = await fetch('cit5students.json');   // GET request
 
         if(response.ok) {
-            var data = await response.json();
+            var data = await cit5students.json();
 
             major_item = data.filter( (item) => item.major == selected_major);    // filter data array 
                 
