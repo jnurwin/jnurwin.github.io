@@ -63,7 +63,7 @@ let app = Vue.createApp({
             },
             methods: {    // ajax request
                 async getData() {
-                    const response = await fetch('citations.json')
+                    const response = await fetch('tickets1.json')
                     this.violations = await response.json()
                 },
             }
