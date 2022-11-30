@@ -34,7 +34,7 @@ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7T
  </nav> <!-- End nav bar -->
 
 
-<h1>Speeding Tickets July 4th, 2014 </h1>
+<h1>Speeding Tickets July 4th, 2014, Minneapolis/St. Paul </h1>
 
 <div id = "ticketsApp">
 
@@ -42,22 +42,18 @@ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7T
      <h2>Tickets</h2>
           <table class="table table-bordered table-striped">
               <tr>
-                  <th>Date</th>
+                  <th>Ticket ID</th>
                   <th>Time</th>
-                  <th>Speed</th>
                   <th>Posted Speed</th>
                   <th>MPH Over</th>
-                  <th>Age</th>
                   <th>Sex</th>
               </tr>
               <tr v-for = "ticket in violations">
-                  <td>{{ticket.date}}</td>
-                  <td>{{ticket.time}}</td>
-                  <td>{{ticket.speed}}</td>
+                  <td>{{ticket.tid}}</td>
+                  <td>{{ticket.stop_time}}</td>
                   <td>{{ticket.posted_speed}}</td>
-                  <td>{{ticket.speed - ticket.posted_speed}}</td>
-                  <td>{{ticket.age}}</td>
-                  <td>{{ticket.sex}}</td>
+                  <td>{{ticket.actual.speed - ticket.posted_speed}}</td>
+                  <td>{{ticket.violator.sex}}</td>
               </tr>
          </table>
   
