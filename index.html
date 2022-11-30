@@ -66,7 +66,7 @@ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7T
 let app = Vue.createApp({
             data() {     // returns an object of data
                 return {
-                    violations: [],           // array to hold student data
+                    tickets: [],           // array to hold student data
                 }
             },
             created() {      // section executes as page loads
@@ -75,7 +75,7 @@ let app = Vue.createApp({
             methods: {    // ajax request
                 async getData() {
                     const response = await fetch('tickets1.json')
-                    this.violations = await response.json()
+                    this.tickets = await response.json()
                 },
             }
           })
