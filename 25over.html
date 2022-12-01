@@ -52,7 +52,7 @@ integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7T
                   <td>{{ticket.tid}}</td>
                   <td>{{ticket.stop_time}}</td>
                   <td>{{ticket.posted_speed}}</td>
-                  <td>{{ticket.actual_speed - ticket.posted_speed}}</td>
+                  <td>speed_over: [],</td>
                   <td>{{ticket.violator_sex}}</td>
               </tr>
          </table>
@@ -76,6 +76,9 @@ let app = Vue.createApp({
                 async getData() {
                     const response = await fetch('tickets1.json')
                     this.tickets = await response.json()
+                 getBySpeed()
+                     // filter data from selected speed
+                     this.speed_over = this.results.filter( (ticket.actual_speed - ticket.posted_speed) => item.tickets == this.tickets );
                 },
             }
           })
