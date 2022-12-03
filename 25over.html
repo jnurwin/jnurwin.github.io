@@ -78,7 +78,7 @@ let app = Vue.createApp({
                     this.tickets = await response.json()
                 // getBySpeed()
                      // filter data from selected speed
-                     this.tickets = citations.filter( (item) => item.actual_speed > item.posted_speed + 25 );
+                     this.tickets = ticket.filter( (item) => item.actual_speed > item.posted_speed + 25 );
                 },
             }
           })
