@@ -1,0 +1,76 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>index.xhtml</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+ <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+ <script src="https://unpkg.com/vue@next"></script> 
+</head>
+	
+<header>
+	<div class="container">
+<nav class="navbar navbar-inverse">
+    <div class="navbar-header">
+        <a class="navbar-brand" href="#">Our Website</a>
+    </div>
+    <div>
+       <ul class="nav navbar-nav">
+           <li class="active"><a href="index.html">Homepage</a></li>
+           <li><a href="site1.html">Website 1</a></li>
+		   <li><a href="site2.html">Website 2</a></li>
+		   <li><a href="site3.html">Website 3</a></li>
+		   <li><a href="site4.html">Website 4</a></li>
+       </ul>
+    </div>
+	</header>
+		
+	<body>
+		<h1>Welcome to jacksonurwin.com!</h1>
+		<h4>About</h4>
+		<p>Hopefully you are enjoying what you see here. This site is made to both show off </p>
+		
+	<div class="gallery">
+  <a target="_blank" href="">
+    <img src="Pictures/self_image.jpg" class="img-fluid img-thumbnail" alt="Cinque Terre" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="Pictures/Futura_poster.png" class="img-fluid img-thumbnail" alt="Forest" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="Pictures/Ciceros_face.jpg" class="img-fluid img-thumbnail" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">Add a description of the image here</div>
+</div>
+	 
+	<p><h1>Contact form</h1></p>
+	<script src="https://kwesforms.com/v2/kwes-script.js" defer></script> 
+	<form class="kwes-form" action="https://kwesforms.com/api/foreign/forms/ieE4OnDTNZIqswfK28YZ">
+    <label for="name">Your Name</label>
+      <input type="text" name="name" rules="required|max:255">
+		<fieldset data-kw-group rules="required">
+			 <label for="work">What service are you interested in</label>
+    <input type="checkbox" name="works" value="Red"> Webpage Design
+    <input type="checkbox" name="works" value="Green"> Photoshop
+    <input type="checkbox" name="works" value="Blue"> Photography
+</fieldset>
+		<input type="checkbox" name="terms" rules="required">
+I would like to discuss a business opportunity
+		
+		<p>What would you like to discuss?</p>
+		<input type="text"> 
+	
+      <button type="submit">Submit</button>
+</form> 
+</body>
+</html>
