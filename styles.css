@@ -95,7 +95,7 @@ header li {
 	background-color: cornflowerblue;
 }
 
-.navbar a{
+.navbar li a{
 	color: white;
     padding: 14px 16px;
     text-decoration: none;
