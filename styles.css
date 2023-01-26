@@ -94,7 +94,13 @@ header li {
 	 font-family: 'Share Tech', sans-serif;
 	background-color: cornflowerblue;
 }
-.navbar:hover {
+
+.navbar a{
+	float: none;
+    display: block;
+    text-align: left;
+}
+.navbar a:hover {
 	background-color: gray;
 	text-decoration-color: white
 }
