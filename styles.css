@@ -78,6 +78,7 @@ header {
 }
 header li {
 	margin:20px;
+	display:inline;
 }
 /* NAVBAR */
 .navbar{
