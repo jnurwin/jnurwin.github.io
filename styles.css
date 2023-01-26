@@ -66,8 +66,8 @@ li {
 	 font-family: 'Share Tech', sans-serif;
 	background-color: cornflowerblue;
 }
-.navbar active:hover {
-	color: gray;
+.navbar:hover {
+	background-color: gray;
 	text-decoration-color: white
 }
 .nav-links{
