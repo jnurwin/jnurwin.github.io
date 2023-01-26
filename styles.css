@@ -60,7 +60,12 @@ a {
 li {
  list-style: none;
 }
-
+header {
+	display: inline;
+}
+header li {
+	margin:20px;
+}
 /* NAVBAR */
 .navbar{
 	 font-family: 'Share Tech', sans-serif;
@@ -70,7 +75,3 @@ li {
 	background-color: gray;
 	text-decoration-color: white
 }
-.nav-links{
-	text-align: right;
-}
-
