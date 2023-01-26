@@ -98,7 +98,7 @@ header li {
 .navbar a{
 	float: none;
     display: block;
-    text-align: left;
+    text-align: center;
 }
 .navbar a:hover {
 	background-color: gray;
