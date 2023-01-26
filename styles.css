@@ -77,7 +77,7 @@ header logo{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: #cornflowerblue;
+  background-color: #9aaceeb;
   font-family: 'Share Tech', sans-serif;
 }
 
@@ -85,7 +85,7 @@ header logo{
 .navbar a {
   float: left;
   font-size: 16px;
-  color: grey;
+  color: #808080;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -111,7 +111,7 @@ header logo{
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: grey;
+  background-color: #808080;
 }
 
 /* Dropdown content (hidden by default) */
