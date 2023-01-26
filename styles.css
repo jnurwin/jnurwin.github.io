@@ -46,6 +46,10 @@ h1{
 }
 
 body{
+	height: 125vh;  
+	margin-top: 80px;  
+	padding: 30px;  
+	background-size: cover;   
 	 font-family: 'Share Tech', sans-serif;
 }
 
