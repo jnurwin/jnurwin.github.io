@@ -76,6 +76,9 @@ header logo{
 	display:flex;
 	align-items:left;
 }
+header {
+	background-color:white;
+}
 
 }
 /* Navbar container */
