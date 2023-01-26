@@ -69,16 +69,6 @@ a {
 li {
  list-style: none;
 }
-header {
-	display: inline;
-	background-color: cornflowerblue;  
-	position: fixed;  
-	left: 0;  
-	right: 0;  
-	top: 5px;  
-	height: 30px;  
-	display: flex;  
-	align-items: center;  
 }
 header logo{
 	display: inline;
@@ -86,9 +76,7 @@ header logo{
 	display:flex;
 	align-items:left;
 }
-header li {
-	margin:0px;
-	display:inline;
+
 }
 /* Navbar container */
 .navbar {
