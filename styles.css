@@ -51,16 +51,16 @@ header logo{
 /* Navbar container */
 .navbar {
   overflow: hidden;
-  background-color: black;
-  paddding: 60px;
+  background-color: gray;
+  paddding: 30px;
   font-family: 'Share Tech', sans-serif;
 }
 
 /* Links inside the navbar */
 .navbar a {
-  float: left;
-  font-size: 30px;
-  color: white;
+  float: right;
+  font-size: 15px;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -68,7 +68,7 @@ header logo{
 
 /* The dropdown container */
 .dropdown {
-  float: left;
+  float: center;
   overflow: hidden;
 }
 
