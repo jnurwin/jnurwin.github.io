@@ -40,7 +40,10 @@ header{
 	box-sizing: border-box;
 }
 
-header logo{
+
+/* Navbar container */
+
+.logo{
 	display: inline;
 	size: 30px;
 	position:relative;
@@ -48,8 +51,6 @@ header logo{
 	align-items:left;
 }
 
-
-/* Navbar container */
 
 .navbar {
   overflow: hidden;
