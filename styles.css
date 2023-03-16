@@ -45,7 +45,7 @@ header{
 
 .logo{
 	display: inline;
-	height: 30px;
+	size: 30px;
 	position:relative;
 	display: flex;
 	align-items:left;
