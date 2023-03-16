@@ -154,6 +154,12 @@ body{
 	font-family: 'Share Tech', sans-serif;
 }
 
+.front-page {
+	height:40px;
+	color:blue;
+	float:left;
+}
+
 /* UTILITIES */
 * {
  margin: 0;
