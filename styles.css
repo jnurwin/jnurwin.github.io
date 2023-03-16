@@ -42,6 +42,7 @@ header{
 
 header logo{
 	display: inline;
+	size: 30px;
 	position:relative;
 	display: flex;
 	align-items:left;
@@ -49,12 +50,6 @@ header logo{
 
 
 /* Navbar container */
-
-.logo {
-	overflow:hidden;
-	size:30px;
-	/*float:left;*/
-}
 
 .navbar {
   overflow: hidden;
@@ -156,7 +151,7 @@ body{
 
 .front-page {
 	font-size:40px;
-	font-color: cornflowerblue;
+	font-color: #6495ED;
 	padding: 5px;
 	float:left;
 }
