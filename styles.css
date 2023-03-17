@@ -85,76 +85,93 @@ header logo{
 
 
 /* Navbar container */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 .navbar {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
   background-color: #333;
+  padding: 10px;
 }
 
 .navbar-logo img {
   height: 50px;
-  width: auto;
 }
 
 .navbar-menu {
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-.navbar-link {
+.navbar-menu a,
+.navbar-menu .dropdown-btn {
   color: #f2f2f2;
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-btn {
-  background-color: #f2f2f2;
-  padding: 10px;
-  font-size: 16px;
+  background-color: transparent;
   border: none;
   cursor: pointer;
 }
 
-/* change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: #f2f2f2;
+.navbar-menu a:hover,
+.navbar-menu a:focus,
+.navbar-menu .dropdown-btn:hover,
+.navbar-menu .dropdown-btn:focus {
+  color: #ccc;
+  outline: none;
 }
 
-.dropdown-content {
+.navbar-menu .dropdown {
+  position: relative;
+}
+
+.navbar-menu .dropdown-btn {
+  color: #f2f2f2;
+  text-decoration: none;
+  padding: 10px;
+  margin: 0 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.navbar-menu .dropdown-btn:hover,
+.navbar-menu .dropdown-btn:focus {
+  color: #ccc;
+  outline: none;
+}
+
+.navbar-menu .dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
+  background-color: #333;
 }
 
-.dropdown-content a {
-  display: block;
-  background-color: #666;
+.navbar-menu .dropdown-content a {
   color: #f2f2f2;
-  padding: 10px;
   text-decoration: none;
+  padding: 10px;
+  margin: 0;
+  background-color: #333;
 }
 
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* change the color of all links */
-.navbar a {
-  color: #f2f2f2;
-}
-
-/*  change the color of links on hover */
-.navbar a:hover {
+.navbar-menu .dropdown-content a:hover,
+.navbar-menu .dropdown-content a:focus {
   color: #ccc;
 }
+
+.navbar-toggler {
+  display: none;
+}
+
 /* body design */
 
 /* body */
