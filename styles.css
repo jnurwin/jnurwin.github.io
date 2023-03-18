@@ -1,9 +1,12 @@
 @charset "UTF-8";
 /* CSS Document 
 <link href="index_styles.css" rel="stylesheet" type="text/css"> 
-*/
+
 
 /* margins and the like*/
+
+@media only screen and (min-width: 700px)
+
 /* Styles for small devices */
 p{   
 	width:90%;   
@@ -16,204 +19,82 @@ img{
 
 @media only screen and (min-width: 768px){ 
 /* Styles for devices wider than 768px */
-  .navbar-menu {
-    display: none;
-    font-family: "elza-text", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .navbar-toggler {
-    display: block;
-    margin-right: 10px;
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .navbar-toggler-icon {
-    display: block;
-    width: 20px;
-    height: 20px;
-    background-color: #f2f2f2;
-    border-radius: 2px;
-  }
-  
-  .navbar-menu .dropdown-btn {
-    display: block;
-    margin: 0;
-    background-color: #333;
-  }
-  
-  .navbar-menu .dropdown-content {
-    position: static;
-    display: none;
-    width: 100%;
-  }
-  
-  .navbar-menu .dropdown-content a {
-    display: block;
-    margin: 0;
-  }
-  
-  .navbar-menu .dropdown-btn.active + .dropdown-content {
-    display: block;
-  }
-}
-  
-  .navbar-toggle-label span:nth-child(2) {
-    width: 20px;
-  }
-  
-  .navbar-toggle-label span:nth-child(3) {
-    width: 15px;
-  }
-
-@media only screen and (min-width: 700px)
-{/* Styles for desktop go here */}
-
-	  
-p{  width:45%;
-	display: grid; 
-	grid-auto-flow: column;
-	grid-gap: auto;  
-	}   
-	
-img{     
-	width:50%;   
-	}
-} 
-
-html{
-	background-color: white
-}
-
-header{
-	background-color: black;
-	position: relative;
-	box-sizing: border-box;
-}
-
-header logo{
-	display: inline;
-	position:relative;
-	display: flex;
-	align-items:left;
-}
-
-
-/* Navbar container */
-body {
-  margin: 0;
-  padding: 0;
-}
-
 .navbar {
-  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px;
   background-color: #333;
-  padding: 10px;
-  font-family: "elza-text", sans-serif;
-  font-weight: 500;
-  font-style: normal;
 }
 
 .navbar-logo img {
   height: 50px;
+  width: auto;
 }
 
 .navbar-menu {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
 }
 
-.navbar-menu a,
-.navbar-menu .dropdown-btn {
+.navbar-link {
   color: #f2f2f2;
   text-decoration: none;
   padding: 10px;
   margin: 0 10px;
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
 }
 
-.navbar-menu a:hover,
-.navbar-menu a:focus,
-.navbar-menu .dropdown-btn:hover,
-.navbar-menu .dropdown-btn:focus {
-  color: #ccc;
-  outline: none;
-}
-
-.navbar-menu .dropdown {
+.dropdown {
   position: relative;
+  display: inline-block;
 }
 
-.navbar-menu .dropdown-btn {
-  color: #f2f2f2;
-  text-decoration: none;
+.dropdown-btn {
+  background-color: #f2f2f2;
+  color: #333;
   padding: 10px;
-  margin: 0 10px;
-  background-color: transparent;
+  font-size: 16px;
   border: none;
   cursor: pointer;
 }
 
-.navbar-menu .dropdown-btn:hover,
-.navbar-menu .dropdown-btn:focus {
-  color: #ccc;
-  outline: none;
+/* add this style to change the button color */
+.navbar-menu .dropdown-btn {
+  background-color: #666;
+  color: #f2f2f2;
 }
 
-.navbar-menu .dropdown-content {
+.dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
-  background-color: #333;
 }
 
-.navbar-menu .dropdown-content a {
+.dropdown-content a {
+  display: block;
+  background-color: #666;
   color: #f2f2f2;
-  text-decoration: none;
   padding: 10px;
-  margin: 0;
-  background-color: #333;
+  text-decoration: none;
 }
 
-.navbar-menu .dropdown-content a:hover,
-.navbar-menu .dropdown-content a:focus {
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* add this style to change the color of all links */
+.navbar a {
+  color: #f2f2f2;
+}
+
+/* add this style to change the color of links on hover */
+.navbar a:hover {
   color: #ccc;
 }
 
-.navbar-toggler {
-  display: none;
-}
 
 /* body design */
 
 /* body */
-h1{
-	color: black;
-	border: 1px;
-	padding: 1px;
-	background-color: gray;
-	display: block;
-	overflow:hidden;
-	font-family: 'Share Tech', sans-serif;
-}
-
-body{
-	height: 125vh;  
-	margin: 0px;  
-	padding: 30px;  
-	background-size: cover;
-	background-image: url("images/paper_watermark.jpg");
-	font-family: 'Share Tech', sans-serif;
-}
 
 /* UTILITIES */
 * {
