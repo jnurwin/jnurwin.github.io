@@ -18,6 +18,9 @@ img{
 /* Styles for devices wider than 768px */
   .navbar-menu {
     display: none;
+    font-family: "elza-text", sans-serif;
+    font-weight: 500;
+    font-style: normal;
   }
   
   .navbar-toggler {
@@ -112,6 +115,9 @@ body {
   align-items: center;
   background-color: #333;
   padding: 10px;
+  font-family: "elza-text", sans-serif;
+  font-weight: 500;
+  font-style: normal;
 }
 
 .navbar-logo img {
