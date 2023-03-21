@@ -2,6 +2,14 @@
 /* CSS Document */
 /* Styles for small devices */
 
+.logo{
+	width:100px;
+	height:100px;
+	float:left;
+	margins:5px;
+}
+
+
 @media only screen and (max-width: 360px){
 
 	p{
