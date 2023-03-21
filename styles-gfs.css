@@ -10,10 +10,11 @@
 }
 
 .navbar{
-	color:#F2D2BD;
-	float:right;
-	display:block;
-	position:relative;
+	background-color:#F2D2BD;
+	display: flex;
+  	justify-content: space-between;
+ 	align-items: center;
+ 	padding: 20px;
 }
 
 @media only screen and (max-width: 360px){
