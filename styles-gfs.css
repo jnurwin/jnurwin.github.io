@@ -1,177 +1,39 @@
 @charset "UTF-8";
 /* CSS Document */
-<link href="index_styles.css" rel="stylesheet" type="text/css"> 
-/* margins and the like*/
-
-@media only screen and (min-width: 400px)
-	
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #333; /* change the background color */
-}
-
-.navbar a {
-  color: #f2f2f2; /* set the font color */
-}
-
-.navbar-logo img {
-  height: 50px;
-  width: auto;
-}
-
-.navbar-menu {
-  display: flex;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-btn {
-  background-color: #f2f2f2;
-  color: #333;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-/* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: #f2f2f2;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  display: block;
-  background-color: #666; /* change the background color */
-  color: #f2f2f2; /* set the font color */
-  padding: 10px;
-  text-decoration: none;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* add this style to change the color of all links */
-.navbar a {
-  color: #f2f2f2;
-}
-
-/* add this style to change the color of links on hover */
-.navbar a:hover {
-  color: #ccc;
-}
-
-/* body design */
-
-/* body */
-
-/* UTILITIES */
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
-}
 /* Styles for small devices */
-p{   
-	width:90%;   
-	margin:auto;
+
+@media only screen and (max-width: 360px){
+
+	p{
+width:90%;
+margin:auto;
+}
+	
+img{
+width:100%;
+}
+	
+
+	
+	
+	
+	
+	
+	
 }
 
-img{   
-	width:100%;
+
+
+
+@media only screen and (min-width: 700px){
+/* Styles for devices wider than 700px */
+p{
+width:45%;
+display: grid;
+grid-auto-flow: column;
+grid-gap: auto;
 }
-
-@media only screen and (min-width: 768px){ 
-/* Styles for devices wider than 768px */
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #333; /* change the background color */
+img{
+width:50%;
 }
-
-.navbar a {
-  color: #f2f2f2; /* set the font color */
-}
-
-.navbar-logo img {
-  height: 50px;
-  width: auto;
-}
-
-.navbar-menu {
-  display: flex;
-}
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-btn {
-  background-color: #f2f2f2;
-  color: #333;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
-  cursor: pointer;
-}
-
-/* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: #f2f2f2;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  display: block;
-  background-color: #666; /* change the background color */
-  color: #f2f2f2; /* set the font color */
-  padding: 10px;
-  text-decoration: none;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* add this style to change the color of all links */
-.navbar a {
-  color: #f2f2f2;
-}
-
-/* add this style to change the color of links on hover */
-.navbar a:hover {
-  color: #ccc;
-}
-
-/* body design */
-
-/* body */
-
-/* UTILITIES */
-* {
- margin: 0;
- padding: 0;
- box-sizing: border-box;
 }
