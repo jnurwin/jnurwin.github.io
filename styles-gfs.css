@@ -37,8 +37,9 @@
   margin: 0 10px;
 }
 
-	.banner-image {
-  position: relative;
+.banner-image {
+  	position: relative;
+	top=margin:10px;	
 }
 
 /* text block */
