@@ -101,9 +101,10 @@
 	
 	/* Image blocks */
 	.image-block {
+  display:flex;
   margin: 10px;
   border: 1px solid #ccc;
-  float: center;
+  float: left;
   width: 33%;
 }
 	
