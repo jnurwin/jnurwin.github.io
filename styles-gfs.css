@@ -107,6 +107,11 @@ image-block img {
 	font-weight: 400;
 	font-style: normal;
 }
+	
+	.navbar-links {
+		float:left;
+		margin:5px;
+	}
 
 	/* NAVBAR */
 	
