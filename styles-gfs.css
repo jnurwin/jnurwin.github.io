@@ -148,11 +148,11 @@ image-block img {
   margin: 10px;
   border: 1px solid #ccc;
   float: center;
-  width: 30%;
+  width: 80%;
 }
 	
 	image-block img {
-  width: 50%;
+  width: 30%;
   height: auto;
 }
 }
