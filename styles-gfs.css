@@ -89,8 +89,13 @@ image-block img {
   	height: auto;
 	float:center;
 }
-	
 	.about-block-text {
+		text-align:center;
+	}
+	.service-block-text {
+		text-align:center;
+	}
+	.team-block-text {
 		text-align:center;
 	}
 }
@@ -175,6 +180,15 @@ image-block img {
   width: 30%;
   height: auto;
 }
+	.about-block-text {
+		text-align:center;
+	}
+	.service-block-text {
+		text-align:center;
+	}
+	.team-block-text {
+		text-align:center;
+	}
 }
 /* Universal things */
 a {
