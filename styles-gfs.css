@@ -140,6 +140,13 @@ image-block img {
 }
 
 	/*  text blocks */
+	.banner {
+  width: 900px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
+	
 	.banner-box {
  	position: absolute;
   	bottom: 20px;
