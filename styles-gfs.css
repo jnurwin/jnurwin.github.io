@@ -41,17 +41,13 @@
 /* text block */
 	
 	.banner-image {
+	display: flex;
   	position: relative;
 	top=margin:10px;	
 }
 
-	.image-wrapper {
-  width: 900px;
-  height: 100px;
-  position: relative;
-  margin: 0 auto;
-}
 	.banner-box {
+		display:flex;
  		position: relative;
 		/* display:flex;*/
 		align-items: center;
@@ -202,8 +198,4 @@ a {
 	height:100px;
 	float:left;
 	margins:5px;
-}
-
-body{
-	background-color:#E0FFFF;
 }
