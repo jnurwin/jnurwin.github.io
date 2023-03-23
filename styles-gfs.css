@@ -68,16 +68,17 @@
 	}
 
 	/* Image blocks */
-	.image-block {
-  margin: 10px;
-  border: 1px solid #ccc;
-  align-content: center;
-  width: 80%;
+.image-block {
+  	margin: 10px;
+  	border: 1px solid #ccc;
+  	align-content: center;
+  	width: auto;
 }
 	
-	image-block img {
-  width: 50%;
-  height: auto;
+image-block img {
+ 	width: 80%;
+  	height: auto;
+	float:center;
 }
 	
 }
