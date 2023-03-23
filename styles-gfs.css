@@ -141,19 +141,6 @@
 		opacity: 100%;
 	}
 	
-	/* Image blocks */
-	.image-block {
-  display:flex;
-  margin: 10px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 33%;
-}
-	
-	image-block img {
-  width: 33%;
-  height: auto;
-}
 		/* Image blocks */
 	.image-block {
   margin: 10px;
