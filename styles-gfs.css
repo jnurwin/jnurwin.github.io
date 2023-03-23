@@ -94,6 +94,38 @@
 	 img{
 	width:100%;
 } 
+	
+	.navbar{
+	display: flex;
+  	/*justify-content:space-around;*/
+ 	align-items: center;
+ 	padding: 20px;
+	background-color:#E5E4E2;
+	font-family: "address-sans-pro-condensed", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+	/* NAVBAR */
+	
+.navbar-logo img {
+  	height: 50px;
+    	width: auto;
+	position: relative;
+}
+
+.navbar-link {
+  	color: #f2f2f2;
+	float: right;
+  	text-decoration: none;
+  	padding: 10px;
+  	margin: 0 10px;
+}
+
+.navbar a:hover {
+ 	color: #ccc;
+}
+
 	/*  text blocks */
 	.banner-box {
  	position: absolute;
@@ -122,6 +154,18 @@
   width: 33%;
   height: auto;
 }
+		/* Image blocks */
+	.image-block {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 30%;
+}
+	
+	image-block img {
+  width: 50%;
+  height: auto;
+}
 }
 /* Universal things */
 a {
@@ -134,33 +178,4 @@ a {
 	height:100px;
 	float:left;
 	margins:5px;
-}
-
-.navbar{
-	display: flex;
-  	/*justify-content:space-around;*/
- 	align-items: center;
- 	padding: 20px;
-	background-color:#E5E4E2;
-	font-family: "address-sans-pro-condensed", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-}
-
-.navbar-logo img {
-  	height: 50px;
-    	width: auto;
-	position: relative;
-}
-
-.navbar-link {
-  	color: #f2f2f2;
-	float: right;
-  	text-decoration: none;
-  	padding: 10px;
-  	margin: 0 10px;
-}
-
-.navbar a:hover {
- 	color: #ccc;
 }
