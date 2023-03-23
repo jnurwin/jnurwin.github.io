@@ -37,12 +37,20 @@
   margin: 0 10px;
 }
 
-.banner-image {
+
+/* text block */
+	
+	.banner-image {
   	position: relative;
 	top=margin:10px;	
 }
 
-/* text block */
+	.image-wrapper {
+  width: 900px;
+  height: 100px;
+  position: relative;
+  margin: 0 auto;
+}
 	.banner-box {
  		position: relative;
 		/* display:flex;*/
@@ -100,18 +108,13 @@ image-block img {
 	.navbar{
 	display: flex;
   	/*justify-content:space-around;*/
- 	align-items: center;
+ 	/*align-items: center;*/
  	padding: 20px;
 	background-color:#E5E4E2;
 	font-family: "address-sans-pro-condensed", sans-serif;
 	font-weight: 400;
 	font-style: normal;
 }
-	
-	.navbar-links {
-		float:left;
-		margin:5px;
-	}
 
 	/* NAVBAR */
 	
@@ -152,8 +155,8 @@ image-block img {
 	.image-block {
   margin: 10px;
   border: 1px solid #ccc;
-  float: center;
-  width: 80%;
+  float: left;
+  width: 30%;
 }
 	
 	image-block img {
