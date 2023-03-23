@@ -99,6 +99,18 @@
 		opacity: 100%;
 	}
 	
+	/* Image blocks */
+	.image-block {
+  margin: 10px;
+  border: 1px solid #ccc;
+  float: center;
+  width: 50%;
+}
+	
+	image-block img {
+  width: 50%;
+  height: auto;
+}
 }
 /* Universal things */
 a {
