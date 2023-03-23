@@ -104,11 +104,11 @@
   margin: 10px;
   border: 1px solid #ccc;
   float: center;
-  width: 50%;
+  width: 33%;
 }
 	
 	image-block img {
-  width: 50%;
+  width: 33%;
   height: auto;
 }
 }
