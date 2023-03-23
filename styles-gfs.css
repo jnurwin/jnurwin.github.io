@@ -149,8 +149,10 @@ image-block img {
 	
 	.banner-box {
  	position: absolute;
-  	bottom: 20px;
-  	left: 20px;
+  	position: absolute;
+	text-align: center;
+  	top: 50%;
+  	left: 50%;
   	background-color: #008000;
 	opacity: 100%;
  	color: white;
