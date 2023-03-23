@@ -62,11 +62,11 @@
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 33%;
+  width: auto;
 }
 	
 	image-block img {
-  width: 50%;
+  width: 33%;
   height: auto;
 }
 	
