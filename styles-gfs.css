@@ -59,10 +59,10 @@
 
 	/* Image blocks */
 	.image-block {
-  margin: 5px;
+  margin: 10px;
   border: 1px solid #ccc;
-  float: left;
-  width: 30%;
+  float: center;
+  width: 50%;
 }
 	
 	image-block img {
