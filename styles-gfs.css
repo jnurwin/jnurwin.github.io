@@ -9,9 +9,9 @@
 	font-family: Arial, Helvetica, sans-serif;
 }
 	
-	img{
+	/*img{
 	width:100%;
-}
+} */
 	
 
 .navbar{
@@ -81,9 +81,9 @@
 	grid-gap: auto;
 }
 	
-	/* img{
+	 img{
 	width:100%;
-} */
+} 
 	/*  text blocks */
 	.banner-box {
  	position: absolute;
