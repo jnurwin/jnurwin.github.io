@@ -1,24 +1,25 @@
 @charset "UTF-8";
 /* CSS Document */
 /* Styles for small devices */
-@media only screen and (min-width: 200px) and (max-width: 670px) {
+@media only screen and (min-width: 450px) and (max-width: 670px) {
 
 	p{
-width:90%;
-margin:auto;
+	width:90%;
+	margin:auto;
+	font-family: Arial, Helvetica, sans-serif;
 }
 	
-img{
-width:100%;
+	img{
+	width:100%;
 }
 	
 
 .navbar{
 	display: flex;
-  	justify-content: space-between;
+  	justify-content:space-around;
  	align-items: center;
+ 	padding: 20px;
 	background-color:#E5E4E2;
-	color: black;
 	font-family: "address-sans-pro-condensed", sans-serif;
 	font-weight: 400;
 	font-style: normal;
@@ -42,23 +43,37 @@ width:100%;
 
 /* text block */
 	.banner-box {
- 	position: relative;
-  	bottom: 20px;
-  	right: 20px;
-  	background-color: #008000;
-	opacity: 50%;
- 	color: white;
+ 		position: relative;
+		display:flex;
+		align-items: center;
+  		bottom: 20px;
+  		right: 20px;
+  		background-color: #008000;
+		opacity: 50%;
+ 		color: white;
  	
 }
 	.banner-box-text{
 		opacity: 100%;
 	}
+
+	/* Image blocks */
+	.image-block {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: auto;
+}
 	
+	image-block img {
+  width: 50%;
+  height: auto;
+}
 	
 }
 
 @media only screen and (min-width: 670px){
-/* Styles for devices wider than 700px */
+/* Styles for devices wider than 670px */
 	p{
 	width:45%;
 	display: grid;
@@ -73,9 +88,9 @@ width:100%;
 	.banner-box {
  	position: absolute;
   	bottom: 20px;
-  	right: 20px;
+  	left: 20px;
   	background-color: #008000;
-	opacity: 50%;
+	opacity: 100%;
  	color: white;
  	padding-left: 20px;
   	padding-right: 20px;
@@ -100,7 +115,7 @@ a {
 
 .navbar{
 	display: flex;
-  	justify-content: space-between;
+  	justify-content:space-around;
  	align-items: center;
  	padding: 20px;
 	background-color:#E5E4E2;
@@ -116,10 +131,11 @@ a {
 }
 
 .navbar-link {
-  color: #f2f2f2;
-  text-decoration: none;
-  padding: 10px;
-  margin: 0 10px;
+  	color: #f2f2f2;
+	float: right;
+  	text-decoration: none;
+  	padding: 10px;
+  	margin: 0 10px;
 }
 
 .navbar a:hover {
