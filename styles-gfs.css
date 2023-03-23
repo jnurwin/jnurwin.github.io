@@ -90,6 +90,9 @@ image-block img {
 	float:center;
 }
 	
+	.about-block-text {
+		text-align:center;
+	}
 }
 
 @media only screen and (min-width: 670px){
