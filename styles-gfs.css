@@ -203,7 +203,7 @@ image-block img {
   width: 80%;
 }
 	
-	image-block img {
+	.image-block img {
   width: 25%;
   height: auto;
 }
