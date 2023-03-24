@@ -200,11 +200,11 @@ image-block img {
   margin: 10px;
   border: 1px solid #ccc;
   float: left;
-  width: 30%;
+  width: 80%;
 }
 	
 	image-block img {
-  width: 30%;
+  width: 25%;
   height: auto;
 }
 	.about-block-text {
