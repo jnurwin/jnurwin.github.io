@@ -102,6 +102,16 @@ image-block img {
 	}
 }
 
+
+/* ABOUT PAGE!!!!!*/
+
+	.founder-img{
+		width: 40%;
+		left-margin:10%;
+		float:left;
+	}
+
+
 @media only screen and (min-width: 670px){
 /* Styles for devices wider than 670px */
 	p{
