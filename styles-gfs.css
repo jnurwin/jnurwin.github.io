@@ -150,6 +150,16 @@
 		
 }
 
+/* CONTACT PAGE!!!!!*/
+
+/* TEAM PAGE!!!!!*/
+
+	.team-about-c{
+		background-color: #008000;
+}
+
+/* SERVICES PAGE!!!!!*/
+
 @media only screen and (min-width: 670px ){
 /* Styles for devices wider than 670px */
 	p{
@@ -304,6 +314,12 @@
 	.about-par3{
 		text-align: center;
 }
+
+/* CONTACT PAGE!!!!!*/
+
+/* TEAM PAGE!!!!!*/
+
+/* SERVICES PAGE!!!!!*/
 
 
 /* Universal things */
