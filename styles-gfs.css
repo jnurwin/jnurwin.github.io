@@ -16,14 +16,17 @@ p {
 
 h1 {
 	font-family: Arial, Helvetica, sans-serif;
+	color:white;
 }
 
 h4 {
 	font-family: Arial, Helvetica, sans-serif;
+	color:white;
 }
 h6 {
-	font-family: Comic Sans MS, cursive, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 	text-align: left;
+	color:white;
 }
 
 .navbar a:hover {
@@ -80,40 +83,58 @@ footer {
 	}
 
 	/* text block */
-
-	.banner-image {
-		display: flex;
-		position: relative;
-		top-margin: 10px;
+	
+	.banner-index{
+		
 	}
-
-	.banner-box {
-		display: block;
-		position: relative;
-		/* display:flex;*/
-		align-items: center;
+	
+	.banner-box-index {
+ 		display: flex;
+  		flex-direction: column;
+  		align-items: center;
 		bottom: 20px;
 		right: 20px;
-		background-color: #008000;
-		opacity: 50%;
+		background-color: rgb(160, 200, 160);
+		opacity: 100%;
 		color: white;
 	}
-	.banner-box-header {
+	.banner-box-index h4{
 		font-family: Arial, Helvetica, sans-serif;
-		font-weight: bold;
-		font-color: #ffffff;
+		text-align: center;
+		font-size: 2em;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box-index p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 16px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
+		color: black;
+	}
+	
+	.column {
 		display: flex;
-		align-content: center;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #e5e4e2;
+		border-radius: 25px;
 	}
 
-	.banner-box-text {
-		display: flex;
-		align-content: center;
-		opacity: 100%;
+	.column img {
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
 	}
 
-	/* Image blocks */
-
+	/* TEAM PAGE!!!!!*/
+	
 	/* DANG BLOCKS */
 	.navbar {
 		justify-content: space-between;
@@ -159,7 +180,7 @@ footer {
 	}
 
 	.description h6 {
-		font-family: Comic Sans MS, cursive, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 4vw;
 		padding: 12px;
@@ -177,103 +198,116 @@ footer {
 	/* END OF DANG BLOCKS */
 
 	/* ABOUT PAGE!!!!!*/
-	.about-info .founder-img {
-		max-width: 450px;
-		opacity: 100%;
-	}
 
-	.about-info .full-story {
-		align-content: center;
-		background-color: #228b22;
+	.about-info{
+		background-color: rgb(160, 200, 160);
 	}
-
-	.founder-text {
-		background-color: #008000;
-		opacity: 70%;
-		margin-right: 10%;
+	.about-info h1{
+		font-size: 2em;
 	}
-
-	.about-header {
-		color: #ffffff;
-		text-align: left;
-		font-size: 50px;
-	}
-
-	.about-par1 {
-		align-content: center;
-	}
-
-	.success {
-		color: #ffffff;
+	
+	.about-info h4{
 		text-align: center;
-		font-size: 35px;
+		font-size: 1em;
+	}
+	
+	.about-info p{
+		font-size: 1em;
+		margin-bottom: 10px;
 	}
 
-	.about-par2 {
+	.about-par {
 		text-align: center;
-		margins: 1px;
-		font-size: 15px;
-	}
-
-	.about-par3 {
-		text-align: center;
-		font-size: 15px;
 	}
 
 	/* CONTACT PAGE!!!!!*/
 
-	/* TEAM PAGE!!!!!*/
-
 	/* SERVICES PAGE!!!!!*/
-
-	.services img {
-		width: 25%;
-		border-radius: 25px;
-		margin-left: 10%;
+	
+	.banner-services{
+		
 	}
-	.service-sub {
-		color: #ffffff;
-		font-size: 30px;
-		text-align: center;
-	}
-
-	.service-p {
-	}
+	
 	.banner-box-services {
-		background-color: #8b0000;
+ 		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		bottom: 20px;
+		right: 20px;
+		background-color: rgb(160, 200, 160);
+		opacity: 100%;
+		color: white;
+	}
+	.banner-box-services h4{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 2em;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box-services p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 16px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
+		color: black;
+	}
+	
+	
+	.services{
+		width: 100%;
+		margin:0 auto;
 	}
 
-	.banner-box-header-service {
-		color: #ffffff;
-		font-size: 30px;
-		text-align: center;
+	.service{
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #e5e4e2;
+		border-radius: 25px;
 	}
-	/*stockmarket*/
-	.stockmarket {
+	
+	.service img{
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
 	}
-	.stockpic {
+	
+	.about-services{
+		background-color: white;
+		height: 20vh;
+		width: 95%;
+		margin: 2vw 20px 2vw;
+		padding: 0px 0px 0px 0px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+		border-radius: 20px;
 	}
-	.service-about-s {
-		background-color: #228b22;
+
+	#green .about-services {
+		background-color: rgb(160, 200, 160);
 	}
-	/*banking*/
-	.banking {
+
+	.about-services h6 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 4vw;
+		padding: 12px;
+		margin: 0px;
 	}
-	.bankpic {
-	}
-	.service-about-b {
-		background-color: #228b22;
-	}
-	.service-about-b p {
-		opacity: 100%;
-	}
-	/*budget*/
-	.budget {
-	}
-	.budgetpic {
-	}
-	.service-about-bs {
-		background-color: #228b22;
+
+	.about-services p {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 1em;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
 	}
 }
 
@@ -332,24 +366,63 @@ footer {
 		height: 100px;
 		position: relative;
 		margin: 0 auto;
+		display: flex;
+		align-items: center;
 	}
 
+	
 	.banner-box {
-		position: absolute;
-		text-align: center;
-		top: 178px;
-		left: 18px;
+		display: flex;
+		align-items: center;
+  		flex-direction: row;
+ 		flex-wrap: wrap;
+  		width: 100%;
 		background-color: #008000;
-		opacity: 100%;
-		color: white;
 		padding-left: 20px;
 		padding-right: 20px;
 	}
-	.banner-box-text {
-		opacity: 100%;
-		text-align: center;
+	.banner-box h4{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 2vw;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 16px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	
+	.blurbs{
+		display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+	}
+	
+	.column {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-basis: 100%;
+		flex: 1;
+		margin: 10px 1vw;
 	}
 
+	.column img {
+		width: 20vh;
+		height: 20vh;
+		object-fit: cover;
+		object-position: center;
+		margin: 0px 20px;
+		border-radius: 25px;
+	}
+
+	/* TEAM PAGE !!!!!!*/
 	/* DANG BLOCKS */
 	.navbar {
 		justify-content: space-between;
@@ -392,7 +465,7 @@ footer {
 	}
 
 	.description h6 {
-		font-family: Comic Sans MS, cursive, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 2vw;
 		padding: 10px 0px;
@@ -409,93 +482,40 @@ footer {
 	}
 	/* END OF DANG BLOCKS */
 
-	.about-block-text {
-		text-align: center;
-	}
-	.service-block-text {
-		text-align: center;
-	}
-	.team-block-text {
-		text-align: center;
-	}
-
 	/* ABOUT PAGE!!!!!*/
 
-	.about-info .founder-img {
-		max-width: 450px;
-		opacity: 100%;
+	.about-info{
+		background-color: rgb(160, 200, 160);
+		width: 80%;
+		display: flex;
+		align-items: center;
 	}
-
-	.about-info .full-story {
-		background-color: #228b22;
-		max-width: 400px;
-		float: right;
-	}
-	.founder-img {
-		width: 100%;
-		margin-left: 10%;
-		float: left;
-		opacity: 100%;
-	}
-
-	.founder-text {
-		background-color: #008000;
-		opacity: 70%;
+	
+	.about-info img{
 		width: 40%;
-		margin-right: 10%;
-		margin-left: 50%;
-		float: right;
-		max-width: 400px;
+		
 	}
-
-	.about-par1 {
-		align-content: center;
+	.about-info h1 h4 p{
+	
 	}
-
-	.success {
-		color: #ffffff;
+	.about-info h1{
+		font-size: 2em;
+	}
+	
+	.about-info h4{
 		text-align: center;
-		font-size: 50;
+		font-size: 1em;
+	}
+	
+	.about-info p{
+		font-size: 1em;
+		margin-bottom: 10px;
 	}
 
-	.about-par2 {
-		text-align: center;
-		font-size: 20px;
-		margin-left: 20px;
-	}
-
-	.about-par3 {
-		text-align: center;
-	}
+	
 
 	/* CONTACT PAGE!!!!!*/
 
-	/* TEAM PAGE!!!!!*/
-
-	.team {
-	}
-
-	.team img {
-		width: 25%;
-		border-radius: 25px;
-		margin-left: 10%;
-	}
-
-	.team .team-about {
-		width: 60%;
-		margin-top: -50px;
-		float: right;
-	}
-
-	.about-sub {
-		color: #ffffff;
-		font-size: 30px;
-		text-align: center;
-	}
-	.about-p {
-		font-size: 20px;
-		margin-bottom: 5px;
-	}
 	/* SERVICES PAGE!!!!!*/
 
 	.services img {
@@ -516,7 +536,7 @@ footer {
 		margin: 0 auto;
 	}
 	.description h6 {
-		font-family: Comic Sans MS, cursive, sans-serif;
+		font-family: Arial, Helvetica, sans-serif;
 		text-align: left;
 		font-size: 2vw;
 		padding: 12px;
@@ -530,5 +550,7 @@ footer {
 		padding: 12px;
 		margin: 0px;
 		width: 95%;
+	}
+	.navbar img{
 	}
 }
