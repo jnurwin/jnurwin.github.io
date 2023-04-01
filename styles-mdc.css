@@ -8,6 +8,11 @@ p {
 	font-style: normal;
 }
 
+h6{
+	font-family: "din-2014", sans-serif;
+	font-weight: 400;
+	font-style: bold;
+}
 @media only screen and ( min-width : 300px ) and (max-width : 670px ){
 
 	img{
@@ -18,7 +23,11 @@ p {
 	
 	
 	
+	/*HOME PAGE*/
 	
+	/*ABOUT PAGE*/
+	
+	/*INFO PAGE*/
 }
 
 @media only screen and ( min-width : 670px ){
@@ -32,5 +41,9 @@ p {
 	
 	
 	
+	/*HOME PAGE*/
 	
+	/*ABOUT PAGE*/
+	
+	/*INFO PAGE*/
 }
