@@ -1,24 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
+/*UNIVERSAL STYLES */
+
+p {
+	font-family: "din-2014", sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
 
 @media only screen and ( min-width : 300px ) and (max-width : 670px ){
 
-	p{
-	
-	}
-	h1{
-	
-	}
 	img{
-	
+		width: 100%;
 	}
-	header{
-	
-	}
-	footer{
-	
-	}
-	
 	
 	
 	
@@ -29,20 +23,8 @@
 
 @media only screen and ( min-width : 670px ){
 
-	p{
-	
-	}
-	h1{
-	
-	}
 	img{
-	
-	}
-	header{
-	
-	}
-	footer{
-	
+		width: 100%;
 	}
 	
 	
@@ -51,12 +33,4 @@
 	
 	
 	
-}
-
-/*UNIVERSAL STYLES */
-
-p {
-	font-family: "din-2014", sans-serif;
-	font-weight: 400;
-	font-style: normal;
 }
