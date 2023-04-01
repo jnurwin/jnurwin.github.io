@@ -5,7 +5,7 @@
 
 /* margins and the like*/
 
-@media only screen and (min-width: 400px)
+@media only screen and (min-width: 150px) and (max-width: 670px) {
 	
 .navbar {
   display: flex;
@@ -96,8 +96,8 @@ img{
 	width:100%;
 }
 
-@media only screen and (min-width: 768px){ 
-/* Styles for devices wider than 768px */
+@media only screen and (min-width: 670px){ 
+/* Styles for devices wider than 670px */
 .navbar {
   display: flex;
   justify-content: space-between;
