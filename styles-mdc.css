@@ -14,26 +14,107 @@ h6{
 	font-style: bold;
 }
 
-a{
-	color: black;
-	text-decoration: none;
+hr{
+	height: 5vw;
+	color: darkred;
+	background-color: darkred;
 }
+a{
+	color: white;
+	text-decoration: none;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif"
+}
+
 
 .navbar a:hover {
 	color: #ccc;
 }
 
+.text{
+	margins: 0 0 0 0;
+}
+.text h6{
+	font-size: 30px;
+	margins:0 0 0 0;
+}
 @media only screen and ( min-width : 300px ) and (max-width : 670px ){
 
 	img{
 		width: 100%;
 	}
 	
-	
-	
+	.navbar{
+		background-color: darkred;
+	}
 	
 	
 	/*HOME PAGE*/
+	
+	.navbar-index {
+  	display: flex;
+  	align-items: center;
+	justify-content: center;
+	background-color: darkred;
+	padding: 5px;
+}
+	.navbar-index a{
+		padding: 5px;
+	}
+	
+	.home {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.block {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+
+	.block img {
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+	}
+
+	.all-block {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.text {
+		background-color: white;
+		height: 20vh;
+		width: 95%;
+		margin: 2vw 20px 2vw;
+		padding: 0px 0px 0px 0px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+		border-radius: 20px;
+	}
+
+	.text h6 {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 4vw;
+		padding: 12px;
+		margin: 0px;
+	}
+
+	.text p {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 1em;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
+	}
 	
 	/*ABOUT PAGE*/
 	
