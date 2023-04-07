@@ -34,6 +34,10 @@ a{
 	color: #ccc;
 }
 
+.navbar img{
+	width: 60px;
+}
+
 .text{
 	margins: 0 0 0 0;
 }
@@ -51,6 +55,31 @@ a{
 		background-color: darkred;
 	}
 	
+	.navbar {
+		background-color: darkred;
+		display: flex;
+		align-items: center;
+	}
+	
+	.navbar img{
+		display: flex;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-right: 150px;
+		padding: 5px;
+	}
+	
+	.navbar a {
+		margin: 15px;
+		font-size: 24px;
+	}
+
+	.navbar-link {
+		color: #000000;
+		text-decoration: none;
+		padding: 10px;
+		margin: 0 10px;
+	}
 	
 	/*HOME PAGE*/
 	
@@ -121,6 +150,26 @@ a{
 	}
 	
 	/*ABOUT PAGE*/
+	.about{
+		align-content: center;
+		text-align: center;
+	}
+	.about-text{
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+	.about img{
+		margin: 0px;
+	}
+	.about h6{
+		font-size: 50px;
+		margin: 0px;
+	}
+	
 	
 	/*INFO PAGE*/
 }
@@ -131,7 +180,41 @@ a{
 		width: 100%;
 	}
 	
+	.navbar{
+		background-color: darkred;
+	}
 	
+	.navbar {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.navbar img{
+		height: 100px;
+		width: auto;
+		position: relative;
+	}
+	
+	.navbar a {
+		margin: 15px;
+		font-size: 24px;
+	}
+
+	.navbar-link {
+		color: #000000;
+		text-decoration: none;
+		padding: 10px;
+		margin: 0 10px;
+	}
+	
+	.navbar-menu{
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 0;
+	}
 	
 	
 	
@@ -140,5 +223,82 @@ a{
 	
 	/*ABOUT PAGE*/
 	
+	.about{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.about-img{
+		height:400px;
+	}
+	.about h6{
+		font-size: 50px;
+		margin:0;
+	}
+	.about-text{
+		position: absolute;
+  		text-align: center;
+		margin-top:200px;
+		width:35em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.about-par{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
 	/*INFO PAGE*/
+	
+	.info{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.info img{
+		margin:0px;
+		padding: 0px;
+		-moz-column-count:    1;
+  		-webkit-column-count: 1;
+  		column-count:         1;
+	}
+	
+	.info h6{
+		font-size: 50px;
+		margin: 0px;
+	}
+	
+	.info p{
+		
+	}
+	
+	.sre img{
+		
+	}
+	
+	.info-sre{
+		position: absolute;
+  		text-align: center;
+		margin-top:200px;
+		width:23em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	
 }
