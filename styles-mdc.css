@@ -150,6 +150,7 @@ a{
 	}
 	
 	/*ABOUT PAGE*/
+	
 	.about{
 		align-content: center;
 		text-align: center;
@@ -166,16 +167,78 @@ a{
 		margin: 0px;
 	}
 	.about h6{
-		font-size: 50px;
+		font-size: 25px;
 		margin: 0px;
 	}
 	
 	
 	/*INFO PAGE*/
+	
+	.info{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.info img{
+		display: flex;
+		margin:0px;
+		padding: 0px;
+	}
+	
+	.info h6{
+		font-size: 50px;
+		margin: 0px;
+	}
+	
+	.info p{
+		
+	}
+	
+	.sre img{
+		
+	}
+	
+	.info-sre{
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+	
+	.info-safety{
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+	
+	.DM{
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+	
+	.info-hours{
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+	
 }
 
 @media only screen and ( min-width : 670px ){
-
 	img{
 		width: 100%;
 	}
@@ -268,9 +331,500 @@ a{
 	.info img{
 		margin:0px;
 		padding: 0px;
-		-moz-column-count:    1;
-  		-webkit-column-count: 1;
-  		column-count:         1;
+	}
+	
+	.info h6{
+		font-size:30px;
+		margin: 0px;
+	}
+	
+	.info p{
+		
+	}
+	
+	.sre img{
+		
+	}
+	
+	.info-sre{
+		position: absolute;
+  		text-align: center;
+		margin-top:15%;
+		width:23em;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:14em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.info-safety{
+		position: absolute;
+  		text-align: center;
+		margin-top:65%;
+		width:23em;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:15em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.DM{
+		position: absolute;
+  		text-align: center;
+		margin-top:112%;
+		width:23em;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:15em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.info-hours{
+		position: absolute;
+  		text-align: center;
+		margin-top:155%;
+		width:23em;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(139, 0, 0, 0.5);
+		height:10em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+}
+	
+
+@media only screen and ( min-width : 960px ){
+	img{
+		width: 100%;
+	}
+	
+	.navbar{
+		background-color: darkred;
+	}
+	
+	.navbar {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.navbar img{
+		height: 100px;
+		width: auto;
+		position: relative;
+	}
+	
+	.navbar a {
+		margin: 15px;
+		font-size: 24px;
+	}
+
+	.navbar-link {
+		color: #000000;
+		text-decoration: none;
+		padding: 10px;
+		margin: 0 10px;
+	}
+	
+	.navbar-menu{
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 0;
+	}
+	
+	
+	
+	
+	/*HOME PAGE*/
+	
+	/*ABOUT PAGE*/
+	
+	.about{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.about-img{
+		height:400px;
+	}
+	.about h6{
+		font-size: 50px;
+		margin:0;
+	}
+	.about-text{
+		position: absolute;
+  		text-align: center;
+		margin-top:200px;
+		width:35em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.about-par{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	/*INFO PAGE*/
+	
+	.info{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.info img{
+		margin:0px;
+		padding: 0px;
+	}
+	
+	.info h6{
+		font-size:35px;
+		margin: 0px;
+	}
+	
+	.info p{
+		
+	}
+	
+	.sre img{
+		
+	}
+	
+	.info-sre{
+		position: absolute;
+  		text-align: center;
+		margin-top:17%;
+		width:23em;
+ 		top: 50%;
+  		left: 25%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:15em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.info-safety{
+		position: absolute;
+  		text-align: center;
+		margin-top:65%;
+		width:23em;
+ 		top: 50%;
+  		left: 25%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.DM{
+		position: absolute;
+  		text-align: center;
+		margin-top:65%;
+		width:23em;
+ 		top: 50%;
+  		left: 75%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.info-hours{
+		position: absolute;
+  		text-align: center;
+		margin-top:115%;
+		width:23em;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+}
+@media only screen and ( min-width : 1200px ){
+
+	img{
+		width: 100%;
+	}
+	
+	.navbar{
+		background-color: darkred;
+	}
+	
+	.navbar {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.navbar img{
+		height: 100px;
+		width: auto;
+		position: relative;
+	}
+	
+	.navbar a {
+		margin: 15px;
+		font-size: 24px;
+	}
+
+	.navbar-link {
+		color: #000000;
+		text-decoration: none;
+		padding: 10px;
+		margin: 0 10px;
+	}
+	
+	.navbar-menu{
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 0;
+	}
+	
+	/*HOME PAGE*/
+	
+	/*ABOUT PAGE*/
+	
+	.about{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.about-img{
+		height:400px;
+	}
+	.about h6{
+		font-size: 50px;
+		margin:0;
+	}
+	.about-text{
+		position: absolute;
+  		text-align: center;
+		margin-top:200px;
+		width:35em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.about-par{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	/*INFO PAGE*/
+	
+	.info{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.info img{
+		margin:0px;
+		padding: 0px;
+	}
+	
+	.info h6{
+		font-size: 50px;
+		margin: 0px;
+	}
+	
+	.info p{
+		
+	}
+	
+	.sre img{
+		
+	}
+	
+	.info-sre{
+		position: absolute;
+  		text-align: center;
+		margin-top:15%;
+		width:23em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.info-safety{
+		position: absolute;
+  		text-align: center;
+		margin-top:65%;
+		width:23em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.DM{
+		position: absolute;
+  		text-align: center;
+		margin-top:65%;
+		width:23em;
+ 		top: 50%;
+  		right: 0%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20em;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.info-hours{
+		position: absolute;
+  		text-align: center;
+		margin-top:110%;
+		width:23em;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+}
+
+@media only screen and ( min-width : 1500px ){
+
+	img{
+		width: 100%;
+	}
+	
+	.navbar{
+		background-color: darkred;
+	}
+	
+	.navbar {
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+	.navbar img{
+		height: 100px;
+		width: auto;
+		position: relative;
+	}
+	
+	.navbar a {
+		margin: 15px;
+		font-size: 24px;
+	}
+
+	.navbar-link {
+		color: #000000;
+		text-decoration: none;
+		padding: 10px;
+		margin: 0 10px;
+	}
+	
+	.navbar-menu{
+		list-style: none;
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		margin: 0;
+	}
+	
+	/*HOME PAGE*/
+	
+	/*ABOUT PAGE*/
+	
+	.about{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.about-img{
+		height:400px;
+	}
+	.about h6{
+		font-size: 50px;
+		margin:0;
+	}
+	.about-text{
+		position: absolute;
+  		text-align: center;
+		margin-top:200px;
+		width:35em;
+ 		top: 50%;
+  		left: 30%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:20vw;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.about-par{
+		margin-left: 5px;
+		margin-right: 5px;
+	}
+	
+	/*INFO PAGE*/
+	
+	.info{
+		width: 70%;
+ 		height: 100px;
+ 		position: relative;
+  		margin: 0 auto;
+	}
+	
+	.info img{
+		margin:0px;
+		padding: 0px;
 	}
 	
 	.info h6{
@@ -317,10 +871,10 @@ a{
 	.DM{
 		position: absolute;
   		text-align: center;
-		margin-top:200px;
+		margin-top:840px;
 		width:23em;
  		top: 50%;
-  		left: 30%;
+  		right: 0%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
 		height:20vw;
