@@ -15,7 +15,7 @@ h6{
 }
 
 hr{
-	height: 5vw;
+	height: 10vw;
 	color: darkred;
 	background-color: darkred;
 }
@@ -44,6 +44,14 @@ a{
 .text h6{
 	font-size: 30px;
 	margins:0 0 0 0;
+}
+
+.legal{
+	background-color: darkred;
+}
+
+.legal p{
+	color: white;
 }
 @media only screen and ( min-width : 300px ) and (max-width : 670px ){
 
@@ -94,6 +102,40 @@ a{
 		padding: 5px;
 	}
 	
+	.img-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		width:20vw;
+		margin-top: -50%;
+	}
+	
+	.dive-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		margin-top: -25%;
+		font-size: 30px;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		
+	}
+	
+	.dive-btn button{
+		position: absolute;
+		align-items: center;
+		left: 35%;
+		margin-top: -25%;
+		font-size: 30px;
+		width: 20vw;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+	
 	.home {
 		width: 100%;
 		margin: 0 auto;
@@ -135,7 +177,7 @@ a{
 	.text h6 {
 		font-family: "din-2014", sans-serif;
 		text-align: left;
-		font-size: 4vw;
+		font-size: 4vh;
 		padding: 12px;
 		margin: 0px;
 	}
@@ -149,11 +191,31 @@ a{
 		width: 95%;
 	}
 	
+	.text-header{
+		
+	}
+	
+	.desc{
+		
+	}
+	
+	.time{
+		
+	}
+	
+	.cost{
+		
+	}
+
+	
+	
 	/*ABOUT PAGE*/
 	
 	.about{
 		align-content: center;
 		text-align: center;
+		background-color: #6495ed;
+		border-radius: 25px;
 	}
 	.about-text{
 		display: flex;
@@ -165,9 +227,10 @@ a{
 	}
 	.about img{
 		margin: 0px;
+		border-radius: 25px;
 	}
 	.about h6{
-		font-size: 25px;
+		font-size: 35px;
 		margin: 0px;
 	}
 	
@@ -278,39 +341,207 @@ a{
 		align-items: center;
 		margin: 0;
 	}
-	
-	
-	
-	
 	/*HOME PAGE*/
+	.navbar-index {
+  	display: flex;
+  	align-items: center;
+	justify-content: center;
+	background-color: darkred;
+	padding: 5px;
+}
+	.navbar-index a{
+		padding: 5px;
+		font-size:3vh;
+	}
 	
+	.img-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		width:20vw;
+		margin-top: -50%;
+	}
+	
+	.dive-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		margin-top: -25%;
+		font-size: 30px;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+	
+	.dive-btn button{
+		position: absolute;
+		align-items: center;
+		left: 35%;
+		margin-top: -25%;
+		font-size: 30px;
+		width: 20vw;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+	
+	.home {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.block {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+
+	.block img {
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+	}
+
+	.all-block {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.all-block img{
+		margin: 0;
+	}
+	.text {
+		background-color: white;
+		height: 20vh;
+		width: 95%;
+		margin: 2vw 20px 2vw;
+		padding: 0px 0px 0px 0px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+		border-radius: 20px;
+	}
+
+	.block h6 {
+		font-family: "din-2014", sans-serif;
+		text-align: center;
+		font-size: 4vh;
+		padding: 12px;
+		margin: 0px;
+	}
+
+	.block p {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 1em;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
+	}
+	
+	.lessons{
+		position: absolute;
+  		text-align: center;
+		margin-top:45%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.snorkl{
+		position: absolute;
+  		text-align: center;
+		margin-top:108%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.reef{
+		position: absolute;
+  		text-align: center;
+		margin-top:170%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.cove{
+		position: absolute;
+  		text-align: center;
+		margin-top:230%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.text-header{
+		
+	}
+	
+	.desc{
+		
+	}
+	
+	.time{
+		
+	}
+	
+	.cost{
+		
+	}
 	/*ABOUT PAGE*/
 	
 	.about{
-		width: 70%;
+		width: 90%;
  		height: 100px;
- 		position: relative;
-  		margin: 0 auto;
+ 		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		margin-left: 5%;
+		background-color: #6495ed;
+		border-radius: 25px;
 	}
 	
-	.about-img{
-		height:400px;
+	.about img{
+		border-radius: 25px;
 	}
 	.about h6{
 		font-size: 50px;
 		margin:0;
 	}
 	.about-text{
-		position: absolute;
-  		text-align: center;
-		margin-top:200px;
-		width:35em;
- 		top: 50%;
-  		left: 30%;
-  		transform: translate(-50%, -50%);
-  		background-color: rgba(255, 255, 255, 0.5);
-		height:20vw;
-  		color: black;
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
 		border-radius: 25px;
 	}
 	
@@ -445,19 +676,190 @@ a{
 		align-items: center;
 		margin: 0;
 	}
-	
-	
-	
-	
 	/*HOME PAGE*/
 	
+	.navbar-index {
+  	display: flex;
+  	align-items: center;
+	justify-content: center;
+	background-color: darkred;
+	padding: 5px;
+}
+	.navbar-index a{
+		padding: 5px;
+	}
+	
+	.img-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		width:20vw;
+		margin-top: -50%;
+	}
+	
+	.dive-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		margin-top: -25%;
+		font-size: 30px;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		
+	}
+	
+	.dive-btn button{
+		position: absolute;
+		align-items: center;
+		left: 35%;
+		margin-top: -25%;
+		font-size: 30px;
+		width: 20vw;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+	
+	.home {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.block {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+
+	.block img {
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+	}
+
+	.all-block {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.text {
+		background-color: white;
+		height: 20vh;
+		width: 95%;
+		margin: 2vw 20px 2vw;
+		padding: 0px 0px 0px 0px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+		border-radius: 20px;
+	}
+
+	.text h6 {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 4vh;
+		padding: 12px;
+		margin: 0px;
+	}
+
+	.text p {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 1em;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
+	}
+	
+	.lessons{
+		position: absolute;
+  		text-align: center;
+		margin-top:55%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.snorkl{
+		position: absolute;
+  		text-align: center;
+		margin-top:120%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.reef{
+		position: absolute;
+  		text-align: center;
+		margin-top:185%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.cove{
+		position: absolute;
+  		text-align: center;
+		margin-top:250%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}	
+	.text-header{
+		
+	}
+	
+	.desc{
+		
+	}
+	
+	.time{
+		
+	}
+	
+	.cost{
+		
+	}
 	/*ABOUT PAGE*/
 	
 	.about{
-		width: 70%;
+		width: 90%;
  		height: 100px;
- 		position: relative;
-  		margin: 0 auto;
+ 		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		margin-left: 5%;
+		background-color: #6495ed;
+		border-radius: 25px;
 	}
 	
 	.about-img{
@@ -470,13 +872,13 @@ a{
 	.about-text{
 		position: absolute;
   		text-align: center;
-		margin-top:200px;
+		margin-top:-7%;
 		width:35em;
  		top: 50%;
   		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height:20vw;
+		height: 25em;
   		color: black;
 		border-radius: 25px;
 	}
@@ -613,14 +1015,189 @@ a{
 	}
 	
 	/*HOME PAGE*/
+	.navbar-index {
+  	display: flex;
+  	align-items: center;
+	justify-content: center;
+	background-color: darkred;
+	padding: 5px;
+}
+	.navbar-index a{
+		padding: 5px;
+	}
 	
+	.img-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		width:20vw;
+		margin-top: -50%;
+	}
+	
+	.dive-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		margin-top: -25%;
+		font-size: 30px;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		
+	}
+	
+	.dive-btn button{
+		position: absolute;
+		align-items: center;
+		left: 35%;
+		margin-top: -25%;
+		font-size: 30px;
+		width: 20vw;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+	
+	.home {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.block {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+
+	.block img {
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+	}
+
+	.all-block {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.text {
+		background-color: white;
+		height: 20vh;
+		width: 95%;
+		margin: 2vw 20px 2vw;
+		padding: 0px 0px 0px 0px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+		border-radius: 20px;
+	}
+
+	.text h6 {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 4vh;
+		padding: 12px;
+		margin: 0px;
+	}
+
+	.text p {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 1em;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
+	}
+	
+	.lessons{
+		position: absolute;
+  		text-align: center;
+		margin-top:55%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.snorkl{
+		position: absolute;
+  		text-align: center;
+		margin-top:120%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.reef{
+		position: absolute;
+  		text-align: center;
+		margin-top:185%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.cove{
+		position: absolute;
+  		text-align: center;
+		margin-top:250%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.text-header{
+		
+	}
+	
+	.desc{
+		
+	}
+	
+	.time{
+		
+	}
+	
+	.cost{
+		
+	}
 	/*ABOUT PAGE*/
 	
 	.about{
-		width: 70%;
+		width: 90%;
  		height: 100px;
- 		position: relative;
-  		margin: 0 auto;
+ 		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		margin-left: 5%;
+		background-color: #6495ed;
+		border-radius: 25px;
 	}
 	
 	.about-img{
@@ -633,13 +1210,13 @@ a{
 	.about-text{
 		position: absolute;
   		text-align: center;
-		margin-top:200px;
+		margin-top:-7%;
 		width:35em;
  		top: 50%;
   		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height:20vw;
+		height: 25em;
   		color: black;
 		border-radius: 25px;
 	}
@@ -777,14 +1354,189 @@ a{
 	}
 	
 	/*HOME PAGE*/
+	.navbar-index {
+  	display: flex;
+  	align-items: center;
+	justify-content: center;
+	background-color: darkred;
+	padding: 5px;
+}
+	.navbar-index a{
+		padding: 5px;
+	}
 	
+	.img-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		width:20vw;
+		margin-top: -50%;
+	}
+	
+	.dive-btn{
+		position: absolute;
+		align-items: center;
+		left: 40%;
+		margin-top: -25%;
+		font-size: 30px;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+		
+	}
+	
+	.dive-btn button{
+		position: absolute;
+		align-items: center;
+		left: 35%;
+		margin-top: -25%;
+		font-size: 30px;
+		width: 20vw;
+		background-color: gray;
+		cursor: pointer;
+		border-radius: 25px;
+		font: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	}
+	
+	.home {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.block {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #6495ed;
+		border-radius: 25px;
+	}
+
+	.block img {
+		width: 95%;
+		height: 60vw;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+	}
+
+	.all-block {
+		width: 100%;
+		margin: 0 auto;
+	}
+	
+	.text {
+		background-color: white;
+		height: 20vh;
+		width: 95%;
+		margin: 2vw 20px 2vw;
+		padding: 0px 0px 0px 0px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+		border-radius: 20px;
+	}
+
+	.text h6 {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 4vh;
+		padding: 12px;
+		margin: 0px;
+	}
+
+	.text p {
+		font-family: "din-2014", sans-serif;
+		text-align: left;
+		font-size: 1em;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
+	}
+	
+	.lessons{
+		position: absolute;
+  		text-align: center;
+		margin-top:55%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.snorkl{
+		position: absolute;
+  		text-align: center;
+		margin-top:120%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.reef{
+		position: absolute;
+  		text-align: center;
+		margin-top:185%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.cove{
+		position: absolute;
+  		text-align: center;
+		margin-top:250%;
+		width:50vw;
+ 		top: 50%;
+  		left: 50%;
+  		transform: translate(-50%, -50%);
+  		background-color: rgba(255, 255, 255, 0.5);
+		height:30vh;
+  		color: black;
+		border-radius: 25px;
+	}
+	
+	.text-header{
+		
+	}
+	
+	.desc{
+		
+	}
+	
+	.time{
+		
+	}
+	
+	.cost{
+		
+	}
 	/*ABOUT PAGE*/
 	
 	.about{
-		width: 70%;
+		width: 90%;
  		height: 100px;
- 		position: relative;
-  		margin: 0 auto;
+ 		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		margin-left: 5%;
+		background-color: #6495ed;
+		border-radius: 25px;
 	}
 	
 	.about-img{
@@ -797,13 +1549,13 @@ a{
 	.about-text{
 		position: absolute;
   		text-align: center;
-		margin-top:200px;
+		margin-top: 5%;
 		width:35em;
  		top: 50%;
   		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height:20vw;
+		height: 25em;
   		color: black;
 		border-radius: 25px;
 	}
@@ -895,5 +1647,4 @@ a{
   		color: black;
 		border-radius: 25px;
 	}
-	
 }
