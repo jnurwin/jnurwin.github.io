@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+/*UNIVERSAL STYLES*/
+
+img{
+	width:90%;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+h6{
+	font-family: 'Montserrat', sans-serif;
+}
+
+a{
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: black;
+	
+}
+
+.logo{
+	width: 15vw;
+	position: relative;
+	left: 43%
+}
+@media only screen and ( min-width : 300px ) and (max-width : 670px ){
+	
+	.navbar{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+}
+/*Home page*/
+	.frontpage{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+/*About page*/
+	 
+/*Accesories page*/
+	 
+/*Clothes page*/
+	
+	 }
+
+@media only screen and ( min-width : 670px ){
+	.navbar{
+		display: flex;
+		align-items: center;
+		justify-content: space-around;
+		font-size: 20px;
+	}
+	
+	.frontpage{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+	}
+	
+/*Home page*/
+	 
+/*About page*/
+	 
+/*Accesories page*/
+	 
+/*Clothes page*/
+	
+	 }
