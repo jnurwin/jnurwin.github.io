@@ -40,7 +40,15 @@ a{
 		align-items: center;
 	}
 /*About page*/
-	 
+	.about-story{
+		background-color: black;
+	}
+	.about-story h1{
+		color: white;
+	}
+	.about-story p{
+		color: white;
+	}
 /*Accesories page*/
 	 
 /*Clothes page*/
@@ -55,16 +63,22 @@ a{
 		font-size: 25px;
 	}
 	
-	.frontpage{
+/*Home page*/
+	 .frontpage{
 		display: flex;
 		justify-content: space-around;
 		align-items: center;
 	}
-	
-/*Home page*/
-	 
 /*About page*/
-	 
+	 .about-story{
+		background-color: black;
+	}
+	.about-story h1{
+		color: white;
+	}
+	.about-story p{
+		color: white;
+	}
 /*Accesories page*/
 	 
 /*Clothes page*/
