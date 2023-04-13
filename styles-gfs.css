@@ -275,7 +275,7 @@ footer {
 	
 	.about-services{
 		background-color: white;
-		height: 15vh;
+		height: 21vh;
 		width: 95%;
 		margin: 2vw 20px 2vw;
 		padding: 0px 0px 0px 0px;
@@ -421,7 +421,7 @@ footer {
 		position: absolute;
   		width: 40vw;
 		background-color: rgb(160, 200, 160);
-		top:10%;
+		top:20%;
 		left:12%;
 	}
 	.banner-box h4{
@@ -887,26 +887,29 @@ footer {
 	}
 	
 	.banner-box-services {
- 		display: flex;
-  		flex-direction: column;
-  		align-items: center;
-		bottom: 20px;
-		right: 20px;
+ 		position: absolute;
+  		width: 25vw;
+		height: 30vh;
 		background-color: rgb(160, 200, 160);
-		opacity: 100%;
-		color: white;
+		padding-left: 20px;
+		padding-right: 20px;
+		top:15%;
+		left:15%;
+	}
+	.banner-services img{
+		width:80%;
 	}
 	.banner-box-services h4{
 		font-family: Arial, Helvetica, sans-serif;
 		text-align: center;
-		font-size: 2em;
+		font-size: 4vh;
 		padding: 10px 0px;
 		margin: 0px;
 	}
 	.banner-box-services p{
 		font-family: Arial, Helvetica, sans-serif;
 		text-align: center;
-		font-size: 16px;
+		font-size: 20px;
 		padding: 10px 0px;
 		width: 100%;
 		color: black;
@@ -918,32 +921,28 @@ footer {
 		margin:0 auto;
 	}
 
-	.service{
+	.service {
 		display: flex;
-		flex-direction: column; /* turn to vertical display */
 		align-items: center;
-		margin: 20px 1vw;
-		background-color: #e5e4e2;
+		margin: 10px 1vw;
+	}
+
+	.service img {
+		width: 20vh;
+		height: 20vh;
+		object-fit: cover;
+		object-position: center;
+		margin: 0px 20px;
 		border-radius: 25px;
 	}
 	
-	.service img{
-		width: 95%;
-		height: 60vw;
-		object-fit: cover;
-		object-position: center;
-		margin: 2vw 20px 1vw;
-		border-radius: 20px;
-	}
-	
 	.about-services{
-		background-color: white;
-		height: 15vh;
-		width: 95%;
-		margin: 2vw 20px 2vw;
-		padding: 0px 0px 0px 0px;
+		background-color: khaki;
+		height: 27vh;
+		width: 90%;
+		margin: 0.5vw 20px;
+		padding: 0px 20px 0px 20px;
 		overflow-wrap: break-word; /* Breaks long words to the next line */
-		border-radius: 20px;
 	}
 
 	#green .about-services {
@@ -953,18 +952,18 @@ footer {
 	.about-services h6 {
 		font-family: Arial, Helvetica, sans-serif;
 		text-align: left;
-		font-size: 4vw;
-		padding: 12px;
+		font-size: 2vw;
+		padding: 10px 0px;
 		margin: 0px;
 	}
 
 	.about-services p {
 		font-family: Arial, Helvetica, sans-serif;
 		text-align: left;
-		font-size: 1em;
-		padding: 12px;
+		font-size: 25px;
+		padding: 10px 0px;
 		margin: 0px;
-		width: 95%;
+		width: 100%;
 	}
 }
 @media only screen and (min-width: 1200px) {
@@ -1058,6 +1057,159 @@ footer {
 		margin: 0px 20px;
 		border-radius: 25px;
 	}
+	
+	/*services*/
+	.banner-box-services {
+ 		position: absolute;
+  		width: 20vw;
+		height: 40vh;
+		background-color: rgb(160, 200, 160);
+		padding-left: 20px;
+		padding-right: 20px;
+		top:15%;
+		left:15%;
+	}
+	.banner-services img{
+		width:80%;
+	}
+	.banner-box-services h4{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 5vh;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box-services p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 25px;
+		padding: 10px 0px;
+		width: 100%;
+		color: black;
+	}
+}
+
+@media only screen and (min-width: 1800px) {
+	.navbar {
+		justify-content: space-between;
+		padding: 10px 10vw;
+		height: 8vw;
+	}
+	.restrictive-block {
+		width: 85%;
+		margin: 0 auto;
+	}
+	.description h6 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 2vw;
+		padding: 12px;
+		margin: 0px;
+	}
+
+	.description p {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 18px;
+		padding: 12px;
+		margin: 0px;
+		width: 95%;
+	}
+	.navbar img{
+	}
+	
+	/*HOME PAGE */
+	
+	.banner-index{
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		bottom: 20px;
+		right: 20px;
+		opacity: 100%;
+		color: white;
+	}	
+	
+	.banner-index img{
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		width:80%;
+		hight:400px;
+	}	
+	
+	.banner-box {
+		position: absolute;
+  		width: 40vw;
+		background-color: rgb(160, 200, 160);
+		padding-left: 20px;
+		padding-right: 20px;
+		top:30%;
+		left:15%;
+	}
+	.banner-box h4{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 5vw;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 20px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
+		color: black;
+	}
+	.column {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		flex-basis: 100%;
+		flex: 1;
+		margin: 10px 1vw;
+	}
+
+	.column img {
+		width: 30vh;
+		height: 30vh;
+		object-fit: cover;
+		object-position: center;
+		margin: 0px 20px;
+		border-radius: 25px;
+	}
+	
+	/*services*/
+	.banner-box-services {
+ 		position: absolute;
+  		width: 25vw;
+		height: 50vh;
+		background-color: rgb(160, 200, 160);
+		padding-left: 20px;
+		padding-right: 20px;
+		top:30%;
+		left:15%;
+	}
+	.banner-services img{
+		width:80%;
+	}
+	.banner-box-services h4{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 8vh;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box-services p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 30px;
+		padding: 10px 0px;
+		width: 100%;
+		color: black;
+	}
 }
 
 @media only screen and (min-width: 2560px){
@@ -1150,5 +1302,79 @@ footer {
 		object-position: center;
 		margin: 0px 20px;
 		border-radius: 25px;
+	}
+	/*SERVICE*/
+	.banner-box-services {
+ 		position: absolute;
+  		width: 31vw;
+		height: 60vh;
+		background-color: rgb(160, 200, 160);
+		padding-left: 20px;
+		padding-right: 20px;
+		top:30%;
+		left:15%;
+	}
+	.banner-services img{
+		width:80%;
+	}
+	.banner-box-services h4{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 8em;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+	.banner-box-services p{
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 40px;
+		padding: 10px 0px;
+		width: 100%;
+		color: black;
+	}
+	
+	.service {
+		display: flex;
+		align-items: center;
+		margin: 10px 1vw;
+	}
+
+	.service img {
+		width: 20vh;
+		height: 20vh;
+		object-fit: cover;
+		object-position: center;
+		margin: 0px 20px;
+		border-radius: 25px;
+	}
+	
+	.about-services{
+		background-color: khaki;
+		height: 20vh;
+		width: 90%;
+		margin: 0.5vw 20px;
+		padding: 0px 20px 0px 20px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+	}
+
+	#green .about-services {
+		background-color: rgb(160, 200, 160);
+	}
+
+	.about-services h6 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 2vw;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+
+	.about-services p {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size:25px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
 	}
 }
