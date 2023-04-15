@@ -3,6 +3,10 @@
 <link href="index_styles.css" rel="stylesheet" type="text/css"> 
 /* margins and the like*/
 
+body{
+		background-color: gray;
+	}
+
 @media only screen and (min-width: 150px) and (max-width: 670px) {
 p{   
 	width:90%;   
@@ -12,52 +16,83 @@ p{
 img{   
 	width:100%;
 }
-	body{
-		background-color: gray;
+	.logo img{
+		width:15vh;
 	}
 	
-.navbar {
-  	display: flex;
-  	justify-content: space-between;
-  	align-items: center;
-  	padding: 20px;
-  	background-color: #7393B3; /* change the background color */
-}
-
-.navbar a {
-  	color: #f2f2f2; /* set the font color */
-	margin: 3px;
-	text-decoration: none;
-}
-
-.navbar-logo img {
-  height: 50px;
-  width: auto;
-}
-
-.navbar-menu {
-  display: flex;
-}
-
-.dropdown {
-  	position: relative;
-  	display: inline-block;
+	.openbtn{
+		position: absolute;
+		right: 10%;
+		top:4%;
+		float: right;
+	}
 	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+	
+	.sidenav #myLinks {
+  	display: none;
 }
 
-.dropdown-btn {
-  background-color: #f2f2f2;
-  color: #333;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
+  	.sidenav a {
+ 	padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* Leave the styles below alone */
+}
+		.sidenav a:hover {
+			color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+	#push{
+	transition: margin-left .5s;
+  padding: 16px;
+	}
+	.navbar-menu {
+    	display: inline-block;
+}
+	.navbar-menu a {
+    	display: flex;
+		margin-top:25px;
+		color: grey;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-style: normal;
+}
+.dropdown {
+  	position:relative;
+  	display: inline-block;	
+	background-color: none;
+  	color: #333;
+  	padding: 10px;
+  	font-size: 16px;
+  	border: none;
   cursor: pointer;
 }
-
+	
 /* add this style to change the button color */
 .navbar-menu .dropdown-btn {
   background-color: #666;
-  color: #f2f2f2;
+  color: black;
 }
 
 .dropdown-content {
@@ -69,7 +104,7 @@ img{
 .dropdown-content a {
   display: block;
   background-color: #666; /* change the background color */
-  color: #f2f2f2; /* set the font color */
+  color: black; /* set the font color */
   padding: 10px;
   text-decoration: none;
 }
@@ -90,7 +125,7 @@ img{
 	
 	/* HOME PAGE*/
 	.front-page h6{
-		color: darkblue;
+		color: #1434A4;
 		font-size: 6vh;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
@@ -106,48 +141,91 @@ img{
 	}
 @media only screen and (min-width: 670px){ 
 /* Styles for devices wider than 670px */
-
-	.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #333; /* change the background color */
-	width:80%;
-		
+p{   
+	width:90%;   
+	margin:auto;
 }
 
-.navbar a {
-  color: #f2f2f2; /* set the font color */
+img{   
+	width:100%;
+}
+	.logo img{
+		width:20vh;
+	}
+	
+	.openbtn{
+		position: absolute;
+		right: 10%;
+		top:4%;
+		float: right;
+	}
+	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+	
+	.sidenav #myLinks {
+  	display: none;
 }
 
-.navbar-logo img {
-  height: 50px;
-  width: auto;
+  	.sidenav a {
+ 	padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* Leave the styles below alone */
 }
-
-.navbar-menu {
-  display: flex;
+		.sidenav a:hover {
+			color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
-
+	#push{
+	transition: margin-left .5s;
+  padding: 16px;
+	}
+	.navbar-menu {
+    	display: inline-block;
+}
+	.navbar-menu a {
+    	display: flex;
+		margin-top:25px;
+		color: grey;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-style: normal;
+}
 .dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-btn {
-  background-color: #f2f2f2;
-  color: #333;
-  padding: 10px;
-  font-size: 16px;
-  border: none;
+  	position:relative;
+  	display: inline-block;	
+	background-color: none;
+  	color: #333;
+  	padding: 10px;
+  	font-size: 16px;
+  	border: none;
   cursor: pointer;
 }
-
+	
 /* add this style to change the button color */
 .navbar-menu .dropdown-btn {
   background-color: #666;
-  color: #f2f2f2;
+  color: black;
 }
 
 .dropdown-content {
@@ -159,7 +237,7 @@ img{
 .dropdown-content a {
   display: block;
   background-color: #666; /* change the background color */
-  color: #f2f2f2; /* set the font color */
+  color: black; /* set the font color */
   padding: 10px;
   text-decoration: none;
 }
@@ -179,7 +257,14 @@ img{
 }
 	
 	/* HOME PAGE*/
-	
+	.front-page h6{
+		margin-top: -3%;
+		color: #1434A4;
+		font-size: 8vh;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
 	/* ABOUT PAGE*/
 	
 	/* PORTFOLIO PAGE*/
@@ -188,10 +273,396 @@ img{
 	
 	/* SELF-PROMO PAGE*/
 	}
+@media only screen and (min-width: 1200px){
+	p{   
+	width:90%;   
+	margin:auto;
+}
 
-@media only screen and (min-width: 2560px){
-	/* HOME PAGE*/
+img{   
+	width:100%;
+}
+	.logo img{
+		width:15vh;
+	}
 	
+	.openbtn{
+		position: absolute;
+		right: 10%;
+		top:4%;
+		float: right;
+	}
+	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+	
+	.sidenav #myLinks {
+  	display: none;
+}
+
+  	.sidenav a {
+ 	padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* Leave the styles below alone */
+}
+		.sidenav a:hover {
+			color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+	#push{
+	transition: margin-left .5s;
+  padding: 16px;
+	}
+	.navbar-menu {
+    	display: inline-block;
+}
+	.navbar-menu a {
+    	display: flex;
+		margin-top:25px;
+		color: grey;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-style: normal;
+}
+.dropdown {
+  	position:relative;
+  	display: inline-block;	
+	background-color: none;
+  	color: #333;
+  	padding: 10px;
+  	font-size: 16px;
+  	border: none;
+  cursor: pointer;
+}
+	
+/* add this style to change the button color */
+.navbar-menu .dropdown-btn {
+  background-color: #666;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  background-color: #666; /* change the background color */
+  color: black; /* set the font color */
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* add this style to change the color of all links */
+.navbar a {
+  color: #f2f2f2;
+}
+
+/* add this style to change the color of links on hover */
+.navbar a:hover {
+  color: #ccc;
+}
+	
+	/* HOME PAGE*/
+	.front-page h6{
+		color: #1434A4;
+		font-size: 10vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		left:10%;
+		margin:-20px;
+	}
+	/* ABOUT PAGE*/
+	
+	/* PORTFOLIO PAGE*/
+	
+	/* TRANSITION PAGES*/
+	
+	/* SELF-PROMO PAGE*/
+}
+@media only screen and (min-width: 1800px){
+	p{   
+	width:90%;   
+	margin:auto;
+}
+
+img{   
+	width:100%;
+}
+	.logo img{
+		width:15vh;
+	}
+	
+	.openbtn{
+		position: absolute;
+		right: 10%;
+		top:4%;
+		float: right;
+	}
+	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+	
+	.sidenav #myLinks {
+  	display: none;
+}
+
+  	.sidenav a {
+ 	padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* Leave the styles below alone */
+}
+		.sidenav a:hover {
+			color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+	#push{
+	transition: margin-left .5s;
+  padding: 16px;
+	}
+	.navbar-menu {
+    	display: inline-block;
+}
+	.navbar-menu a {
+    	display: flex;
+		margin-top:25px;
+		color: grey;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-style: normal;
+}
+.dropdown {
+  	position:relative;
+  	display: inline-block;	
+	background-color: none;
+  	color: #333;
+  	padding: 10px;
+  	font-size: 16px;
+  	border: none;
+  cursor: pointer;
+}
+	
+/* add this style to change the button color */
+.navbar-menu .dropdown-btn {
+  background-color: #666;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  background-color: #666; /* change the background color */
+  color: black; /* set the font color */
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* add this style to change the color of all links */
+.navbar a {
+  color: #f2f2f2;
+}
+
+/* add this style to change the color of links on hover */
+.navbar a:hover {
+  color: #ccc;
+}
+	
+	/* HOME PAGE*/
+	.front-page h6{
+		color: #1434A4;
+		font-size:10vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	/* ABOUT PAGE*/
+	
+	/* PORTFOLIO PAGE*/
+	
+	/* TRANSITION PAGES*/
+	
+	/* SELF-PROMO PAGE*/
+}
+@media only screen and (min-width: 2560px){
+	p{   
+	width:90%;   
+	margin:auto;
+}
+
+img{   
+	width:100%;
+}
+	.logo img{
+		width:15vh;
+	}
+	
+	.openbtn{
+		position: absolute;
+		right: 10%;
+		top:4%;
+		float: right;
+	}
+	
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+	
+	.sidenav #myLinks {
+  	display: none;
+}
+
+  	.sidenav a {
+ 	padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  /* Leave the styles below alone */
+}
+		.sidenav a:hover {
+			color: #f1f1f1;
+	}
+	
+	.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+	#push{
+	transition: margin-left .5s;
+  padding: 16px;
+	}
+	.navbar-menu {
+    	display: inline-block;
+}
+	.navbar-menu a {
+    	display: flex;
+		margin-top:25px;
+		color: grey;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-style: normal;
+}
+.dropdown {
+  	position:relative;
+  	display: inline-block;	
+	background-color: none;
+  	color: #333;
+  	padding: 10px;
+  	font-size: 16px;
+  	border: none;
+  cursor: pointer;
+}
+	
+/* add this style to change the button color */
+.navbar-menu .dropdown-btn {
+  background-color: #666;
+  color: black;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  display: block;
+  background-color: #666; /* change the background color */
+  color: black; /* set the font color */
+  padding: 10px;
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* add this style to change the color of all links */
+.navbar a {
+  color: #f2f2f2;
+}
+
+/* add this style to change the color of links on hover */
+.navbar a:hover {
+  color: #ccc;
+}
+	
+	/* HOME PAGE*/
+	.front-page h6{
+		color: #1434A4;
+		font-size: 10vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
 	/* ABOUT PAGE*/
 	
 	/* PORTFOLIO PAGE*/

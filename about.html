@@ -15,49 +15,58 @@
   
 </head>
   <body>
-  </body>
-  	<header>			
-<div class="navbar">
+  	<header>
+	<div class="logo">
+	<img src="../images/web_logo.png" alt="My logo the 'Communism with Jackson Charicteristics'">
+	</div>
+<div class="sidenav" id="mySidenav">
+	<div class="navbar-menu">
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="index.html">Home</a>
   <a href="about.html">About</a>
   <div class="dropdown">
-	 <button class="dropbtn"><a href="portfolio.html">Portfolio</a>
+	<button class="dropbtn"><a href="portfolio.html">Portfolio</a>
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="bjb.html">Black Jack Burgers</a>
+      <a href="https://jacksonurwin0.wixsite.com/blackjackburgers">Black Jack Burgers</a>
       <a href="index-gfs.html">Gamble FS</a>
-      <a href="mdc.html">Mauna Dive CO</a>
-      <a href="ns.html">Nova Soleli</a>
+      <a href="index-mdc.html">Mauna Dive CO</a>
+      <a href="index-ns.html">Nova Soleli</a>
     </div>
   </div>
 	<a href="sp.html">Self-Promo</a>
-</div>
+	</div>
+</div>	
 </header>
+	  
+	  
+	  <div class="front-page" id="push">
+		<span style="font-size:30px;cursor:pointer" class="openbtn" onclick="openNav()">&#9776;</span>
   <div class="self-pic">
-  <img src="#">
+  <img src="../images/me.png" width="1920" height="1920" alt=""/>
   </div>
   
   <div class= "about-me">
-    <div class="abouth1">
+    <div class="about-h1">
       <h1>WHO AM I?</h1>
     </div>
-    <div class="aboutp1">
-      <p>I am a designer from Louisville,<br>
-KY. My love for design comes from<br>
-a love of art and technology. With<br>
-web design i’m able to combine<br>
-the things I love and deliver that to<br>
-you!</p>
-    </div>
-    <div class="aboutp2">
-      <p>I learned my skills from Jefferson<br>
-Community and Technical College<br>
- with a degree in Webpage design.<br>
-If you would like to see the work I<br>
-can to do please take a look at my<br>
-portfolio and see my contact info in<br>
-self-promo. </p>
+    <div class="about-p">
+      <p>I am a designer from Louisville, KY. My love for design comes from a love of art and technology. With web design i’m able to combine the things I love and deliver that to you!</p>
+      <p>I learned my skills from Jefferson Community and Technical College with a degree in Webpage design. If you would like to see the work I can to do please take a look at my portfolio and see my contact info in self-promo. </p>
     </div>
   </div>
+	  </div>
+	  <script>
+		function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+	</script>
+	</body>
 </html>
