@@ -27,17 +27,17 @@ img{
 		float: right;
 	}
 	
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: white;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+	.sidenav {
+  		height: 100%;
+  		width: 0;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		right: 0;
+  		background-color: #FAF9F6;
+  		overflow-x: hidden;
+  		transition: 0.5s;
+  		padding-top: 60px;
 }
 	
 	.sidenav #myLinks {
@@ -45,28 +45,28 @@ img{
 }
 
   	.sidenav a {
- 	padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+ 		padding: 8px 8px 8px 32px;
+  		text-decoration: none;
+  		font-size: 25px;
+  		color: #818181;
+  		display: block;
+  		transition: 0.3s;
   /* Leave the styles below alone */
 }
-		.sidenav a:hover {
-			color: #f1f1f1;
+	.sidenav a:hover {
+		color: #f1f1f1;
 	}
 	
 	.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  		position: absolute;
+  		top: 0;
+  		right: 25px;
+  		font-size: 36px;
+  		margin-left: 50px;
 }
 	#push{
-	transition: margin-left .5s;
-  padding: 16px;
+		transition: margin-left .5s;
+  		padding: 16px;
 	}
 	.navbar-menu {
     	display: inline-block;
@@ -78,30 +78,30 @@ img{
 		font-family: "futura-pt-condensed", sans-serif;
 		font-style: normal;
 }
-.dropdown {
-  	position:relative;
-  	display: inline-block;	
-	background-color: none;
-  	color: #333;
-  	padding: 10px;
-  	font-size: 16px;
-  	border: none;
-  cursor: pointer;
+	.dropdown {
+  		position:relative;
+  		display: inline-block;	
+		background-color: none;
+  		color: #333;
+  		padding: 10px;
+  		font-size: 16px;
+  		border: none;
+  		cursor: pointer;
 }
 	
 /* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: black;
+	.navbar-menu .dropdown-btn {
+  		background-color: #666;
+  		color: black;
 }
 
-.dropdown-content {
+	.dropdown-content {
   display: none;
   position: absolute;
   z-index: 1;
 }
 
-.dropdown-content a {
+	.dropdown-content a {
   display: block;
   background-color: #666; /* change the background color */
   color: black; /* set the font color */
@@ -109,17 +109,17 @@ img{
   text-decoration: none;
 }
 
-.dropdown:hover .dropdown-content {
+	.dropdown:hover .dropdown-content {
   display: block;
 }
 
 /* add this style to change the color of all links */
-.navbar a {
+	.navbar a {
   color: #f2f2f2;
 }
 
 /* add this style to change the color of links on hover */
-.navbar a:hover {
+	.navbar a:hover {
   color: #ccc;
 }
 	
@@ -132,9 +132,33 @@ img{
 		font-style: normal;
 	}
 	/* ABOUT PAGE*/
-	
+	.about-me{
+		background-color: #333399;
+		margin-bottom: 10px;
+	}
+	.about-me img{
+		height:40%;
+	}
+	.about-me h1{
+		color:#b3b3b3;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 35px;
+		text-align: center;
+	}
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 10px;
+		font-size: 2vh
+	}
 	/* PORTFOLIO PAGE*/
-	
+	.folio img{
+		width: 90%;
+	}
 	/* TRANSITION PAGES*/
 	
 	/* SELF-PROMO PAGE*/
@@ -152,54 +176,52 @@ img{
 	.logo img{
 		width:20vh;
 	}
-	
 	.openbtn{
 		position: absolute;
 		right: 10%;
 		top:4%;
 		float: right;
 	}
-	
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: white;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
+	.sidenav {
+  		height: 100%;
+  		width: 0;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		right: 0;
+  		background-color: #FAF9F6;
+  		overflow-x: hidden;
+  		transition: 0.5s;
+  		padding-top: 60px;
 }
 	
 	.sidenav #myLinks {
-  	display: none;
+  		display: none;
 }
 
   	.sidenav a {
- 	padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
+ 		padding: 8px 8px 8px 32px;
+  		text-decoration: none;
+  		font-size: 25px;
+  		color: #818181;
+  		display: block;
+  		transition: 0.3s;
   /* Leave the styles below alone */
 }
-		.sidenav a:hover {
-			color: #f1f1f1;
+	.sidenav a:hover {
+		color: #f1f1f1;
 	}
 	
 	.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
+  		position: absolute;
+ 	 	top: 0;
+  		right: 25px;
+  		font-size: 36px;
+  		margin-left: 50px;
 }
 	#push{
-	transition: margin-left .5s;
-  padding: 16px;
+		transition: margin-left .5s;
+  		padding: 16px;
 	}
 	.navbar-menu {
     	display: inline-block;
@@ -211,51 +233,47 @@ img{
 		font-family: "futura-pt-condensed", sans-serif;
 		font-style: normal;
 }
-.dropdown {
-  	position:relative;
-  	display: inline-block;	
-	background-color: none;
-  	color: #333;
-  	padding: 10px;
-  	font-size: 16px;
-  	border: none;
-  cursor: pointer;
+	.dropdown {
+  		position:relative;
+  		display: inline-block;	
+		background-color: none;
+  		color: #333;
+  		padding: 10px;
+  		font-size: 16px;
+  		border: none;
+  		cursor: pointer;
 }
 	
 /* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: black;
+	.navbar-menu .dropdown-btn {
+  		background-color: #666;
+  		color: black;
 }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
+	.dropdown-content {
+  		display: none;
+  		position: absolute;
+  		z-index: 1;
 }
 
-.dropdown-content a {
-  display: block;
-  background-color: #666; /* change the background color */
-  color: black; /* set the font color */
-  padding: 10px;
-  text-decoration: none;
+	.dropdown-content a {
+  		display: block;
+  		background-color: #666; /* change the background color */
+  		color: black; /* set the font color */
+  		padding: 10px;
+  		text-decoration: none;
 }
-
-.dropdown:hover .dropdown-content {
-  display: block;
+	.dropdown:hover .dropdown-content {
+  		display: block;
 }
-
 /* add this style to change the color of all links */
-.navbar a {
-  color: #f2f2f2;
+	.navbar a {
+  		color: #f2f2f2;
 }
-
 /* add this style to change the color of links on hover */
-.navbar a:hover {
-  color: #ccc;
+	.navbar a:hover {
+  		color: #ccc;
 }
-	
 	/* HOME PAGE*/
 	.front-page h6{
 		margin-top: -3%;
@@ -266,9 +284,291 @@ img{
 		font-style: normal;
 	}
 	/* ABOUT PAGE*/
-	
+	.about-me{
+		width: 80%;
+		display: flex;
+		align-items: center;
+		margin-bottom: 10px;
+	}
+	.about-me img{
+		height: 40%;
+		width:140%;
+	}
+	.about-me h1{
+		color:#b3b3b3;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 35px;
+		text-align: center;
+	}
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 10px;
+		font-size: 2vh
+	}
+	.about-text{
+		background-color: #333399;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
 	/* PORTFOLIO PAGE*/
+	.p-img{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
+	.p-img a{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
+	.p-img img{
+		width: 65%;
+		height: 25vh;
+	}
 	
+	.p-img div{
+    	bottom: 20%;
+    	right: 30%;
+    	color: #FAF9F6;
+    	margin-bottom: 5px;
+    	font-family: "futura-pt-condensed", sans-serif;
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	transition: visibility 0s, opacity 0.5s linear;
+		size: 50px;
+}
+	.p-img:hover{
+    	cursor: pointer;
+}
+	.p-img:hover div{
+		width: 150px;
+    	padding: 8px 15px;
+    	visibility: visible;
+    	opacity: 0.7; 
+		position: absolute;
+		left: 40%;
+		bottom: 25%;
+		font-size: 30px;
+		text-shadow:
+    	-1px -1px 0 #000,
+    	1px -1px 0 #000,
+    	-1px 1px 0 #000,
+    	1px 1px 0 #000;
+}
+	/* TRANSITION PAGES*/
+	
+	/* SELF-PROMO PAGE*/
+	}
+@media only screen and (min-width: 900px){ 
+/* Styles for devices wider than 900px */
+	p{   
+		width:90%;   
+		margin:auto;
+}
+
+	img{   
+		width:100%;
+}
+	.logo img{
+		width:20vh;
+	}
+	
+	.openbtn{
+		position: absolute;
+		right: 10%;
+		top:4%;
+		float: right;
+	}
+	.sidenav {
+  		height: 100%;
+ 		width: 0;
+  		position: fixed;
+  		z-index: 1;
+  		top: 0;
+  		right: 0;
+  		background-color: #FAF9F6;
+  		overflow-x: hidden;
+  		transition: 0.5s;
+  		padding-top: 60px;
+}
+	.sidenav #myLinks {
+  		display: none;
+}
+  	.sidenav a {
+ 		padding: 8px 8px 8px 32px;
+  		text-decoration: none;
+  		font-size: 25px;
+  		color: #818181;
+  		display: block;
+  		transition: 0.3s;
+  /* Leave the styles below alone */
+}
+	.sidenav a:hover {
+		color: #f1f1f1;
+	}
+	.sidenav .closebtn {
+  		position: absolute;
+  		top: 0;
+  		right: 25px;
+  		font-size: 36px;
+  		margin-left: 50px;
+}
+	#push{
+		transition: margin-left .5s;
+  		padding: 16px;
+	}
+	.navbar-menu {
+    	display: inline-block;
+}
+	.navbar-menu a {
+    	display: flex;
+		margin-top:25px;
+		color: grey;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-style: normal;
+}
+	.dropdown {
+  		position:relative;
+  		display: inline-block;	
+		background-color: none;
+  		color: #333;
+  		padding: 10px;
+  		font-size: 16px;
+  		border: none;
+  		cursor: pointer;
+}
+/* add this style to change the button color */
+.navbar-menu .dropdown-btn {
+  background-color: #666;
+  color: black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+.dropdown-content a {
+  display: block;
+  background-color: #666; /* change the background color */
+  color: black; /* set the font color */
+  padding: 10px;
+  text-decoration: none;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/* add this style to change the color of all links */
+.navbar a {
+  color: #f2f2f2;
+}
+/* add this style to change the color of links on hover */
+.navbar a:hover {
+  color: #ccc;
+}
+	/* HOME PAGE*/
+	.front-page h6{
+		margin-top: -3%;
+		color: #1434A4;
+		font-size: 8vh;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+	}
+	/* ABOUT PAGE*/
+	.about-me{
+		width: 100%;
+	}
+	.about-me img{
+		left:10%;
+		height: 40%;
+		width:160%;
+	}
+	.about-me h1{
+		color:#b3b3b3;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 8vh;
+		text-align: center;
+	}
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 10px;
+		font-size: 3vh
+	}
+	.about-text{
+		background-color: #333399;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	/* PORTFOLIO PAGE*/
+	.p-img{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: flex-start;
+  		align-items: center;
+}
+	.p-img a{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: flex-start;
+  		align-items: center;
+}
+	.p-img img{
+		width: 65%;
+		height: 25vh;
+	}
+	.p-img div{
+    	bottom: 20%;
+    	right: 40%;
+    	color: #FAF9F6;
+    	margin-bottom: 5px;
+    	font-family: "futura-pt-condensed", sans-serif;
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	transition: visibility 0s, opacity 0.5s linear;
+		width: 70%;
+}
+	.p-img:hover{
+    	cursor: pointer;
+}
+	.p-img:hover div{
+		width: 55%;
+    	padding: 8px 15px;
+    	visibility: visible;
+    	opacity: 0.7; 
+		position: absolute;
+		left: 25%;
+		font-size: 35px;
+}
 	/* TRANSITION PAGES*/
 	
 	/* SELF-PROMO PAGE*/
@@ -300,7 +600,7 @@ img{
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: white;
+  background-color: #FAF9F6;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -352,7 +652,7 @@ img{
   	padding: 10px;
   	font-size: 16px;
   	border: none;
-  cursor: pointer;
+  	cursor: pointer;
 }
 	
 /* add this style to change the button color */
@@ -402,12 +702,58 @@ img{
 	/* ABOUT PAGE*/
 	
 	/* PORTFOLIO PAGE*/
+	.p-img{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+  		align-content: space-between;
+}
+	.p-img a{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
 	
+	.p-img img{
+		width: 80%;
+		height: 200px;
+		left:50%;
+	}
+	
+	.p-img div{
+    	bottom: 0;
+    	right: 0;
+    	color: #FAF9F6;
+    	margin-bottom: 5px;
+    	font-family: "futura-pt-condensed", sans-serif;
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	transition: visibility 0s, opacity 0.5s linear;
+}
+	.p-img:hover{
+    	cursor: pointer;
+}
+	.p-img:hover div{
+    	width: 150px;
+    	padding: 8px 15px;
+    	visibility: visible;
+    	opacity: 0.7; 
+		position: absolute;
+		left: 45%;
+		bottom: 10%;
+}
 	/* TRANSITION PAGES*/
 	
 	/* SELF-PROMO PAGE*/
 }
-@media only screen and (min-width: 1800px){
+@media only screen and (min-width: 1792px){
 	p{   
 	width:90%;   
 	margin:auto;
@@ -434,7 +780,7 @@ img{
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: white;
+  background-color: #FAF9F6;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -534,7 +880,48 @@ img{
 	/* ABOUT PAGE*/
 	
 	/* PORTFOLIO PAGE*/
+	.p-img{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
+	.p-img a{
+    	position: relative;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
+	.p-img img{
+		width:80%;
+	}
 	
+	.p-img div{
+    	bottom: 0;
+    	right: 0;
+    	background: black;
+    	color: #FAF9F6;
+    	margin-bottom: 5px;
+    	font-family: "futura-pt-condensed", sans-serif;
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	transition: visibility 0s, opacity 0.5s linear;
+}
+	.p-img:hover{
+    	cursor: pointer;
+}
+	.p-img:hover div{
+    	width: 150px;
+    	padding: 8px 15px;
+    	visibility: visible;
+    	opacity: 0.7; 
+		position: absolute;
+		left: 50%;
+}
 	/* TRANSITION PAGES*/
 	
 	/* SELF-PROMO PAGE*/
@@ -566,7 +953,7 @@ img{
   z-index: 1;
   top: 0;
   right: 0;
-  background-color: white;
+  background-color: #FAF9F6;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
@@ -666,7 +1053,57 @@ img{
 	/* ABOUT PAGE*/
 	
 	/* PORTFOLIO PAGE*/
+	.p-img{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+  		align-content: space-between;
+}
+	.p-img a{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+		width: 80%;
+		height: 200px;
+}
+	.p-img img{
+		width: 80%;
+		height: 200px;
+		left:50%;
+	}
 	
+	.p-img div{
+    	bottom: 0;
+    	right: 0;
+    	background: black;
+    	color: #FAF9F6;
+		text-decoration-style: double;
+    	margin-bottom: 5px;
+    	font-family: "futura-pt-condensed", sans-serif;
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	transition: visibility 0s, opacity 0.5s linear;
+		size: 50px;
+}
+	.p-img:hover{
+    	cursor: pointer;
+}
+	.p-img:hover div{
+    	width: 150px;
+    	padding: 8px 15px;
+    	visibility: visible;
+    	opacity: 0.7; 
+		position: absolute;
+		left: 50%;
+		size: 50px;
+}
 	/* TRANSITION PAGES*/
 	
 	/* SELF-PROMO PAGE*/
