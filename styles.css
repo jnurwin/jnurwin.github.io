@@ -6,6 +6,10 @@
 body{
 		background-color: gray;
 	}
+h1{
+	font-family: "futura-pt-condensed", sans-serif;
+}
+
 
 @media only screen and (min-width: 150px) and (max-width: 670px) {
 p{   
@@ -120,9 +124,8 @@ img{
 
 /* add this style to change the color of links on hover */
 	.navbar a:hover {
-  color: #ccc;
+  		color: #ccc;
 }
-	
 	/* HOME PAGE*/
 	.front-page h6{
 		color: #1434A4;
@@ -130,6 +133,12 @@ img{
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
+	}
+	.welcome{
+		
+	}
+	.welcome h6{
+		
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -162,6 +171,22 @@ img{
 	/* TRANSITION PAGES*/
 	
 	/* SELF-PROMO PAGE*/
+	.promo{
+		
+	}
+	.promo h1{
+		background: #333399;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
 	}
 @media only screen and (min-width: 670px){ 
 /* Styles for devices wider than 670px */
@@ -174,7 +199,7 @@ img{
 	width:100%;
 }
 	.logo img{
-		width:20vh;
+		width:15vh;
 	}
 	.openbtn{
 		position: absolute;
@@ -194,11 +219,9 @@ img{
   		transition: 0.5s;
   		padding-top: 60px;
 }
-	
 	.sidenav #myLinks {
   		display: none;
 }
-
   	.sidenav a {
  		padding: 8px 8px 8px 32px;
   		text-decoration: none;
@@ -243,19 +266,16 @@ img{
   		border: none;
   		cursor: pointer;
 }
-	
 /* add this style to change the button color */
 	.navbar-menu .dropdown-btn {
   		background-color: #666;
   		color: black;
 }
-
 	.dropdown-content {
   		display: none;
   		position: absolute;
   		z-index: 1;
 }
-
 	.dropdown-content a {
   		display: block;
   		background-color: #666; /* change the background color */
@@ -285,9 +305,9 @@ img{
 	}
 	/* ABOUT PAGE*/
 	.about-me{
-		width: 80%;
 		display: flex;
 		align-items: center;
+		align-content: space-between;
 		margin-bottom: 10px;
 	}
 	.about-me img{
@@ -340,7 +360,6 @@ img{
 		width: 65%;
 		height: 25vh;
 	}
-	
 	.p-img div{
     	bottom: 20%;
     	right: 30%;
@@ -386,7 +405,7 @@ img{
 		width:100%;
 }
 	.logo img{
-		width:20vh;
+		width:15vh;
 	}
 	
 	.openbtn{
@@ -492,13 +511,12 @@ img{
 	}
 	/* ABOUT PAGE*/
 	.about-me{
-		width: 100%;
 		display: flex;
-		align-items:center;
-		align-content:center;
+		align-items: center;
 	}
 	.about-me img{
-		width:160%;
+		height: 40%;
+		width:140%;
 	}
 	.about-me h1{
 		color:#b3b3b3;
@@ -514,9 +532,10 @@ img{
 		font-weight: 400;
 		font-style: normal;
 		padding-bottom: 10px;
-		font-size: 3vh
+		font-size: 2vh
 	}
 	.about-text{
+		width:200%;
 		background-color: #333399;
 		box-shadow:
     	-3px -3px 0 #b3b3b3,
@@ -623,7 +642,6 @@ img{
 		.sidenav a:hover {
 			color: #f1f1f1;
 	}
-	
 	.sidenav .closebtn {
   position: absolute;
   top: 0;
@@ -701,7 +719,40 @@ img{
 		margin:-20px;
 	}
 	/* ABOUT PAGE*/
-	
+	.about-me{
+		display: flex;
+		align-items: center;
+	}
+	.about-me img{
+		height: 40%;
+		width:140%;
+	}
+	.about-me h1{
+		color:#b3b3b3;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 7vh;
+		text-align: center;
+	}
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 10px;
+		font-size: 3vh
+	}
+	.about-text{
+		width:200%;
+		background-color: #333399;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
 	/* PORTFOLIO PAGE*/
 	.p-img{
     	position: relative;
@@ -855,21 +906,18 @@ img{
   padding: 10px;
   text-decoration: none;
 }
-
 .dropdown:hover .dropdown-content {
   display: block;
 }
-
 /* add this style to change the color of all links */
 .navbar a {
   color: #f2f2f2;
 }
-
 /* add this style to change the color of links on hover */
 .navbar a:hover {
   color: #ccc;
 }
-	
+
 	/* HOME PAGE*/
 	.front-page h6{
 		color: #1434A4;
@@ -879,7 +927,41 @@ img{
 		font-style: normal;
 	}
 	/* ABOUT PAGE*/
-	
+	.about-me{
+		display: flex;
+		align-items: center;
+		align-content: space-between;
+		margin-bottom: 10px;
+	}
+	.about-me img{
+		height: 40%;
+		width:140%;
+	}
+	.about-me h1{
+		color:#b3b3b3;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 7vh;
+		text-align: center;
+	}
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 20px;
+		font-size: 3vh
+	}
+	.about-text{
+		background-color: #333399;
+		box-shadow:
+    	-5px -5px 0 #b3b3b3,
+    	5px -5px 0 #b3b3b3,
+    	-5px 5px 0 #b3b3b3,
+    	5px 5px 0 #b3b3b3;
+		box-sizing: border-box
+	}
 	/* PORTFOLIO PAGE*/
 	.p-img{
     	position: relative;
@@ -1052,7 +1134,41 @@ img{
 		font-style: normal;
 	}
 	/* ABOUT PAGE*/
-	
+	.about-me{
+		display: flex;
+		align-items: center;
+		align-content: space-between;
+		margin-bottom: 10px;
+	}
+	.about-me img{
+		height: 40%;
+		width:140%;
+	}
+	.about-me h1{
+		color:#b3b3b3;
+		font-family: "futura-pt", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		font-size: 100px;
+		text-align: center;
+	}
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 30px;
+		font-size: 4vh
+	}
+	.about-text{
+		background-color: #333399;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
 	/* PORTFOLIO PAGE*/
 	.p-img{
     	position: relative;
