@@ -127,18 +127,29 @@ img{
   		color: #ccc;
 }
 	/* HOME PAGE*/
-	.front-page h6{
-		color: #1434A4;
-		font-size: 6vh;
+	.welcome{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 10vh;
+		margin-top: -15%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
 	}
-	.welcome{
-		
-	}
-	.welcome h6{
-		
+	.front-page h6{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 9vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 7.5%;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -295,13 +306,29 @@ img{
   		color: #ccc;
 }
 	/* HOME PAGE*/
-	.front-page h6{
-		margin-top: -3%;
-		color: #1434A4;
-		font-size: 8vh;
+	.welcome{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 10vh;
+		margin-top: -15%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.front-page h6{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 9vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 5%;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -517,13 +544,29 @@ img{
   color: #ccc;
 }
 	/* HOME PAGE*/
-	.front-page h6{
-		margin-top: -3%;
-		color: #1434A4;
-		font-size: 8vh;
+	.welcome{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 10vh;
+		margin-top: -15%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.front-page h6{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 9vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 3.5%;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -741,14 +784,29 @@ img{
 }
 	
 	/* HOME PAGE*/
-	.front-page h6{
-		color: #1434A4;
-		font-size: 10vw;
+	.welcome{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 10vh;
+		margin-top: -15%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
-		left:10%;
-		margin:-20px;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.front-page h6{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 9vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 3.5%;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -951,12 +1009,29 @@ img{
 }
 
 	/* HOME PAGE*/
-	.front-page h6{
-		color: #1434A4;
-		font-size:10vw;
+	.welcome{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 10vh;
+		margin-top: -15%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.front-page h6{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 9vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 3.5%;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -1174,12 +1249,29 @@ img{
 }
 	
 	/* HOME PAGE*/
-	.front-page h6{
-		color: #1434A4;
-		font-size: 10vw;
+	.welcome{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 10vh;
+		margin-top: 5%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.front-page h6{
+		background: #1434A4;
+		color:#b3b3b3;
+		font-size: 9vw;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 3.5%;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
