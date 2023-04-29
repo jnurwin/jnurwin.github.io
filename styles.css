@@ -1,13 +1,17 @@
 @charset "UTF-8";
-/* CSS Document 
-<link href="index_styles.css" rel="stylesheet" type="text/css"> 
+/* CSS Document
+<link href="index_styles.css" rel="stylesheet" type="text/css">
 /* margins and the like*/
 
 body{
 		background-color: #F5F5DC;
+		font-size:16px;
 	}
 h1{
 	font-family: "futura-pt-condensed", sans-serif;
+}
+h6{
+	margin: 10px;
 }
 label{
 	font-family: "futura-pt-condensed", sans-serif;
@@ -15,11 +19,9 @@ label{
 button{
 	font-family: "futura-pt-condensed", sans-serif;
 }
-.about-me p{
-	background-color: none;
-}
-.about-text p{
-	background-color: none;
+
+img{
+	max-width: 100%;
 }
 
 .navbar-menu a{
@@ -27,14 +29,285 @@ button{
 	font-style: normal;
 	display: flex;
 	margin-top:25px;
-	color: grey; 
+	color: grey;
 }
 .about-me h1{
+	color:#b3b3b3;
+	font-family: "futura-pt", futura, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	text-align: center;
+}
+
+p{
+	width:90%;
+	font-family: "futura-pt-condensed", sans-serif;
+	margin:auto;
+}
+
+.logo img{
+	max-width:100%;
+}
+
+/* NAV ------------------------------- */
+.openbtn{
+	position: absolute;
+	right: 25px;
+	top:20px;
+	float: right;
+}
+.sidenav {
+	height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background-color: #FAF9F6;
+	overflow-x: hidden;
+	transition: 0.5s;
+	padding-top: 60px;
+}
+	.sidenav #myLinks {
+  	display: none;
+}
+.sidenav a {
+	padding: 8px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
+  /* Leave the styles below alone */
+}
+
+
+.sidenav .closebtn {
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
+}
+#push{
+	transition: margin-left .5s;
+		padding: 16px;
+}
+.navbar-menu {
+	display: inline-block;
+}
+
+.dropdown {
+	position:relative;
+	display: inline-block;
+	background-color: #FAF9F6;
+	color: #333;
+	padding: 10px;
+	font-size: 16px;
+	border: none;
+	cursor: pointer;
+}
+.navbar-menu button{
+	background:#FAF9F6;
+	outline:none;
+	border:none;
+}
+/* add this style to change the button color */
+	.navbar-menu .dropdown-btn {
+  		background-color: #FAF9F6;
+  		color: black;
+}
+
+	.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+	.dropdown-content a {
+  display: block;
+  color: black; /* set the font color */
+  padding: 10px;
+  text-decoration: none;
+  margin-top:0;
+}
+.dropdown-content a:hover {
+	color:blue;
+	background:#b3b3b3;
+}
+
+	.dropdown:hover .dropdown-content {
+  display: block;
+  width: 400px;
+  background: lightgrey;
+}
+
+/* add this style to change the color of all links */
+	.navbar a {
+  color: #f2f2f2;
+}
+
+/* add this style to change the color of links on hover */
+	.navbar a:hover {
+  		color: #ccc;
+}
+/* END NAV----------------------------------------- */
+
+
+/* HOME PAGE*/
+.welcome{
+	background-color: #333399;
+	color:#b3b3b3;
+	box-shadow:
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
+	box-sizing: border-box;
+	min-height: 80vh;
+	min-width: 400px;
+	font-family: "futura-pt-condensed", futura, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.welcome h1{
+	margin:0;
+	padding-left:15px;
+font-size: clamp(4rem, 5vw + 0.75rem, 4vw);
+min-width: 600px;
+max-width: 750px;
+
+}
+	.front-page p{
 		color:#b3b3b3;
-		font-family: "futura-pt", sans-serif;
+		font-size: 1em;
 		font-weight: 700;
 		font-style: normal;
-		text-align: center;
+		margin-left: 7.5%;
+	}
+	/* ABOUT PAGE*/
+	.about-me{
+		display:block;
+		margin-bottom: 10px;
+
+	}
+	.about-me img{
+		min-width:400px;
+		width:100%;
+		max-width: 600px;
+	}
+
+
+	/* PORTFOLIO PAGE*/
+	.folio img{
+		width: 90%;
+	}
+	/* TRANSITION PAGES*/
+
+	/* SELF-PROMO PAGE*/
+	/* HOME PAGE*/
+	.welcome{
+	}
+	.front-page p{
+		color:#b3b3b3;
+		font-size: .5em;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 7.5%;
+	}
+	/* ABOUT PAGE*/
+	.about-me{
+		align-items: center;
+		align-content: space-between;
+		margin-bottom: 10px;
+	}
+
+
+	.about-me p{
+		color:#b3b3b3;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 400;
+		font-style: normal;
+		padding-bottom: 20px;
+		font-size: 2vh;
+	}
+	.about-text{
+
+	}
+	/* PORTFOLIO PAGE*/
+	.p-img{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
+	.p-img a{
+    	position: relative;
+    	margin-right: 10px;
+		display: flex;
+  		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+}
+	.p-img img{
+		width: 65%;
+		height: 25vh;
+	}
+	.p-img div{
+    	bottom: 20%;
+    	right: 30%;
+    	color: #FAF9F6;
+    	margin-bottom: 5px;
+    	font-family: "futura-pt-condensed", sans-serif;
+    	opacity: 0;
+    	visibility: hidden;
+    	-webkit-transition: visibility 0s, opacity 0.5s linear;
+    	transition: visibility 0s, opacity 0.5s linear;
+		size: 50px;
+}
+	.p-img:hover{
+    	cursor: pointer;
+}
+	.p-img:hover div{
+		width: 150px;
+    	padding: 8px 15px;
+    	visibility: visible;
+    	opacity: 0.7;
+		position: absolute;
+		left: 40%;
+		bottom: 25%;
+		font-size: 30px;
+		text-shadow:
+    	-1px -1px 0 #000,
+    	1px -1px 0 #000,
+    	-1px 1px 0 #000,
+    	1px 1px 0 #000;
+}
+	/* TRANSITION PAGES*/
+
+	/* SELF-PROMO PAGE*/
+	.fill{
+		min-height: 100px;
+  		width: 100%;
+  		padding: 3%;
+  		margin: 1.5% 0;
+  		font-size: 1em;
+  		border: 1px solid #ccc;
+  		border-radius: 4px;
+  		box-sizing: border-box;
+		display: grid;
+}
+
+.check{
+		min-height: 100px;
+  		width: 100%;
+  		padding: 3%;
+  		margin: 1.5% 0;
+  		font-size: 1em;
+  		border-radius: 4px;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 768px) {
@@ -219,6 +492,33 @@ img{
     	3px 3px 0 #b3b3b3;
 		box-sizing: border-box
 	}
+	
+		form h1{
+		background: #333399;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.form-h1{
+		background: #333399;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
 	.resume{
 		max-width:100%;
 	}
@@ -235,7 +535,6 @@ p{
 	width:90%;   
 	margin:auto;
 }
-
 img{   
 	width:100%;
 }
@@ -443,7 +742,12 @@ img{
 	
 	/* SELF-PROMO PAGE*/
 	.promo{
-		display: flex;
+		background: #333399;
+		text-align: center;
+		margin: 10px auto 20px auto;
+		display: grid;
+		grid-template-columns: 50% 40%;
+		grid-template-rows: 100%;
 	}
 	.promo h1{
 		background: #333399;
@@ -456,47 +760,37 @@ img{
     	3px -3px 0 #b3b3b3,
     	-3px 3px 0 #b3b3b3,
     	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
+		box-sizing: border-box;
+		font-size: 2em;
 	}
 	.resume{
-		display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-		width:40%
+		width: 90%;
+		align-content: center;
+		margin-left: 10%
 	}
 	.bc{
-		display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-		width:40%	
+		margin-left: 10%;
 	}
 	.shocard{
-		display: flex;
-  		flex-direction: row;
-  		align-content: center;
-        flex-wrap: wrap;
-		width:40%;
+		 grid-column: 1/ span 2;
+		margin-left:5%
 	}
 	.resume img{
-		
 	}
 	.bc img{
-		
+		margin-top: 15%
 	}
 	.shocard img{
-		
+		width:80%
 	}
 	.resume h1{
-		width: 40%;
 	}
 	.bc h1{
-		width:40%;
 	}
 	.shocard h1{
-		width: 80%;
 	}
-	input{
-		min-height: 100px;
+	.fill{
+		min-height: 50px;
   		width: 100%;
   		padding: 2%;
   		margin: 1.5% 0;
@@ -505,131 +799,16 @@ img{
   		border-radius: 4px;
   		box-sizing: border-box;
 }
+	label{
+		font-size: 30px;
 	}
-	fieldset{
-		padding: 0;
-		margin: 0px;
-		font-size: 1em;
-		border-radius: 0px;
-		float:left;
-
-	}
-	}
-@media only screen and (min-width: 900px){ 
-/* Styles for devices wider than 900px */
-	p{   
-		width:90%;   
-		margin:auto;
-}
-
-	img{   
-		width:100%;
-}
-	.logo img{
-		width:15vh;
+	input [type= "checkbox"]{
+		min-height: 10px;
 	}
 	
-	.openbtn{
-		position: absolute;
-		right: 10%;
-		top:4%;
-		float: right;
 	}
-	.sidenav {
-  		height: 100%;
- 		width: 0;
-  		position: fixed;
-  		z-index: 1;
-  		top: 0;
-  		right: 0;
-  		background-color: #FAF9F6;
-  		overflow-x: hidden;
-  		transition: 0.5s;
-  		padding-top: 60px;
-}
-	.sidenav #myLinks {
-  		display: none;
-}
-  	.sidenav a {
- 		padding: 8px 8px 8px 32px;
-  		text-decoration: none;
-  		font-size: 25px;
-  		color: #818181;
-  		display: block;
-  		transition: 0.3s;
-  /* Leave the styles below alone */
-}
-	.sidenav a:hover {
-		color: #f1f1f1;
-	}
-	.sidenav .closebtn {
-  		position: absolute;
-  		top: 0;
-  		right: 25px;
-  		font-size: 36px;
-  		margin-left: 50px;
-}
-	#push{
-		transition: margin-left .5s;
-  		padding: 16px;
-	}
-	.navbar-menu {
-    	display: inline-block;
-}
-	.dropdown {
-  		position:relative;
-  		display: inline-block;	
-		background-color: none;
-  		color: #333;
-  		padding: 10px;
-  		font-size: 16px;
-  		border: none;
-  		cursor: pointer;
-}
-/* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: black;
-}
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-.dropdown-content a {
-  display: block;
-  background-color: #666; /* change the background color */
-  color: black; /* set the font color */
-  padding: 10px;
-  text-decoration: none;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-/* add this style to change the color of all links */
-.navbar a {
-  color: #f2f2f2;
-}
-/* add this style to change the color of links on hover */
-.navbar a:hover {
-  color: #ccc;
-}
-	/* HOME PAGE*/
-	.welcome{
-		background-color: #333399;
-		color:#b3b3b3;
-		font-size: 5em;
-		margin-top:2%;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		box-shadow:
-    	-8px -8px 0 #b3b3b3,
-    	8px -8px 0 #b3b3b3,
-    	-8px 8px 0 #b3b3b3,
-    	8px 8px 0 #b3b3b3;
-		box-sizing: border-box
-	}
+@media only screen and (min-width: 900px){
+/* Styles for devices wider than 900px */
 	.front-page p{
 		color:#b3b3b3;
 		font-size: 1em;
@@ -643,36 +822,7 @@ img{
 		display: flex;
 		align-items: center;
 	}
-	.about-me img{
-		height: 40%;
-		width:140%;
-	}
-	.about-me h1{
-		color:#b3b3b3;
-		font-family: "futura-pt", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		font-size: 8vh;
-		text-align: center;
-	}
-	.about-me p{
-		color:#b3b3b3;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		padding-bottom: 10px;
-		font-size: 2vh
-	}
-	.about-text{
-		width:200%;
-		background-color: #333399;
-		box-shadow:
-    	-3px -3px 0 #b3b3b3,
-    	3px -3px 0 #b3b3b3,
-    	-3px 3px 0 #b3b3b3,
-    	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
-	}
+
 	/* PORTFOLIO PAGE*/
 	.p-img{
     	position: relative;
@@ -702,7 +852,7 @@ img{
     	font-family: "futura-pt-condensed", sans-serif;
     	opacity: 0;
     	visibility: hidden;
-    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	-webkit-transition: visibility 0s, opacity 0.5s linear;
     	transition: visibility 0s, opacity 0.5s linear;
 		width: 70%;
 }
@@ -713,155 +863,24 @@ img{
 		width: 55%;
     	padding: 8px 15px;
     	visibility: visible;
-    	opacity: 0.7; 
+    	opacity: 0.7;
 		position: absolute;
 		left: 25%;
 		font-size: 35px;
 }
 	/* TRANSITION PAGES*/
-	
+
 	/* SELF-PROMO PAGE*/
 	.promo{
-		
+
 	}
 	.promo h1{
-		background: #333399;
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		color: #b3b3b3;
-		box-shadow:
-    	-3px -3px 0 #b3b3b3,
-    	3px -3px 0 #b3b3b3,
-    	-3px 3px 0 #b3b3b3,
-    	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
+
 	}
-	}
+}
 @media only screen and (min-width: 1200px){
-	p{   
-	width:90%;   
-	margin:auto;
-}
 
-img{   
-	width:100%;
-}
-	.logo img{
-		width:15vh;
-	}
-	
-	.openbtn{
-		position: absolute;
-		right: 10%;
-		top:4%;
-		float: right;
-	}
-	
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #FAF9F6;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-	
-	.sidenav #myLinks {
-  	display: none;
-}
 
-  	.sidenav a {
- 	padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-  /* Leave the styles below alone */
-}
-		.sidenav a:hover {
-			color: #f1f1f1;
-	}
-	.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-	#push{
-	transition: margin-left .5s;
-  padding: 16px;
-	}
-	.navbar-menu {
-    	display: inline-block;
-}
-.dropdown {
-  	position:relative;
-  	display: inline-block;	
-	background-color: none;
-  	color: #333;
-  	padding: 10px;
-  	font-size: 16px;
-  	border: none;
-  	cursor: pointer;
-}
-	
-/* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: black;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  display: block;
-  background-color: #666; /* change the background color */
-  color: black; /* set the font color */
-  padding: 10px;
-  text-decoration: none;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-/* add this style to change the color of all links */
-.navbar a {
-  color: #f2f2f2;
-}
-
-/* add this style to change the color of links on hover */
-.navbar a:hover {
-  color: #ccc;
-}
-	
-	/* HOME PAGE*/
-	.welcome{
-		background-color: #333399;
-		color:#b3b3b3;
-		font-size: 7em;
-		margin-top: 5%;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		box-shadow:
-    	-8px -8px 0 #b3b3b3,
-    	8px -8px 0 #b3b3b3,
-    	-8px 8px 0 #b3b3b3,
-    	8px 8px 0 #b3b3b3;
-		box-sizing: border-box
-	}
 	.front-page p{
 		color:#b3b3b3;
 		font-size: 1em;
@@ -875,36 +894,10 @@ img{
 		display: flex;
 		align-items: center;
 	}
-	.about-me img{
-		height: 40%;
-		width:140%;
-	}
-	.about-me h1{
-		color:#b3b3b3;
-		font-family: "futura-pt", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		font-size: 7vh;
-		text-align: center;
-	}
-	.about-me p{
-		color:#b3b3b3;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		padding-bottom: 10px;
-		font-size: 3vh
-	}
-	.about-text{
-		width:200%;
-		background-color: #333399;
-		box-shadow:
-    	-3px -3px 0 #b3b3b3,
-    	3px -3px 0 #b3b3b3,
-    	-3px 3px 0 #b3b3b3,
-    	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
-	}
+
+
+
+
 	/* PORTFOLIO PAGE*/
 	.p-img{
     	position: relative;
@@ -923,13 +916,13 @@ img{
   		justify-content: center;
   		align-items: center;
 }
-	
+
 	.p-img img{
 		width: 80%;
 		height: 200px;
 		left:50%;
 	}
-	
+
 	.p-img div{
     	bottom: 0;
     	right: 0;
@@ -938,7 +931,7 @@ img{
     	font-family: "futura-pt-condensed", sans-serif;
     	opacity: 0;
     	visibility: hidden;
-    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	-webkit-transition: visibility 0s, opacity 0.5s linear;
     	transition: visibility 0s, opacity 0.5s linear;
 }
 	.p-img:hover{
@@ -948,140 +941,26 @@ img{
     	width: 150px;
     	padding: 8px 15px;
     	visibility: visible;
-    	opacity: 0.7; 
+    	opacity: 0.7;
 		position: absolute;
 		left: 45%;
 		bottom: 10%;
 }
 	/* TRANSITION PAGES*/
-	
+
 	/* SELF-PROMO PAGE*/
 }
 @media only screen and (min-width: 1792px){
-	p{   
-	width:90%;   
-	margin:auto;
-}
 
-img{   
-	width:100%;
-}
-	.logo img{
-		width:15vh;
-	}
-	
-	.openbtn{
-		position: absolute;
-		right: 10%;
-		top:4%;
-		float: right;
-	}
-	
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  right: 0;
-  background-color: #FAF9F6;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-}
-	
-	.sidenav #myLinks {
-  	display: none;
-}
 
-  	.sidenav a {
- 	padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
-  transition: 0.3s;
-  /* Leave the styles below alone */
-}
-		.sidenav a:hover {
-			color: #f1f1f1;
-	}
-	
-	.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
-}
-	#push{
-	transition: margin-left .5s;
-  padding: 16px;
-	}
-	.navbar-menu {
-    	display: inline-block;
-}
-.dropdown {
-  	position:relative;
-  	display: inline-block;	
-	background-color: none;
-  	color: #333;
-  	padding: 10px;
-  	font-size: 16px;
-  	border: none;
-  cursor: pointer;
-}
-	
-/* add this style to change the button color */
-.navbar-menu .dropdown-btn {
-  background-color: #666;
-  color: black;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  z-index: 1;
-}
-
-.dropdown-content a {
-  display: block;
-  background-color: #666; /* change the background color */
-  color: black; /* set the font color */
-  padding: 10px;
-  text-decoration: none;
-}
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-/* add this style to change the color of all links */
-.navbar a {
-  color: #f2f2f2;
-}
-/* add this style to change the color of links on hover */
-.navbar a:hover {
-  color: #ccc;
-}
 
 	/* HOME PAGE*/
 	.welcome{
-		background-color: #333399;
-		color:#b3b3b3;
-		font-size: 8em;
-		margin-top: 2.5%;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		box-shadow:
-    	-8px -8px 0 #b3b3b3,
-    	8px -8px 0 #b3b3b3,
-    	-8px 8px 0 #b3b3b3,
-    	8px 8px 0 #b3b3b3;
-		box-sizing: border-box
+
 	}
 	.front-page p{
 		color:#b3b3b3;
-		font-size: 1em;
+		font-size: 2em;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
@@ -1094,31 +973,16 @@ img{
 		align-content: space-between;
 		margin-bottom: 10px;
 	}
-	.about-me img{
-		height: 40%;
-		width:140%;
-	}
+
 	.about-me h1{
-		font-size: 7vh;
-		
+		font-size: 2.5em;
+
 	}
 	.about-me p{
-		color:#b3b3b3;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		padding-bottom: 20px;
-		font-size: 3vh
+		font-size:1.5em;
 	}
-	.about-text{
-		background-color: #333399;
-		box-shadow:
-    	-5px -5px 0 #b3b3b3,
-    	5px -5px 0 #b3b3b3,
-    	-5px 5px 0 #b3b3b3,
-    	5px 5px 0 #b3b3b3;
-		box-sizing: border-box
-	}
+
+
 	/* PORTFOLIO PAGE*/
 	.p-img{
     	position: relative;
@@ -1138,7 +1002,7 @@ img{
 	.p-img img{
 		width:80%;
 	}
-	
+
 	.p-img div{
     	bottom: 0;
     	right: 0;
@@ -1148,7 +1012,7 @@ img{
     	font-family: "futura-pt-condensed", sans-serif;
     	opacity: 0;
     	visibility: hidden;
-    	-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    	-webkit-transition: visibility 0s, opacity 0.5s linear;
     	transition: visibility 0s, opacity 0.5s linear;
 }
 	.p-img:hover{
@@ -1158,163 +1022,25 @@ img{
     	width: 150px;
     	padding: 8px 15px;
     	visibility: visible;
-    	opacity: 0.7; 
+    	opacity: 0.7;
 		position: absolute;
 		left: 50%;
 }
 	/* TRANSITION PAGES*/
-	
+
 	/* SELF-PROMO PAGE*/
 	.promo{
-		
+
 	}
-	.promo h1{
-		background: #333399;
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		color: #b3b3b3;
-		box-shadow:
-    	-3px -3px 0 #b3b3b3,
-    	3px -3px 0 #b3b3b3,
-    	-3px 3px 0 #b3b3b3,
-    	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
-	}
+
 }
 @media only screen and (min-width: 2560px){
-	p{   
-	width:90%;   
-	margin:auto;
-}
 
-	img{   
-		width:100%;
-}
-	.logo img{
-		width:15vh;
-	}
-	
-	.openbtn{
-		position: absolute;
-		right: 10%;
-		top:4%;
-		float: right;
-	}
-	
-	.sidenav {
- 		height: 100%;
-  		width: 0;
-  		position: fixed;
-  		z-index: 1;
-  		top: 0;
-  		right: 0;
-  		background-color: #FAF9F6;
-  		overflow-x: hidden;
-  		transition: 0.5s;
-  		padding-top: 60px;
-}
-	
-	.sidenav #myLinks {
-  		display: none;
-}
-
-  	.sidenav a {
- 		padding: 8px 8px 8px 32px;
-  		text-decoration: none;
-  		font-size: 25px;
-  		color: #818181;
-  		display: block;
-  		transition: 0.3s;
-  /* Leave the styles below alone */
-}
-		.sidenav a:hover {
-			color: #f1f1f1;
-	}
-	
-	.sidenav .closebtn {
-  		position: absolute;
-  		top: 0;
-  		right: 25px;
-  		font-size: 36px;
-  		margin-left: 50px;
-}
-	#push{
-		transition: margin-left .5s;
-  		padding: 16px;
-	}
-	.navbar-menu {
-    		display: inline-block;
-}
-	.dropdown {
-  		position:relative;
-  		display: inline-block;	
-		background-color: none;
-  		color: #333;
-  		padding: 10px;
-  		font-size: 16px;
-  		border: none;
-  		cursor: pointer;
-}
-	
-/* add this style to change the button color */
-	.navbar-menu .dropdown-btn {
-  		background-color: #666;
-  		color: black;
-}
-
-	.dropdown-content {
-  		display: none;
-  		position: absolute;
-  		z-index: 1;
-}
-
-	.dropdown-content a {
-  		display: block;
- 		background-color: #666; /* change the background color */
-  		color: black; /* set the font color */
-  		padding: 10px;
-  		text-decoration: none;
-}
-
-	.dropdown:hover .dropdown-content {
-  		display: block;
-}
-
-/* add this style to change the color of all links */
-	.navbar a {
-  		color: #f2f2f2;
-}
-
-/* add this style to change the color of links on hover */
-	.navbar a:hover {
- 		 color: #ccc;
-}
-	
 	/* HOME PAGE*/
 	.welcome{
-		background-color: #333399;
-		color:#b3b3b3;
-		font-size: 8em;
-		margin-top: 2.5%;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		box-shadow:
-    	-8px -8px 0 #b3b3b3,
-    	8px -8px 0 #b3b3b3,
-    	-8px 8px 0 #b3b3b3,
-    	8px 8px 0 #b3b3b3;
-		box-sizing: border-box
+
 	}
-	.front-page p{
-		color:#b3b3b3;
-		font-size: 1em;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		margin-left: 7.5%;
-	}
+
 	/* ABOUT PAGE*/
 	.about-me{
 		display: flex;
@@ -1322,35 +1048,9 @@ img{
 		align-content: space-between;
 		margin-bottom: 10px;
 	}
-	.about-me img{
-		height: 40%;
-		width:140%;
-	}
-	.about-me h1{
-		color:#b3b3b3;
-		font-family: "futura-pt", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		font-size: 100px;
-		text-align: center;
-	}
-	.about-me p{
-		color:#b3b3b3;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 400;
-		font-style: normal;
-		padding-bottom: 30px;
-		font-size: 4vh
-	}
-	.about-text{
-		background-color: #333399;
-		box-shadow:
-    	-8px -8px 0 #b3b3b3,
-    	8px -8px 0 #b3b3b3,
-    	-8px 8px 0 #b3b3b3,
-    	8px 8px 0 #b3b3b3;
-		box-sizing: border-box
-	}
+
+
+
 	/* PORTFOLIO PAGE*/
 	.p-img{
     		position: relative;
@@ -1376,7 +1076,7 @@ img{
 		height: 200px;
 		left:50%;
 	}
-	
+
 	.p-img div{
     		bottom: 0;
     		right: 0;
@@ -1387,7 +1087,7 @@ img{
     		font-family: "futura-pt-condensed", sans-serif;
     		opacity: 0;
     		visibility: hidden;
-    		-webkit-transition: visibility 0s, opacity 0.5s linear; 
+    		-webkit-transition: visibility 0s, opacity 0.5s linear;
     		transition: visibility 0s, opacity 0.5s linear;
 		size: 50px;
 }
@@ -1398,28 +1098,18 @@ img{
     		width: 150px;
     		padding: 8px 15px;
     		visibility: visible;
-    		opacity: 0.7; 
+    		opacity: 0.7;
 		position: absolute;
 		left: 50%;
 		size: 50px;
 }
 	/* TRANSITION PAGES*/
-	
+
 	/* SELF-PROMO PAGE*/
 	.promo{
-		
+
 	}
 	.promo h1{
-		background: #333399;
-		display: flex;
-		align-content: center;
-		justify-content: center;
-		color: #b3b3b3;
-		box-shadow:
-    	-3px -3px 0 #b3b3b3,
-    	3px -3px 0 #b3b3b3,
-    	-3px 3px 0 #b3b3b3,
-    	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
+
 	}
 }
