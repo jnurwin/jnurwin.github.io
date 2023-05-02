@@ -17,15 +17,15 @@
 	<div class="all-block">
 	<header>
 	<div class="header">
-  <img class="divein" src="front_page.jpg" alt="DIVEIN!"/>
-		<div class="img-btn"><img src="MDC_logo.png" alt="The MDC logo"></div>
+  <img class="divein" src="../images/front_page.jpg" alt="DIVEIN!"/>
+		<div class="img-btn"><img src="../images/1x/MDC_logo.png" alt="The MDC logo"></div>
 		<div class="dive-btn"><a href="#start"><button type="submit">DIVE IN!</button></a></div>
 </div>
 	</header>
 	<hr>
 <div class="home">
 	<div class="block" id="start">
-		<img src="pool.jpg" alt="Several swimmers under water after diving into the pool">
+		<img src="../images/pool.jpg" alt="Several swimmers under water after diving into the pool">
 		<div class="lessons">
 			<div class="text-header"><h6>Lessons</h6></div>
 			<div class="desc"><p>Take the chance to dive into a whole new world! PADI certified lessons for all ages</p></div>
@@ -34,7 +34,7 @@
 	</div>
 	
 	<div class="block">
-		<img src="beach.jpg" alt="Sunset over the beach as the waves roll in.">
+		<img src="../images/beach.jpg" alt="Sunset over the beach as the waves roll in.">
 		<div class="snorkl">
 			<div class="text-header"><h6>Snorkling</h6></div>
 			<div class="desc"><p>Enjoy our scenic beachfront snorkling adventure great for ages 5 and up</p></div>
@@ -43,7 +43,7 @@
 	</div>
 	
 	<div class="block">
-		<img src="Coral_reef.jpg" alt="A school of fish enjoying a coral reef">
+		<img src="../images/Coral_reef.jpg" alt="A school of fish enjoying a coral reef">
 		<div class="reef">
 			<div class="text-header"><h6>Hoʻopunipuni reef</h6></div>
 			<div class="desc"><p>One of our most beautiful sites! Come and see the beautiful corals native to the islands</p></div>
@@ -52,7 +52,7 @@
 	</div>
 	
 	<div class="block">
-		<img src="turtle.jpg" alt="A sea turtle sitting amongst the coral">
+		<img src="../images/turtle.jpg" alt="A sea turtle sitting amongst the coral">
 		<div class="cove">
 			<div class="text-header"><h6>Turtle cove</h6></div>
 			<div class="desc"><p>The best sight on the whole island! Come and see the oceans most majestic creature</p></div>
@@ -66,26 +66,23 @@
 </div>
 	
 	<div class="form">
-	<form>
-  <input type="checkbox" id="dive lessons" name="choice" value="Dive Lessons">
-  <label for="lessons">Dive Lessons</label><br>
-  <input type="checkbox" id="snorkling" name="choice" value="Snorkling">
-  <label for="snorkling">Snorkling</label><br>
-  <input type="checkbox" id="reef dive" name="choice" value="Reef Dive">
-  <label for="javascript">Reef Dive</label><br>
-  <input type="checkbox" id="turtle cove" name="choice" value="Turtle Cove">
-  <label for="Turtle Cove">Turtle Cove</label><br>
+	<form action="thanks-mdc.html">
+ <h1>What kind of dive are you interested in?</h1>
+  <label class="check" for="lessons">Dive Lessons <input type="checkbox" id="dive lessons" name="choice" value="Dive Lessons"></label>
+  <label class="check" for="snorkling">Snorkling<input type="checkbox" id="snorkling" name="choice" value="Snorkling"></label>
+  <label class="check" for="javascript">Reef Dive<input type="checkbox" id="reef dive" name="choice" value="Reef Dive"></label>
+  <label class="check" for="Turtle Cove">Turtle Cove <input type="checkbox" id="turtle cove" name="choice" value="Turtle Cove"></label><br>
 		
-  <label for="name">Name</label><br>
-  <input type="text" id="name" name="name" value="Your name"><br>
-  <label for="lname">Phone</label><br>
-  <input type="text" id="phone" name="phone" value="###-###-####"><br>
-  <label for="name">Email</label><br>
-  <input type="text" id="email" name="email" value="email"><br>
-  <label for="name">Number of Divers</label><br>
-  <input type="text" id="nod" name="nod" value=""><br>
+  <label class="fill-p" for="name">Name</label>
+  <input class="fill" type="text" id="name" name="name"  required>
+  <label class="fill-p" for="name">Phone</label>
+  <input class="fill" type="text" id="phone" name="phone" required>
+  <label class="fill-p" for="name">Email</label>
+  <input class="fill" type="text" id="email" name="email" required="@">
+  <label class="fill-p" for="name">Number of Divers</label>
+  <input class="fill" type="text" id="nod" name="nod" value="" required>
 		
-	<input type="submit" value="Submit">
+	 <div class="submit"> <button type="submit">Submit</button> </div>
 	</form>
 	</div>
 	<div class="legal">
