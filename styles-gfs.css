@@ -3,7 +3,9 @@
 /* CSS Document */
 /* Styles for small devices */
 /* Universal things */
-
+body{
+	text-align: center;
+}
 a {
 	color: black;
 	text-decoration: none;
@@ -44,6 +46,104 @@ footer {
 	width: 100%;
 }
 
+img{
+	width: 100%;
+}
+
+.contact-hero {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		margin: 20px 1vw;
+		background-color: #e5e4e2;
+		border-radius: 25px;
+	}
+
+	.contact-hero img {
+		width: 95%;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+	}
+.contact-head{
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		background-color: rgb(160, 200, 160);
+		opacity: 100%;
+		color: white;
+}
+
+.contact-head p{
+	padding: 10px;
+	color: black;
+}
+
+form{
+	width: 80%;
+	align-content: center;
+	text-align: left;
+}
+
+	.fill{
+		width: 100%;
+  		padding: 1.7%;
+  		margin: 1.5% 0;
+  		font-size: 1em;
+  		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+}
+ form h1{
+		background-color: rgb(160, 200, 160);
+		color: white;
+	 	font-size: 1.5em;
+	 	padding: 10px;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+}
+.boxes{
+	box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+}
+	.check{
+		display: inline-block;
+  		position: relative;
+  		padding-left: 35px;
+  		margin-bottom: 12px;
+  		cursor: pointer;
+  		font-size: 1em;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none;
+}
+.submit button{
+	color:white;
+	background-color: rgb(160, 200, 160);
+	text-align: center;
+	font-size: 2em;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+.thanks{
+	background-color: rgb(160, 200, 160);
+}
+.thanks h6{
+	text-align: center;
+	padding: 15px;
+	font-size: 1em;
+}
 @media only screen and (min-width: 150px) and (max-width: 670px) {
 	p {
 		width: 90%;
@@ -83,7 +183,7 @@ footer {
 	}
 
 	/* text block */	
-	.banner-index {
+	.banner-box {
  		display: flex;
   		flex-direction: column;
   		align-items: center;
@@ -92,6 +192,7 @@ footer {
 		background-color: rgb(160, 200, 160);
 		opacity: 100%;
 		color: white;
+		padding: 5px;
 	}
 	.banner-box h4{
 		font-family: Arial, Helvetica, sans-serif;
@@ -199,6 +300,7 @@ footer {
 	}
 	.about-info h1{
 		font-size: 2em;
+		text-align: left;
 	}
 	
 	.about-info h4{
@@ -224,11 +326,6 @@ footer {
 		align-content: space-around
 	}
 	/* SERVICES PAGE!!!!!*/
-	
-	.banner-services{
-		
-	}
-	
 	.banner-box-services {
  		display: flex;
   		flex-direction: column;
@@ -573,9 +670,71 @@ footer {
 		margin-left: 20px;	
 	}
 	/* CONTACT PAGE!!!!!*/
-	.contact-head{
-		background-color: rgb(160, 200, 160);
+	.contact-hero {
+		background-color: #e5e4e2;
+		border-radius: 25px;
 	}
+
+	.contact-hero img {
+		width: 95%;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+		height: 40%;
+	}
+
+.contact-head{
+		display: flex;
+  		flex-direction: column;
+  		align-items: center;
+		background-color: rgb(160, 200, 160);
+		opacity: 100%;
+		color: white;
+}
+
+.contact-head p{
+	padding: 10px;
+	color: black;
+}
+	
+	form{
+		width: 100%;
+		font-size: 1em;
+		text-align: center;
+	}
+	.fill{
+		width: 80%;
+  		padding: 1.7%;
+  		margin: 1.5% 0;
+  		font-size: 2em;
+  		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+		text-align: left;
+	}
+	.fill-p{
+		font-size: 1.5em;
+	}
+	.boxes h1{
+		text-align: center;
+	}
+	.check{
+		display: inline-block;
+  		position: relative;
+  		padding-left: 35px;
+  		margin-bottom: 12px;
+  		cursor: pointer;
+  		font-size: 22px;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none
+	}
+	.submit{
+		text-align: center;
+	}
+	
 	/* SERVICES PAGE!!!!!*/
 
 	.banner-services{
@@ -870,9 +1029,69 @@ footer {
 		margin-left: 20px;	
 	}
 	/* CONTACT PAGE!!!!!*/
-	.contact-head{
-		background-color: rgb(160, 200, 160);
+.contact-hero {
+		display: flex;
+		flex-direction: column; /* turn to vertical display */
+		align-items: center;
+		background-color: #e5e4e2;
+		border-radius: 25px;
 	}
+
+	.contact-hero img {
+		width: 95%;
+		object-fit: cover;
+		object-position: center;
+		margin: 2vw 20px 1vw;
+		border-radius: 20px;
+		height: 40%;
+	}
+
+.contact-head{
+		position: absolute;
+		width:20em;
+		height: 20em;
+		background-color: rgb(160, 200, 160);
+		margin-top: 5%;
+		right:12%;
+}
+	
+	form{
+		width: 100%;
+		text-align: center;
+		font-size: 1em;
+	}
+	.fill{
+		width: 80%;
+  		padding: 1.7%;
+  		margin: 1.5% 0;
+  		font-size: 2em;
+  		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+		text-align: left;
+	}
+	.boxes h1{
+		text-align: center;
+	}
+	.check{
+		display: inline-block;
+  		position: relative;
+  		padding-left: 35px;
+  		margin-bottom: 12px;
+  		cursor: pointer;
+  		font-size: 22px;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none
+	}
+	body{ 
+		text-align:center;
+	}
+	.submit{
+		text-align: center;
+	}
+	
 	/* SERVICES PAGE!!!!!*/
 
 	.banner-services{
@@ -1123,7 +1342,6 @@ footer {
 		background-color: rgb(160, 200, 160);
 	}
 }
-
 @media only screen and (min-width: 1792px) {
 	.navbar {
 		justify-content: space-between;
@@ -1343,7 +1561,6 @@ footer {
 		width: 100%;
 	}
 }
-
 @media only screen and (min-width: 2560px){
 	.navbar {
 		justify-content: space-between;
