@@ -50,6 +50,12 @@ img{
 	width: 100%;
 }
 
+.about-par p{
+		display: flex;
+		margin-bottom: 10px;
+		text-align: center;
+	}
+
 .contact-hero {
 		display: flex;
 		flex-direction: column; /* turn to vertical display */
@@ -70,7 +76,8 @@ img{
 		display: flex;
   		flex-direction: column;
   		align-items: center;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.1) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%); 
 		opacity: 100%;
 		color: white;
 }
@@ -96,7 +103,8 @@ form{
   		box-sizing: border-box;
 }
  form h1{
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%); 
 		color: white;
 	 	font-size: 1.5em;
 	 	padding: 10px;
@@ -129,7 +137,8 @@ form{
 }
 .submit button{
 	color:white;
-	background-color: rgb(160, 200, 160);
+	background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%); 
 	text-align: center;
 	font-size: 2em;
 	margin-top:10px;
@@ -143,6 +152,24 @@ form{
 	text-align: center;
 	padding: 15px;
 	font-size: 1em;
+}
+.legal{
+	background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+	box-shadow:
+	-3px -3px 0 #b3b3b3,
+	3px -3px 0 #b3b3b3,
+	-3px 3px 0 #b3b3b3,
+	3px 3px 0 #b3b3b3;
+	box-sizing: border-box;
+	margin-top: 10px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.legal p{
+	align-content: center;
 }
 @media only screen and (min-width: 150px) and (max-width: 670px) {
 	p {
@@ -260,14 +287,15 @@ form{
 		margin: 0 auto;
 	}
 	#green .description {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 	}
 	#pink .description {
 		background-color: pink;
 	}
 	.description {
 		background-color: white;
-		height: 20vh;
+		height: 10em;
 		width: 95%;
 		margin: 2vw 20px 2vw;
 		padding: 0px 0px 0px 0px;
@@ -296,7 +324,8 @@ form{
 	/* ABOUT PAGE!!!!!*/
 
 	.about-info{
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 	}
 	.about-info h1{
 		font-size: 2em;
@@ -311,19 +340,23 @@ form{
 	.about-info p{
 		font-size: 1em;
 		margin-bottom: 10px;
-	}
-
-	.about-par {
 		text-align: center;
 	}
 
 	/* CONTACT PAGE!!!!!*/
 	.contact-head{
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 	}
 	.form input{
 		display: flex;
 		align-content: space-around
+	}
+	
+	.check{
+		display: flex;
+		align-content: flex-start;
+		padding:10px;
 	}
 	/* SERVICES PAGE!!!!!*/
 	.banner-box-services {
@@ -652,7 +685,8 @@ form{
 		
 	}
 	.about-block-text{
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 	}
 	.about-info h1{
 		font-size: 4em;
@@ -1002,6 +1036,7 @@ form{
 		align-items: center;
 		align-content: space-between;
 		margin-bottom: 10px;
+			
 	}
 	
 	.about-info img{
@@ -1010,9 +1045,7 @@ form{
 		border-radius: 50px;
 		
 	}
-	.about-block-text{
-		background-color: rgb(160, 200, 160);
-	}
+	
 	.about-info h1{
 		font-size: 4em;
 		margin-left: 20px;
@@ -1319,9 +1352,7 @@ form{
 		border-radius: 50px;
 		
 	}
-	.about-block-text{
-		background-color: rgb(160, 200, 160);
-	}
+
 	.about-info h1{
 		font-size: 5em;
 		margin-left: 20px;

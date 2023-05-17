@@ -58,6 +58,7 @@ a{
 	color: white;
 	text-align: center;
 }
+
 body{
 	text-align: center;
 }
@@ -130,6 +131,49 @@ form{
 }
 .thanks h6{
 	font-size: 1em;
+}
+
+.fade-in-image { 
+	animation: fadeIn 3s; 
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.about-par a {
+		color: black;
+	}
+.booking a{
+	text-decoration: underline;
+	color: steelblue;
 }
 @media only screen and ( min-width : 300px ) and (max-width : 670px ){
 
@@ -535,22 +579,20 @@ form{
 	.lessons{
 		position: absolute;
   		text-align: center;
-		margin-top:5%;
 		width:50vw;
- 		top: 50%;
+ 		margin-top: 30%;
   		left: 50%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
 		height:14em;
   		color: black;
 		border-radius: 25px;
-		margin-top: 75px;
 	}
 	
 	.snorkl{
 		position: absolute;
   		text-align: center;
-		margin-top:70%;
+		margin-top:95%;
 		width:50vw;
  		top: 50%;
   		left: 50%;
@@ -564,9 +606,8 @@ form{
 	.reef{
 		position: absolute;
   		text-align: center;
-		margin-top:135%;
+		margin-top:30%;
 		width:50vw;
- 		top: 50%;
   		left: 50%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
@@ -574,11 +615,11 @@ form{
   		color: black;
 		border-radius: 25px;
 	}
-	
+ 
 	.cove{
 		position: absolute;
   		text-align: center;
-		margin-top:195%;
+		margin-top:220%;
 		width:50vw;
  		top: 50%;
   		left: 50%;
@@ -647,11 +688,6 @@ form{
 		margin: 20px 1vw;
 		background-color: #6495ed;
 		border-radius: 25px;
-	}
-	
-	.about-par{
-		margin-left: 5px;
-		margin-right: 5px;
 	}
 	
 	/*INFO PAGE*/
