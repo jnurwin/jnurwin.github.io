@@ -65,7 +65,8 @@ body{
 
 form{
 	font-family: "din-2014", sans-serif;
-	background-color: #6495ed;
+	 background: rgb(121,243,255);
+background: linear-gradient(180deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 	border-radius: 25px;
 	padding:20px;
 }
@@ -113,7 +114,8 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		 background: rgb(121,243,255);
+background: linear-gradient(180deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 		font-family: "din-2014", sans-serif;
 }
@@ -168,8 +170,17 @@ form{
   0% { opacity: 0; }
   100% { opacity: 1; }
 }
+.info-par a{
+	color: black;
+		font-family: "din-2014", sans-serif;
+		font-weight: 800;
+		font-style: normal;
+}
 .about-par a {
 		color: black;
+		font-family: "din-2014", sans-serif;
+		font-weight: 800;
+		font-style: normal;
 	}
 .booking a{
 	text-decoration: underline;
@@ -269,7 +280,8 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); ;
 		border-radius: 25px;
 	}
 
@@ -346,7 +358,6 @@ form{
 	.about{
 		align-content: center;
 		text-align: center;
-		background-color: #6495ed;
 		border-radius: 25px;
 	}
 	.about-text{
@@ -354,19 +365,22 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		 background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 	}
 	.about img{
 		margin: 0px;
 		border-radius: 25px;
 	}
-	.about h6{
+	.about-text h1{
 		font-size: 35px;
-		margin: 0px;
+		font-family: "din-2014", sans-serif;
 	}
-	
-	
+	.legal-about{
+		color: white;
+		background-color: darkred;
+	}
 	/*INFO PAGE*/
 	
 	.info{
@@ -400,7 +414,8 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); ;
 		border-radius: 25px;
 	}
 	
@@ -409,7 +424,8 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		 background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 	}
 	
@@ -418,7 +434,8 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		 background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 	}
 	
@@ -427,10 +444,10 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		 background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 	}
-	
 }
 
 @media only screen and ( min-width : 670px ){
@@ -529,7 +546,8 @@ form{
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 	}
 
@@ -677,19 +695,26 @@ form{
 	.about img{
 		border-radius: 25px;
 	}
-	.about h6{
+	.about h1{
 		font-size: 50px;
-		margin:0;
+		font-family: "din-2014", sans-serif;
+		font-weight: 800;
+		font-style: normal;
 	}
 	.about-text{
 		display: flex;
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
 		margin: 20px 1vw;
-		background-color: #6495ed;
+		 background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
 		border-radius: 25px;
 	}
-	
+	.legal-about{
+		color: white;
+		background-color: darkred;
+		margin-top:780px;
+	}
 	/*INFO PAGE*/
 	
 	.info{
@@ -722,11 +747,11 @@ form{
   		text-align: center;
 		margin-top:15%;
 		width:23em;
- 		top: 50%;
+ 		top: 40%;
   		left: 50%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height:14em;
+		height:13em;
   		color: black;
 		border-radius: 25px;
 	}
@@ -736,11 +761,11 @@ form{
   		text-align: center;
 		margin-top:65%;
 		width:23em;
- 		top: 50%;
+ 		top: 35%;
   		left: 50%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height:15em;
+		height:13em;
   		color: black;
 		border-radius: 25px;
 	}
@@ -995,7 +1020,7 @@ form{
 	
 	.about{
 		width: 90%;
- 		height: 100px;
+ 		height:auto;
  		display: flex;
 		flex-direction: column; /* turn to vertical display */
 		align-items: center;
@@ -1007,23 +1032,27 @@ form{
 	.about-img{
 		height:400px;
 	}
-	.about h6{
-		font-size: 50px;
+	.about h1{
+		font-size: 2em;
 		margin:0;
+		font-family: "din-2014", sans-serif;
 	}
 	.about-text{
 		position: absolute;
   		text-align: center;
 		width:30em;
- 		top: 25%;
+ 		top: 40%;
   		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height: 25em;
   		color: black;
 		border-radius: 25px;
 	}
-	
+	.legal-about{
+		color: white;
+		background-color: darkred;
+		margin-top: 10%;
+	}
 	.about-par{
 		margin-left: 5px;
 		margin-right: 5px;
@@ -1062,7 +1091,7 @@ form{
 		margin-top:17%;
 		width:23em;
  		top: 50%;
-  		left: 25%;
+  		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
 		height:15em;
@@ -1074,12 +1103,12 @@ form{
 		position: absolute;
   		text-align: center;
 		margin-top:65%;
-		width:23em;
+		width:20em;
  		top: 50%;
   		left: 25%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
-		height:20vw;
+		height:15em;
   		color: black;
 		border-radius: 25px;
 	}
@@ -1088,7 +1117,7 @@ form{
 		position: absolute;
   		text-align: center;
 		margin-top:65%;
-		width:23em;
+		width:20em;
  		top: 50%;
   		left: 75%;
   		transform: translate(-50%, -50%);
@@ -1364,7 +1393,7 @@ form{
 		position: absolute;
   		text-align: center;
 		width:35em;
- 		top: 30%;
+ 		top: 40%;
   		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);
@@ -1377,7 +1406,11 @@ form{
 		margin-left: 5px;
 		margin-right: 5px;
 	}
-	
+	.legal-about{
+		color: white;
+		background-color: darkred;
+		margin-top: 38%;
+	}
 	/*INFO PAGE*/
 	
 	.info{
@@ -1700,7 +1733,7 @@ form{
 		position: absolute;
   		text-align: center;
 		width:35em;
- 		top: 35%;
+ 		top: 40%;
   		left: 30%;
   		transform: translate(-50%, -50%);
   		background-color: rgba(255, 255, 255, 0.5);

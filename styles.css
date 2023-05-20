@@ -2,10 +2,17 @@
 /* CSS Document
 <link href="index_styles.css" rel="stylesheet" type="text/css">
 /* margins and the like*/
-
+.logo{
+	text-align: left;
+}
+.sidenav{
+	text-align:left;
+}
 body{
-		background-color: #F5F5DC;
+		background-color: #f8f9f9
+;
 		font-size:16px;
+		text-align: center;
 	}
 h1{
 	font-family: "futura-pt-condensed", sans-serif;
@@ -18,6 +25,7 @@ label{
 }
 button{
 	font-family: "futura-pt-condensed", sans-serif;
+	margin:10px;
 }
 
 img{
@@ -29,7 +37,7 @@ img{
 	font-style: normal;
 	display: flex;
 	margin-top:25px;
-	color: grey;
+	color: #b3b3b3;
 }
 .about-me h1{
 	color:#b3b3b3;
@@ -45,6 +53,10 @@ p{
 	margin:auto;
 }
 
+h1{
+	color: #b3b3b3
+}
+
 .logo img{
 	max-width:100%;
 }
@@ -54,7 +66,11 @@ p{
 	position: absolute;
 	right: 25px;
 	top:20px;
+	padding: 5px;
 	float: right;
+	color:#f8f9f9;
+	background-color: #333399;
+	border-radius: 5px;
 }
 .sidenav {
 	height: 100%;
@@ -164,50 +180,137 @@ p{
 	-8px 8px 0 #b3b3b3,
 	8px 8px 0 #b3b3b3;
 	box-sizing: border-box;
-	min-height: 80vh;
-	min-width: 400px;
 	font-family: "futura-pt-condensed", futura, sans-serif;
 	font-weight: 700;
 	font-style: normal;
 }
-.welcome h1{
-	margin:0;
-	padding-left:15px;
-font-size: clamp(4rem, 5vw + 0.75rem, 4vw);
-min-width: 600px;
-max-width: 750px;
 
+.welcome h1{
+	font-size: 1em;
 }
+.fade-in-image { 
+	animation: fadeIn 5s; 
+}
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.fade-in-image {
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+	.welcome-me{
+	
+}
+	.welcome-me h1{
+	background-color: #333399;
+	color:#b3b3b3;
+	box-shadow:
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
+	box-sizing: border-box;
+	font-family: "futura-pt-condensed", futura, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+	.welcome-folio{
+}
+
+	.welcome-folio img{
+}
+
+.welcome-folio-gfs{
+	padding:10px;
+	margin: 10px;
+	 background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.1) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%); 
+}
+.welcome-folio-bjb{
+	padding:10px;
+	margin: 10px;
+	 background: rgb(0,0,0);
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(176,12,12,1) 50%, rgba(128,0,0,1) 100%); 
+}
+.welcome-folio-mdc{
+	padding:10px;
+	margin: 10px;
+	 background: rgb(18,255,241);
+background: linear-gradient(90deg, rgba(18,255,241,1) 0%, rgba(9,103,149,0.9836135137648809) 48%, rgba(25,0,255,0.8771709367340687) 100%);
+}
+.welcome-sp{
+	
+}
+
+.welcome-sp h1{
+	background-color: #333399;
+	color:#b3b3b3;
+	box-shadow:
+	-3px -3px 0 #b3b3b3,
+	3px -3px 0 #b3b3b3,
+	-3px 3px 0 #b3b3b3,
+	3px 3px 0 #b3b3b3;
+	box-sizing: border-box;
+	font-family: "futura-pt-condensed", futura, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.legal{
+		color:#b3b3b3;
+		background-color:#333399;
+		font-family: "futura-pt", sans-serif;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+
 	.front-page p{
 		color:#b3b3b3;
 		font-size: 1em;
 		font-weight: 700;
 		font-style: normal;
 		margin-left: 7.5%;
-	}
-	/* ABOUT PAGE*/
-	.about-me{
-		display:block;
-		margin-bottom: 10px;
-
-	}
-	.about-me img{
-		min-width:400px;
-		width:100%;
-		max-width: 600px;
-	}
-
-
+}
 	/* PORTFOLIO PAGE*/
 	.folio img{
 		width: 90%;
 	}
-	/* TRANSITION PAGES*/
 
 	/* SELF-PROMO PAGE*/
+
 	/* HOME PAGE*/
-	.welcome{
-	}
+.welcome h1{
+	font-size: clamp(4rem, 5vw + 0.75rem, 4vw);
+}
 	.front-page p{
 		color:#b3b3b3;
 		font-size: .5em;
@@ -218,19 +321,23 @@ max-width: 750px;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
+		display:block;
 		align-items: center;
 		align-content: space-between;
 		margin-bottom: 10px;
+}
+	.about-me img{
+		min-width:400px;
+		width:100%;
+		max-width: 600px;
 	}
-
-
 	.about-me p{
 		color:#b3b3b3;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 400;
 		font-style: normal;
 		padding-bottom: 20px;
-		font-size: 2vh;
+		font-size: 1em;
 	}
 	.about-text{
 
@@ -289,25 +396,50 @@ max-width: 750px;
 	/* TRANSITION PAGES*/
 
 	/* SELF-PROMO PAGE*/
-	.fill{
-		min-height: 100px;
-  		width: 100%;
-  		padding: 3%;
-  		margin: 1.5% 0;
-  		font-size: 1em;
-  		border: 1px solid #ccc;
-  		border-radius: 4px;
-  		box-sizing: border-box;
-		display: grid;
+
+form{
+	width: 80%;
+	align-content: center;
 }
 
-.check{
-		min-height: 100px;
-  		width: 100%;
-  		padding: 3%;
+.form-h1{
+	width: 80%;
+}
+	.fill{
+		width: 100%;
+  		padding: 1.7%;
   		margin: 1.5% 0;
   		font-size: 1em;
   		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+		
+}
+.form-h1{
+		background: #333399;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+}
+
+	.check{
+		display: inline-block;
+  		position: relative;
+  		padding-left: 35px;
+  		margin-bottom: 12px;
+  		cursor: pointer;
+  		font-size: 22px;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none;
 }
 
 @media only screen and (min-width: 150px) and (max-width: 768px) {
@@ -419,7 +551,6 @@ img{
 	.welcome{
 		background-color: #333399;
 		color:#b3b3b3;
-		font-size: 3em;
 		margin-top: 5%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
@@ -438,6 +569,50 @@ img{
 		font-weight: 700;
 		font-style: normal;
 		margin-left: 7.5%;
+	}
+	.welcome-folio{
+  	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+	.welcome-folio img{
+  	display: flex;
+	width: 250px;
+}
+	
+	.welcome-folio-gfs{
+	 background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.1) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%); 
+}
+.welcome-folio-bjb{
+	 background: rgb(0,0,0);
+background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(176,12,12,1) 50%, rgba(128,0,0,1) 100%); 
+}
+	
+.welcome-folio-mdc{
+	 background: rgb(18,255,241);
+background: linear-gradient(90deg, rgba(18,255,241,1) 0%, rgba(9,103,149,0.9836135137648809) 48%, rgba(25,0,255,0.8771709367340687) 100%);
+}
+	.welcome-sp img{
+		margin-top: 10px;
+		box-shadow:
+    	-8px -8px 0 #b3b3b3,
+    	8px -8px 0 #b3b3b3,
+    	-8px 8px 0 #b3b3b3,
+    	8px 8px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	
+	.legal{
+		background-color:#333399;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -492,8 +667,16 @@ img{
     	3px 3px 0 #b3b3b3;
 		box-sizing: border-box
 	}
-	
-		form h1{
+	.resume{
+		max-width:100%;
+	}
+	.bc{
+		max-width:100%;
+	}
+	.shocard{
+		max-width:100%;
+	}
+	form h1{
 		background: #333399;
 		display: flex;
 		align-content: center;
@@ -508,9 +691,18 @@ img{
 	}
 	.form-h1{
 		background: #333399;
-		display: flex;
-		align-content: center;
-		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box;
+		margin-left: 10%;
+		margin-bottom: 10px;
+	}
+	form h1{
+		background: #333399;
 		color: #b3b3b3;
 		box-shadow:
     	-3px -3px 0 #b3b3b3,
@@ -519,22 +711,82 @@ img{
     	3px 3px 0 #b3b3b3;
 		box-sizing: border-box
 	}
-	.resume{
-		max-width:100%;
+	
+	.fill-p{
+		text-align: left;
 	}
-	.bc{
-		max-width:100%;
+	.fill{
+		 width: 100%;
+  		padding: 1.7%;
+  		margin: 1.5% 0;
+  		font-size: 1em;
+  		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
 	}
-	.shocard{
-		max-width:100%;
+	.fill-p{
+		font-size: 1.5em;
+	}
+	.check{
+		display:  inline-block;
+  		position: relative;
+		text-align: center;
+  		cursor: pointer;
+  		font-size: 1.5em;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none;
+	}
+	form{
+		margin-left:10%;
+	}
+	body{ 
+			text-align:center;
+	}
+	.fill{
+		 width: 100%;
+  		padding: 1.7%;
+  		margin: 1.5% 0;
+  		font-size: 1em;
+  		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+	}
+	.fill-p{
+		font-size: 1.5em;
+	}
+	.check{
+		display: block;
+  		position: relative;
+  		padding-left: 35px;
+ 		margin-bottom: 12px;
+  		cursor: pointer;
+  		font-size: 1.5em;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none;
+	}
+	form{
+		align-content: center;
+	}
+	.submit button{
+		border-radius: 20px;
+		background-color:#333399;
+		color: #b3b3b3;
+		font-size: 2em;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 800;
+		font-style: italic;
+		cursor: pointer;
+	}
+	.submit{
+		text-align: center;
 	}
 	}
 @media only screen and (min-width: 768px){ 
 /* Styles for devices wider than 768px */
-p{   
-	width:90%;   
-	margin:auto;
-}
 img{   
 	width:100%;
 }
@@ -631,7 +883,6 @@ img{
 	.welcome{
 		background-color: #333399;
 		color:#b3b3b3;
-		font-size: 6em;
 		margin-top: 5%;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
@@ -641,15 +892,69 @@ img{
     	8px -8px 0 #b3b3b3,
     	-8px 8px 0 #b3b3b3,
     	8px 8px 0 #b3b3b3;
-		box-sizing: border-box
+		box-sizing: border-box;
+		font-size: 1em;
+	}
+	.welcome-me{
+		display: flex;
+		width: 100%;
+	}
+	
+	.welcome-me img{
+		display: flex;
+		width: 150%;
+		margin-top: -15%
+	}
+	.welcome-me h1{
+		display: flex;
+		width:25em;
+		height: 5.5em;
+		margin-right:10%;
+		margin-top: 30%;
+	}
+	.welcome-folio{
+		display: flex;
+		justify-content: center;
+	}
+	
+	.welcome-folio img{
+		width: 300%;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.welcome-folio-bjb{
+		
+	}
+	
+	.welcome-folio-gfs{
+		
+	}
+	.welcome-folio-mdc{
+		
+	}
+	
+	.welcome-sp{
+		
 	}
 	.front-page p{
 		color:#b3b3b3;
-		font-size: .5em;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
 		margin-left: 7.5%;
+	}
+	
+	.legal{
+		background-color:#333399;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -747,13 +1052,10 @@ img{
 		margin: 10px auto 20px auto;
 		display: grid;
 		grid-template-columns: 50% 40%;
-		grid-template-rows: 100%;
+		grid-template-rows: 50%;
 	}
 	.promo h1{
 		background: #333399;
-		display: flex;
-		align-content: center;
-		justify-content: center;
 		color: #b3b3b3;
 		box-shadow:
     	-3px -3px 0 #b3b3b3,
@@ -772,8 +1074,10 @@ img{
 		margin-left: 10%;
 	}
 	.shocard{
-		 grid-column: 1/ span 2;
-		margin-left:5%
+		grid-column: 1/ span 2;
+		align-self: start;
+		margin-top: 5%;
+		margin-left: 8%
 	}
 	.resume img{
 	}
@@ -783,39 +1087,123 @@ img{
 	.shocard img{
 		width:80%
 	}
-	.resume h1{
-	}
-	.bc h1{
-	}
-	.shocard h1{
-	}
-	.fill{
-		min-height: 50px;
-  		width: 100%;
-  		padding: 2%;
-  		margin: 1.5% 0;
-  		font-size: 1em;
-  		border: 1px solid #ccc;
-  		border-radius: 4px;
-  		box-sizing: border-box;
-}
-	label{
-		font-size: 30px;
-	}
-	input [type= "checkbox"]{
-		min-height: 10px;
+	.promo h1{
+		background: #333399;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
 	}
 	
+		form h1{
+		background: #333399;
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	.form-h1{
+		background: #333399;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box;
+		margin-left: 10%;
+		margin-bottom: 10px;
+	}
+	form h1{
+		background: #333399;
+		color: #b3b3b3;
+		box-shadow:
+    	-3px -3px 0 #b3b3b3,
+    	3px -3px 0 #b3b3b3,
+    	-3px 3px 0 #b3b3b3,
+    	3px 3px 0 #b3b3b3;
+		box-sizing: border-box
+	}
+	
+	.fill-p{
+		text-align: left;
+	}
+	.fill{
+		 width: 100%;
+  		padding: 1.7%;
+  		margin: 1.5% 0;
+  		font-size: 1em;
+  		border-radius: 4px;
+  		border: 1px solid #ccc;
+  		box-sizing: border-box;
+	}
+	.fill-p{
+		font-size: 1.5em;
+	}
+	.check{
+		display:  inline-block;
+  		position: relative;
+		text-align: center;
+  		cursor: pointer;
+  		font-size: 1.5em;
+  		-webkit-user-select: none;
+  		-moz-user-select: none;
+  		-ms-user-select: none;
+  		user-select: none;
+	}
+	form{
+		margin-left:10%;
+	}
+	body{ 
+			text-align:center;
+	}
+	.submit button{
+		border-radius: 20px;
+		background-color:#333399;
+		color: #b3b3b3;
+		font-size: 2em;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 800;
+		font-style: italic;
+		cursor: pointer;
+	}
+	.submit{
+		text-align: center;
+	}
 	}
 @media only screen and (min-width: 900px){
 /* Styles for devices wider than 900px */
-	.front-page p{
-		color:#b3b3b3;
-		font-size: 1em;
-		font-family: "futura-pt-condensed", sans-serif;
-		font-weight: 700;
-		font-style: normal;
-		margin-left: 7.5%;
+	
+	/* HOME PAGE*/
+	.welcome-me{
+		display: flex;
+		width: 100%;
+	}
+	
+	.welcome-me img{
+		display: flex;
+		width: 150%;
+		margin-top: -10%
+	}
+	.welcome-me h1{
+		display: flex;
+		width:25em;
+		height: 5.5em;
+		margin-right:10%;
+		margin-top:20%;
+		font-size-adjust: 2em;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -868,6 +1256,18 @@ img{
 		left: 25%;
 		font-size: 35px;
 }
+	/*HOME PAGE*/
+	.front-page p{
+		color:#b3b3b3;
+		font-size: 1em;
+		font-family: "futura-pt-condensed", sans-serif;
+		font-weight: 700;
+		font-style: normal;
+		margin-left: 7.5%;
+	}
+	.welcome{
+		margin-top: 2.5%;
+	}
 	/* TRANSITION PAGES*/
 
 	/* SELF-PROMO PAGE*/
@@ -877,17 +1277,37 @@ img{
 	.promo h1{
 
 	}
+	
 }
 @media only screen and (min-width: 1200px){
 
 
 	.front-page p{
 		color:#b3b3b3;
-		font-size: 1em;
+		font-size: 2em;
 		font-family: "futura-pt-condensed", sans-serif;
 		font-weight: 700;
 		font-style: normal;
 		margin-left: 7.5%;
+	}
+	
+		.welcome-me{
+		display: flex;
+		width: 100%;
+	}
+	
+	.welcome-me img{
+		display: flex;
+		width: 150%;
+		margin-top: -10%
+	}
+	.welcome-me h1{
+		display: flex;
+		width:25em;
+		height: 5.5em;
+		margin-right:10%;
+		margin-top:20%;
+		font-size: 2em;
 	}
 	/* ABOUT PAGE*/
 	.about-me{
@@ -955,9 +1375,6 @@ img{
 
 
 	/* HOME PAGE*/
-	.welcome{
-
-	}
 	.front-page p{
 		color:#b3b3b3;
 		font-size: 2em;
@@ -1006,11 +1423,11 @@ img{
 	.p-img div{
     	bottom: 0;
     	right: 0;
-    	background: black;
     	color: #FAF9F6;
     	margin-bottom: 5px;
     	font-family: "futura-pt-condensed", sans-serif;
     	opacity: 0;
+		text-align: center;
     	visibility: hidden;
     	-webkit-transition: visibility 0s, opacity 0.5s linear;
     	transition: visibility 0s, opacity 0.5s linear;
@@ -1024,7 +1441,7 @@ img{
     	visibility: visible;
     	opacity: 0.7;
 		position: absolute;
-		left: 50%;
+		left: 45%;
 }
 	/* TRANSITION PAGES*/
 
@@ -1038,7 +1455,6 @@ img{
 
 	/* HOME PAGE*/
 	.welcome{
-
 	}
 
 	/* ABOUT PAGE*/
@@ -1053,8 +1469,8 @@ img{
 
 	/* PORTFOLIO PAGE*/
 	.p-img{
-    		position: relative;
-    		margin-right: 10px;
+    	position: relative;
+    	margin-right: 10px;
 		display: flex;
   		flex-direction: column;
   		justify-content: center;
