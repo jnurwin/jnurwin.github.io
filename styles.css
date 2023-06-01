@@ -249,19 +249,37 @@ h1{
 	padding:10px;
 	margin: 10px;
 	 background: rgb(28,195,43);
-background: linear-gradient(90deg, rgba(28,195,43,0.1) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%); 
+background: linear-gradient(90deg, rgba(28,195,43,0.1) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+	box-shadow:
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
+	box-sizing: border-box;
 }
 .welcome-folio-bjb{
 	padding:10px;
 	margin: 10px;
 	 background: rgb(0,0,0);
 background: linear-gradient(45deg, rgba(0,0,0,1) 0%, rgba(176,12,12,1) 50%, rgba(128,0,0,1) 100%); 
+	box-shadow:
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
+	box-sizing: border-box;
 }
 .welcome-folio-mdc{
 	padding:10px;
 	margin: 10px;
-	 background: rgb(18,255,241);
-background: linear-gradient(90deg, rgba(18,255,241,1) 0%, rgba(9,103,149,0.9836135137648809) 48%, rgba(25,0,255,0.8771709367340687) 100%);
+	 background: rgb(121,243,255);
+background: linear-gradient(45deg, rgba(121,243,255,0.6741293532338308) 0%, rgba(172,133,33,0.6791044776119404) 100%); 
+	box-shadow:
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
+	box-sizing: border-box;
 }
 .welcome-sp{
 	
@@ -271,14 +289,24 @@ background: linear-gradient(90deg, rgba(18,255,241,1) 0%, rgba(9,103,149,0.98361
 	background-color: #333399;
 	color:#b3b3b3;
 	box-shadow:
-	-3px -3px 0 #b3b3b3,
-	3px -3px 0 #b3b3b3,
-	-3px 3px 0 #b3b3b3,
-	3px 3px 0 #b3b3b3;
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
 	box-sizing: border-box;
 	font-family: "futura-pt-condensed", futura, sans-serif;
 	font-weight: 700;
 	font-style: normal;
+}
+.welcome-sp img{
+	box-shadow:
+	-8px -8px 0 #b3b3b3,
+	8px -8px 0 #b3b3b3,
+	-8px 8px 0 #b3b3b3,
+	8px 8px 0 #b3b3b3;
+	box-sizing: border-box;
+	margin-top: 25px;
+	width: 80%;
 }
 
 .legal{
@@ -290,7 +318,7 @@ background: linear-gradient(90deg, rgba(18,255,241,1) 0%, rgba(9,103,149,0.98361
     	3px -3px 0 #b3b3b3,
     	-3px 3px 0 #b3b3b3,
     	3px 3px 0 #b3b3b3;
-		box-sizing: border-box
+		box-sizing: border-box;
 	}
 
 	.front-page p{

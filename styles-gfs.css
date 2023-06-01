@@ -20,7 +20,14 @@ h1 {
 	font-family: Arial, Helvetica, sans-serif;
 	color:white;
 }
-
+h2 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+}
+h3 {
+	font-family: Arial, Helvetica, sans-serif;
+	color:white;
+}
 h4 {
 	font-family: Arial, Helvetica, sans-serif;
 	color:white;
@@ -30,7 +37,9 @@ h6 {
 	text-align: left;
 	color:white;
 }
-
+.description h3{
+	text-align: center;
+}
 .navbar a:hover {
 	color: #ccc;
 }
@@ -146,7 +155,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 }
 
 .thanks{
-	background-color: rgb(160, 200, 160);
+	background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 }
 .thanks h6{
 	text-align: center;
@@ -167,9 +177,48 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	align-content: center;
 	justify-content: center;
 }
-
 .legal p{
 	align-content: center;
+}
+.legal-team{
+	background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+	box-shadow:
+	-3px -3px 0 #b3b3b3,
+	3px -3px 0 #b3b3b3,
+	-3px 3px 0 #b3b3b3,
+	3px 3px 0 #b3b3b3;
+	box-sizing: border-box;
+	margin-top: 55px;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+}
+
+.legal-team p{
+	align-content: center;
+}
+/*about the team */
+	.about-img{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+		overflow: auto;
+	}
+	.about-img img{
+		display: flex;
+		border-radius: 600px;
+		margin-top: 2.5%;
+		max-height: 20em;
+		max-width: 20em;
+	}
+.about-body{
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
 }
 @media only screen and (min-width: 150px) and (max-width: 670px) {
 	p {
@@ -216,7 +265,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
   		align-items: center;
 		bottom: 20px;
 		right: 20px;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		opacity: 100%;
 		color: white;
 		padding: 5px;
@@ -274,11 +324,11 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	.row img {
-		width: 95%;
+		width: 90%;
 		height: 60vw;
 		object-fit: cover;
 		object-position: center;
-		margin: 2vw 20px 1vw;
+		margin: 2vw 20px 2vw;
 		border-radius: 20px;
 	}
 
@@ -291,11 +341,12 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 	}
 	#pink .description {
-		background-color: pink;
+		 background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
 	}
 	.description {
 		background-color: white;
-		height: 10em;
+		height: 8em;
 		width: 95%;
 		margin: 2vw 20px 2vw;
 		padding: 0px 0px 0px 0px;
@@ -320,7 +371,17 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		width: 95%;
 	}
 	/* END OF DANG BLOCKS */
-
+	/* About the team */
+	
+	.about-img{
+		display: flex;
+		width: 100%;
+	}
+	.about-img img{
+		display: flex;
+		width: 100%;
+	}
+	
 	/* ABOUT PAGE!!!!!*/
 
 	.about-info{
@@ -365,7 +426,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
   		align-items: center;
 		bottom: 20px;
 		right: 20px;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		opacity: 100%;
 		color: white;
 	}
@@ -417,7 +479,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	#green .about-services {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 	}
 
 	.about-services h6 {
@@ -553,7 +616,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	.banner-box {
 		position: absolute;
   		width: 40vw;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		top:20%;
 		left:12%;
 	}
@@ -616,7 +680,6 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		padding: 10px 3vw;
 		height: 100px;
 	}
-
 	.row {
 		display: flex;
 		align-items: center;
@@ -624,27 +687,45 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	.row img {
-		width: 20vh;
-		height: 20vh;
+		width: 30vh;
+		height: 30vh;
 		object-fit: cover;
 		object-position: center;
-		margin: 0px 20px;
-		border-radius: 25px;
+		margin: 12.5% 20px;
 	}
 
 	.restrictive-block {
+		display: grid;
+		grid-template-columns: 50% 50%;
 		width: 100%;
 		margin: 0 auto;
 	}
+	.restrictive-block img{
+		margin-left: 5%;
+		margin-right: 2px;
+    transition: margin 0.2s ease-in-out;
+	}
 	#green .description {
-		background-color: rgb(160, 200, 160);
+		position: absolute;
+		margin-top: 35%;
+		margin-left: 5%;
+		width: 31%;
+		height: 9em;
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43, 1) 0%, rgba(27,149,9,1) 48%, rgba(0,77,8,1) 100%);;
 	}
 	#pink .description {
-		background-color: pink;
+		position: absolute;
+		margin-top: 35%;
+		margin-left: 5%;
+		width: 31%;
+		height: 9em;
+		 background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
 	}
 	.description {
 		background-color: khaki;
-		height: 20vh;
+		height: 10vh;
 		width: 90%;
 		margin: 0.5vw 20px;
 		padding: 0px 20px 0px 20px;
@@ -668,20 +749,30 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		width: 100%;
 	}
 	/* END OF DANG BLOCKS */
-
+	/* about the team */
+	.about-body p{
+		font-size: 1.5em;
+		margin-left: 27.5%;
+		
+	}
 	/* ABOUT PAGE!!!!!*/
 
 	.about-info{
 		display: flex;
 		align-items: center;
 		align-content: space-between;
+		margin-top: 10px;
 		margin-bottom: 10px;
+		margin-left: 10%;
+		margin-right: 10%
 	}
 	
 	.about-info img{
 		width: 100%;
 		height: auto;
 		border-radius: 50px;
+		max-width: 630px;
+		min-width: 300px;
 		
 	}
 	.about-block-text{
@@ -699,9 +790,12 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 	
 	.about-info p{
+		display: flex;
+		align-content: center;
+		justify-content: center;
 		font-size: 1em;
 		margin-bottom: 10px;
-		margin-left: 20px;	
+		margin-left: 27.5%	
 	}
 	/* CONTACT PAGE!!!!!*/
 	.contact-hero {
@@ -722,7 +816,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		display: flex;
   		flex-direction: column;
   		align-items: center;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		opacity: 100%;
 		color: white;
 }
@@ -787,7 +882,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
   		align-items: center;
 		bottom: 20px;
 		right: 20px;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		opacity: 100%;
 		color: white;
 	}
@@ -833,7 +929,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		overflow-wrap: break-word; /* Breaks long words to the next line */
 	}
 	#green .about-services {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 	}
 	.about-services h6 {
 		font-family: Arial, Helvetica, sans-serif;
@@ -921,7 +1018,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	.banner-box {
 		position: absolute;
   		width: 40vw;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:25%;
@@ -946,9 +1044,9 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	
 	.blurbs{
 		display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  width: 100%;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
 	}
 	
 	.column {
@@ -976,7 +1074,6 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		padding: 10px 3vw;
 		height: 100px;
 	}
-
 	.row {
 		display: flex;
 		align-items: center;
@@ -984,27 +1081,45 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	.row img {
-		width: 20vh;
-		height: 20vh;
+		width: 35vh;
+		height: 35vh;
 		object-fit: cover;
 		object-position: center;
-		margin: 0px 20px;
-		border-radius: 25px;
+		margin: 12.5% 20px;
 	}
 
 	.restrictive-block {
+		display: grid;
+		grid-template-columns: 50% 50%;
 		width: 100%;
 		margin: 0 auto;
 	}
+	.restrictive-block img{
+		margin-left: 5%;
+		margin-right: 2px;
+    transition: margin 0.2s ease-in-out;
+	}
 	#green .description {
-		background-color: rgb(160, 200, 160);
+		position: absolute;
+		margin-top: 30%;
+		margin-left: 5%;
+		width: 31%;
+		height: 9em;
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43, 1) 0%, rgba(27,149,9,1) 48%, rgba(0,77,8,1) 100%);;
 	}
 	#pink .description {
-		background-color: pink;
+		position: absolute;
+		margin-top: 30%;
+		margin-left: 5%;
+		width: 31%;
+		height: 9em;
+		 background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
 	}
 	.description {
 		background-color: khaki;
-		height: 20vh;
+		height: 10vh;
 		width: 90%;
 		margin: 0.5vw 20px;
 		padding: 0px 20px 0px 20px;
@@ -1031,36 +1146,6 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 
 	/* ABOUT PAGE!!!!!*/
 
-		.about-info{
-		display: flex;
-		align-items: center;
-		align-content: space-between;
-		margin-bottom: 10px;
-			
-	}
-	
-	.about-info img{
-		width: 100%;
-		height: auto;
-		border-radius: 50px;
-		
-	}
-	
-	.about-info h1{
-		font-size: 4em;
-		margin-left: 20px;
-	}
-	
-	.about-info h4{
-		text-align: center;
-		font-size: 3em;
-	}
-	
-	.about-info p{
-		font-size: 20px;
-		margin-bottom: 10px;
-		margin-left: 20px;	
-	}
 	/* CONTACT PAGE!!!!!*/
 .contact-hero {
 		display: flex;
@@ -1083,7 +1168,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		position: absolute;
 		width:20em;
 		height: 20em;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		margin-top: 5%;
 		right:12%;
 }
@@ -1141,7 +1227,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
  		position: absolute;
   		width: 25vw;
 		height: 21em;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:11%;
@@ -1196,7 +1283,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	#green .about-services {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 	}
 
 	.about-services h6 {
@@ -1268,7 +1356,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	.banner-box {
 		position: absolute;
   		width: 40vw;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:30%;
@@ -1307,13 +1396,90 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		margin: 0px 20px;
 		border-radius: 25px;
 	}
+		/* TEAM PAGE !!!!!!*/
+	/* DANG BLOCKS */
+	.navbar {
+		justify-content: space-between;
+		padding: 10px 3vw;
+		height: 100px;
+	}
+	.row {
+		display: flex;
+		align-items: center;
+		margin: 10px 1vw;
+	}
+
+	.row img {
+		width: 40vh;
+		height: 40vh;
+		object-fit: cover;
+		object-position: center;
+		margin: 12.5% 20px;
+	}
+
+	.restrictive-block {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		width: 100%;
+		margin: 0 auto;
+	}
+	.restrictive-block img{
+		margin-left: 20%;
+		margin-right: 2px;
+    transition: margin 0.2s ease-in-out;
+	}
+	#green .description {
+		position: absolute;
+		margin-top: 30%;
+		margin-left: 12.5%;
+		width: 31%;
+		height: 9em;
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43, 1) 0%, rgba(27,149,9,1) 48%, rgba(0,77,8,1) 100%);;
+	}
+	#pink .description {
+		position: absolute;
+		margin-top: 30%;
+		margin-left: 12.5%;
+		width: 31%;
+		height: 9em;
+		 background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
+	}
+	.description {
+		background-color: khaki;
+		height: 10vh;
+		width: 90%;
+		margin: 0.5vw 20px;
+		padding: 0px 20px 0px 20px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
+	}
+
+	.description h6 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 2vw;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+
+	.description p {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 16px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	/* END OF DANG BLOCKS */
 	
 	/*services*/
 	.banner-box-services {
  		position: absolute;
   		width: 27em;
 		height: 22em;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:13%;
@@ -1339,39 +1505,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 	/* ABOUT PAGE */
 	
-		.about-info{
-		display: flex;
-		align-items: center;
-		align-content: space-between;
-		margin-bottom: 10px;
-	}
-	
-	.about-info img{
-		width: 70%;
-		height: auto;
-		border-radius: 50px;
-		
-	}
-
-	.about-info h1{
-		font-size: 5em;
-		margin-left: 20px;
-	}
-	
-	.about-info h4{
-		text-align: center;
-		font-size: 3em;
-	}
-	
-	.about-info p{
-		font-size: 1.25vw;
-		margin-bottom: 10px;
-		margin-left: 20px;	
-	}
 	/*CONTACT PAGE*/
-	.contact-head{
-		background-color: rgb(160, 200, 160);
-	}
+
 }
 @media only screen and (min-width: 1792px) {
 	.navbar {
@@ -1424,7 +1559,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	.banner-box {
 		position: absolute;
   		width: 40vw;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:30%;
@@ -1463,43 +1599,86 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		margin: 0px 20px;
 		border-radius: 25px;
 	}
+	
 	/* ABOUT PAGE */
 	
-		.about-info{
+	/*CONTACT PAGE*/
+	/* TEAM PAGE !!!!!!*/
+	/* DANG BLOCKS */
+	.navbar {
+		justify-content: space-between;
+		padding: 10px 3vw;
+		height: 100px;
+	}
+	.row {
 		display: flex;
 		align-items: center;
-		align-content: space-between;
-		margin-bottom: 10px;
+		margin: 10px 1vw;
 	}
-	
-	.about-info img{
-		width: 70%;
-		height: auto;
-		border-radius: 50px;
+
+	.row img {
+		width: 50vh;
+		height: 50vh;
+		object-fit: cover;
+		object-position: center;
+		margin: 12.5% 20px;
 	}
-	.about-block-text{
-		background-color: rgb(160, 200, 160);
+
+	.restrictive-block {
+		display: grid;
+		grid-template-columns: 50% 50%;
+		width: 100%;
+		margin: 0 auto;
 	}
-	.about-info h1{
-		font-size: 5em;
-		margin-left: 20px;
+	.restrictive-block img{
+		margin-left: 20%;
+		margin-right: 2px;
+    transition: margin 0.2s ease-in-out;
 	}
-	
-	.about-info h4{
-		text-align: center;
-		font-size: 3em;
+	#green .description {
+		position: absolute;
+		margin-top: 25%;
+		margin-left: 15%;
+		width: 31%;
+		height: 9em;
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43, 1) 0%, rgba(27,149,9,1) 48%, rgba(0,77,8,1) 100%);;
 	}
-	
-	.about-info p{
-		font-size: 1.25vw;
-		margin-bottom: 10px;
-		margin-left: 20px;	
+	#pink .description {
+		position: absolute;
+		margin-top: 25%;
+		margin-left: 15%;
+		width: 31%;
+		height: 9em;
+		 background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
 	}
-	
-	/*CONTACT PAGE*/
-	.contact-head{
-		background-color: rgb(160, 200, 160);
+	.description {
+		background-color: khaki;
+		height: 10vh;
+		width: 90%;
+		margin: 0.5vw 20px;
+		padding: 0px 20px 0px 20px;
+		overflow-wrap: break-word; /* Breaks long words to the next line */
 	}
+
+	.description h6 {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 2vw;
+		padding: 10px 0px;
+		margin: 0px;
+	}
+
+	.description p {
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: left;
+		font-size: 16px;
+		padding: 10px 0px;
+		margin: 0px;
+		width: 100%;
+	}
+	/* END OF DANG BLOCKS */
 /* SERVICES PAGE!!!!!*/
 
 	.banner-services{
@@ -1516,7 +1695,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
  		position: absolute;
   		width: 25vw;
 		height: 30vh;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 		padding-left: 20px;
 		padding-right: 20px;
 		top:20%;
@@ -1572,7 +1752,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	#green .about-services {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 	}
 
 	.about-services h6 {
@@ -1644,7 +1825,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	.banner-box {
 		position: absolute;
   		width: 40vw;
-		background-color: rgb(160, 200, 160);
+	background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:30%;
@@ -1685,42 +1867,13 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 	/* ABOUT PAGE */
 	
-		.about-info{
-		display: flex;
-		align-items: center;
-		align-content: space-between;
-		margin-bottom: 10px;
-	}
-	
-	.about-info img{
-		width: 70%;
-		height: auto;
-		border-radius: 50px;
-	}
-	.about-block-text{
-		background-color: rgb(160, 200, 160);
-	}
-	.about-info h1{
-		font-size: 5em;
-		margin-left: 20px;
-	}
-	
-	.about-info h4{
-		text-align: center;
-		font-size: 3em;
-	}
-	
-	.about-info p{
-		font-size: 1.25vw;
-		margin-bottom: 10px;
-		margin-left: 20px;	
-	}
 	/*SERVICE*/
 	.banner-box-services {
  		position: absolute;
   		width: 31vw;
 		height: 50vh;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 		padding-left: 20px;
 		padding-right: 20px;
 		top:30%;
@@ -1772,7 +1925,8 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	#green .about-services {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 	}
 
 	.about-services h6 {
@@ -1819,10 +1973,12 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		margin: 0 auto;
 	}
 	#green .description {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);;
 	}
 	#pink .description {
-		background-color: pink;
+		 background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
 	}
 	.description {
 		background-color: khaki;
@@ -1851,18 +2007,13 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 	/* END OF DANG BLOCKS */
 	/* CONTACT PAGE!!!!!*/
-	.contact-head{
-		background-color: rgb(160, 200, 160);
-	}
-	.form{
-		
-	}
 /*SERVICE*/
 	.banner-box-services {
  		position: absolute;
   		width: 31vw;
 		height: 50vh;
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 		padding-left: 20px;
 		padding-right: 20px;
 		top:20%;
@@ -1916,9 +2067,10 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	#green .about-services {
-		background-color: rgb(160, 200, 160);
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
 	}
-
+	
 	.about-services h6 {
 		font-family: Arial, Helvetica, sans-serif;
 		text-align: left;
