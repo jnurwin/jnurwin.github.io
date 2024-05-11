@@ -229,9 +229,18 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		max-width: 20em;
 	}
 .about-body{
+	display: flex;
 	font-family: Arial, Helvetica, sans-serif;
 	text-align: center;
 }
+.about-body p{
+	background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
+		border-radius: 40px;
+		padding: 25px;
+}
+
+
 .design h1{
 	color: black;
 }
@@ -331,7 +340,26 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 
 	/* TEAM PAGE!!!!!*/
+	.about-body{
+		display: flex;
+  flex-direction: column;
+  align-items: center;
+		margin-top: 10px;
+	}
 	
+	.about-body h3 {
+		color: black;
+	}
+	.creds{
+	background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
+		border-radius: 40px;
+		padding: 25px;
+		margin-top: 10px;
+	}
+	.quote{
+		margin-top: 10px;
+	}
 	/* DANG BLOCKS */
 	.navbar {
 		justify-content: space-between;
@@ -400,6 +428,7 @@ background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 5
 	.about-img{
 		display: flex;
 		width: 100%;
+		border-radius: 50px;
 	}
 	.about-img img{
 		display: flex;
@@ -775,10 +804,41 @@ background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 5
 	}
 	/* END OF DANG BLOCKS */
 	/* about the team */
+	.about-body{
+		 display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
 	.about-body p{
 		font-size: 1.5em;
-		margin-left: 27.5%;
-		
+		background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
+		border-radius: 40px;
+		padding: 25px;
+	}
+	
+	.bio{
+		 display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.creds{
+		font-size: 1.5em;
+		background: rgb(255,214,214);
+background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 50%, rgba(233,76,76,1) 100%); 
+		border-radius: 40px;
+		padding: 10px;
+	}
+	.creds h3{
+		color: black;
+	}
+	.quote{
+		 display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	/* ABOUT PAGE!!!!!*/
 
@@ -803,6 +863,7 @@ background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 5
 	.about-block-text{
 		background: rgb(28,195,43);
 background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+		border-radius: 50px;
 	}
 	.about-info h1{
 		font-size: 4em;
