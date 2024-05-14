@@ -440,10 +440,20 @@ background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 5
 	.about-info{
 		background: rgb(28,195,43);
 background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+		margin-top: 10px;
+		border-radius: 50px;
 	}
+	.about-info img{
+		margin-bottom: 10px;
+		width: 90%;
+		margin-top: 10px;
+		border-radius: 50px;
+	}
+	
 	.about-info h1{
 		font-size: 2em;
 		text-align: left;
+		margin-left:10px;
 	}
 	
 	.about-info h4{
@@ -455,6 +465,7 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 		font-size: 1em;
 		margin-bottom: 10px;
 		text-align: center;
+		padding-bottom: 10px;
 	}
 
 	/* CONTACT PAGE!!!!!*/
@@ -840,34 +851,43 @@ background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 5
 		justify-content: center;
 		align-items: center;
 	}
+	.employee{
+		margin-left: 10%;
+		margin-right:10%;
+	}
 	/* ABOUT PAGE!!!!!*/
 
-	.about-info{
+	/*.about-info{
 		display: flex;
-		align-items: center;
-		align-content: space-between;
 		margin-top: 10px;
 		margin-bottom: 10px;
 		margin-left: 10%;
 		margin-right: 10%
+	}*/
+	.about-info{
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+		display: flex;
+		justify-content: space-between;
+
 	}
 	
 	.about-info img{
-		width: 100%;
-		height: auto;
+		width: 40%;
 		border-radius: 50px;
-		max-width: 630px;
-		min-width: 300px;
-		
+		display: flex;
+  		flex-direction: row;
+
 	}
 	.about-block-text{
-		background: rgb(28,195,43);
-background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
-		border-radius: 50px;
 	}
+	
 	.about-info h1{
 		font-size: 4em;
 		margin-left: 20px;
+		margin-right: 20px;
+		display: flex;
+  flex-direction: row;
 	}
 	
 	.about-info h4{
@@ -876,12 +896,36 @@ background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48
 	}
 	
 	.about-info p{
-		display: flex;
-		align-content: center;
-		justify-content: center;
 		font-size: 1em;
 		margin-bottom: 10px;
-		margin-left: 27.5%	
+	}
+	
+	.top-half{
+		display: flex;
+		justify-content: flex-start;
+		flex-wrap: wrap;
+		width: 48%;
+	}
+	.bottom-half{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+		width: 100%;
+	}
+	.about-par2{
+		display: flex;
+		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+		
+	}
+	.about-par3{
+		display: flex;
+		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
 	}
 	/* CONTACT PAGE!!!!!*/
 	.contact-hero {
@@ -1232,7 +1276,65 @@ background: linear-gradient(45deg, rgba(255,214,214,1) 0%, rgba(244,155,155,1) 5
 	/* END OF DANG BLOCKS */
 
 	/* ABOUT PAGE!!!!!*/
-
+	.about-info{
+		display: flex;
+		align-items: center;
+		align-content: space-between;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		margin-left: 10%;
+		margin-right: 10%
+	}
+	
+	.about-info img{
+		width: 100%;
+		height: auto;
+		border-radius: 50px;
+		max-width: 630px;
+		min-width: 300px;
+		
+	}
+	.about-block-text{
+		background: rgb(28,195,43);
+background: linear-gradient(90deg, rgba(28,195,43,0.3) 0%, rgba(27,149,9,0.3) 48%, rgba(0,77,8,0.3) 100%);
+		border-radius: 50px;
+	}
+	.about-info h1{
+		font-size: 4em;
+		margin-left: 20px;
+	}
+	
+	.about-info h4{
+		text-align: center;
+		font-size: 2em;
+	}
+	
+	.about-info p{
+		display: flex;
+		align-content: center;
+		justify-content: center;
+		font-size: 1em;
+		margin-bottom: 10px;
+		margin-left: 27.5%	
+	}
+	.about-par1{
+		display: flex;
+		
+	}
+	.about-par2{
+		display: flex;
+		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+		
+	}
+	.about-par3{
+		display: flex;
+		flex-direction: column;
+  		justify-content: center;
+  		align-items: center;
+		
+	}
 	/* CONTACT PAGE!!!!!*/
 .contact-hero {
 		display: flex;
